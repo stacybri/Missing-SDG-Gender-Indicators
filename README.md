@@ -1,14 +1,13 @@
-# Missing SDG Gender Indicators
- Reproducibility Package for "Missing SDG Gender Indicators" paper
-
- ---
+--- 
  contributors: 
- 
     - Kathleen Beegle 
     - Umar Serajuddin 
     - Brian Stacy 
     - Divyanshi Wadhwa 
----
+--- 
+
+# Missing SDG Gender Indicators
+ Reproducibility Package for "Missing SDG Gender Indicators" paper
 
 ## Overview  
 
