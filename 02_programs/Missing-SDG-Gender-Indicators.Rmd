@@ -117,7 +117,7 @@ wb_countries <- read_excel(paste0(raw_dir, "/Class.xlsx"), sheet="List of econom
     iso3c=`Code`,
     country=`Economy`,
     region=`Region`,
-    income_level=`Income Group`,
+    income_level=`Income group`,
     lending_group=`Lending category`
   )
 
@@ -139,7 +139,7 @@ WDI_df <- WDI_df %>%
          indicator_code=`Indicator Code`,
          ) %>%
   pivot_longer(
-    cols=c('1960':'2021'),
+    cols=c('1960':'2022'),
     names_to = 'date',
     values_to = 'value'
   ) %>%
