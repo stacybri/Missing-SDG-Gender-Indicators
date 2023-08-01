@@ -62,7 +62,7 @@ pop_filt <- 200000
 
 # rerun the data
 rerun=TRUE
-cacher=TRUE
+cacher=FALSE
 ```
 
 ```{r programs}
@@ -1472,16 +1472,17 @@ gender_overperformers_plot +
 
 
 avail_wbstats_reg_df <- avail_wbstats_df %>%
-  filter(!(is.na(IQ.SPI.OVRL) | is.na(NY.GDP.PCAP.PP.CD) | is.na(SP.POP.TOTL) | is.na(SG.LAW.INDX)))
+  filter(!(is.na(IQ.SPI.OVRL) | is.na(NY.GDP.PCAP.PP.CD) | is.na(SP.POP.TOTL) | is.na(SG.LAW.INDX))) %>%
+  mutate(pop_under1.5=as.numeric(SP.POP.TOTL<=1500000))
 
 models <- list(
   
 'SPI Only' = feols(availability ~  IQ.SPI.OVRL , data=avail_wbstats_reg_df, se='hetero'),
 'Region Only' = feols(availability ~   region  , data=avail_wbstats_reg_df, se='hetero'),
-'Region Excluded' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + SG.LAW.INDX  , data=avail_wbstats_reg_df, se='hetero'),
-'All Explanatory Variables Included' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + SG.LAW.INDX + region  , data=avail_wbstats_reg_df, se='hetero'),
-'All Explanatory Variables Included + GII' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + SG.LAW.INDX + gii + region  , data=avail_wbstats_reg_df, se='hetero'),
-'All Explanatory Variables Included + SIGI' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + SG.LAW.INDX + sigi + region  , data=avail_wbstats_reg_df, se='hetero')
+'Region Excluded' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + pop_under1.5 + SG.LAW.INDX  , data=avail_wbstats_reg_df, se='hetero'),
+'All Explanatory Variables Included' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + pop_under1.5 + SG.LAW.INDX + region  , data=avail_wbstats_reg_df, se='hetero'),
+'All Explanatory Variables Included + GII' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + pop_under1.5 + SG.LAW.INDX + gii + region  , data=avail_wbstats_reg_df, se='hetero'),
+'All Explanatory Variables Included + SIGI' = feols(availability ~  IQ.SPI.OVRL + log(NY.GDP.PCAP.PP.CD)  + log(SP.POP.TOTL) + pop_under1.5 + SG.LAW.INDX + sigi + region  , data=avail_wbstats_reg_df, se='hetero')
 
 )
 
@@ -1496,6 +1497,7 @@ modelsummary(models,
                              "log(SP.POP.TOTL)"="Log Population",
                              "SG.LAW.INDX" = "Women Business and the Law Index Score (scale 1-100)",
                              "gii"="Gender Inequality Index",
+                             "pop_under1.5" = "Population under 1.5 million",
                              "sigi"="Social Institutions and Gender Index"
                              ),
              notes="",
