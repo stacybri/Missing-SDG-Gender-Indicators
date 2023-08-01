@@ -1,0 +1,542 @@
+---
+title: "SDG_pull"
+author: "Brian Stacy"
+date: "2/19/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message=FALSE, warning=FALSE, fig.height=7, fig.width=10)
+
+library(tidyverse)
+library(here)
+# devtools::install_github("worldbank/wbgviz", subdir = "wbgdata")
+# devtools::install_github("worldbank/wbgviz", subdir = "wbgcharts")
+# devtools::install_github("worldbank/wbgviz", subdir = "wbggeo")
+# devtools::install_github("worldbank/wbgviz", subdir = "wbgmaps")
+# library(wbggeo)
+# library(wbgmaps)
+library(ggthemes)
+library(Hmisc)
+library(httr)
+library(patchwork)
+library(ggrepel)
+library(lubridate)
+library(haven)
+library(zoo)
+library(readxl)
+library(flextable)
+#set directories
+dir <- here()
+
+raw_dir <- paste(dir, '01_raw_data', sep="/")
+output_dir <- paste(dir, '03_output_data', sep="/")
+
+#parameters
+upper_year = 2020
+lower_year = 2004
+window=upper_year-lower_year #set the window
+
+```
+
+```{r programs, include=FALSE}
+
+
+#For mapping the result
+# quality = "high"
+# maps <- wbgmaps::wbgmaps[[quality]]
+#load world bank map data
+load(paste0(raw_dir, '/misc/maps.Rdata'))
+standard_crop_wintri <- function() {
+  l <- list(
+    left=-12000000, right=16396891,
+    top=9400000, bottom=-6500000
+  )
+  l$xlim <- c(l$left, l$right)
+  l$ylim <- c(l$bottom, l$top)
+  l
+}
+
+country_metadata <- wbstats::wb_countries() %>%
+  filter(region!="Aggregates")
+
+#read list of iso3c codes for matching from UN (https://unstats.un.org/unsd/methodology/m49/)
+iso3c <- read_csv(paste(raw_dir,'metadata/iso_codes.csv', sep="/"),
+                  col_types=list(col_character(), col_character(), col_character()))
+
+span <- c(lower_year:upper_year)
+
+#now create dataframe for merging from 2004 to 2019
+iso_empty <- bind_rows(replicate(length(span), iso3c, simplify = FALSE), .id='date') %>%
+  mutate(date=as.numeric(date)+span[1]-1) %>%
+  select(iso3c, date, geoAreaCode) 
+
+sdg_mapper  <- function(data, indicator, title) {
+  
+ indicator<-indicator
+
+ 
+ 
+  map_df <- get(data) %>%
+    filter(between(date,lower_year,upper_year) ) %>%
+    filter(code1==indicator) %>%
+    filter(!is.na(ind_quality)) %>%
+    group_by(iso3c, date, code) %>%
+    summarise(ind_quality=max(ind_quality, na.rm=T),
+              ind_value=mean(ind_value, na.rm=T),
+              ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
+    group_by(iso3c) %>%
+    summarise(ind_quality=sum(ind_quality, na.rm=T)) %>%
+    right_join(country_metadata) %>%
+    filter(!is.na(region))
+  
+
+   p1 <- ggplot() +
+    geom_map(data = map_df, aes(map_id = iso3c, fill = ind_quality), map = maps$countries) + 
+    geom_polygon(data = maps$disputed, aes(long, lat, group = group, map_id = id), fill = "grey80") + 
+    geom_polygon(data = maps$lakes, aes(long, lat, group = group), fill = "white")  +
+     geom_path(data = maps$boundaries,
+               aes(long, lat, group = group),
+               color = "white",
+               size = 0.1,
+               lineend = maps$boundaries$lineend,
+              linetype = maps$boundaries$linetype) +
+    scale_x_continuous(expand = c(0, 0), limits = standard_crop_wintri()$xlim) +
+    scale_y_continuous(expand = c(0, 0), limits = standard_crop_wintri()$ylim) +
+  scale_fill_distiller(palette = "RdYlGn",
+                       direction=1)  +
+    coord_equal() +
+    theme_map(base_size=12) +
+    labs(
+      title=str_wrap(title,100),
+      subtitle= paste0('Number of Indicators Available ', lower_year,'-',upper_year),
+      caption = 'Source: UN Global SDG database. The figures show the availability of SDG indicators by country.',
+      fill= 'Indicator Availability'
+    )
+  
+  #add histogram by region 
+  p2 <- map_df %>%
+    group_by(region) %>%
+    filter(region!='Aggregates') %>%
+    mutate(Score=mean(ind_quality),
+           Label = paste(round(Score,0))) %>%
+    ggplot(aes(x=Score, y=region, fill=region)) +
+      geom_bar(stat="identity",position='dodge') +
+      geom_text(aes(label=Label)) +
+      labs(
+      title=str_wrap(paste(title, 'By Region', sep=" - "),100),
+      caption = 'Source: UNSD',
+      subtitle= paste0('Number of Indicators Available ', lower_year,'-',upper_year),
+      fill= 'Indicator Availability'
+      ) + 
+      expand_limits(x=c(0,window)) +
+      theme_bw() 
+#add histogram by region 
+
+  p3 <- map_df %>%
+    group_by(income_level) %>%
+    filter(region!='Aggregates') %>%
+    mutate(Score=mean(ind_quality),
+           Label = paste(round(Score,0))) %>%
+    ggplot(aes(x=Score, y=income_level, fill=income_level)) +
+      geom_bar(stat="identity",position='dodge') +
+      geom_text(aes(label=Label)) +
+      labs(
+      title=str_wrap(paste(title, 'By Income', sep=" - "),100),
+      caption = 'Source: UNSD',
+      subtitle= paste0('Number of Indicators Available ', lower_year,'-',upper_year),
+      fill= 'Indicator Availability'
+      ) +
+      expand_limits(x=c(0,window)) +
+      theme_bw()  
+    
+  # #add line graph over time
+  p4 <- get(data)  %>% 
+    filter(code1==indicator) %>%
+    left_join(country_metadata) %>%
+    group_by(region,  date) %>%
+    mutate(Score=sum(ind_quality, na.rm=T),
+           Label = paste(round(Score,0))) %>%
+    ungroup() %>%
+    ggplot(aes(y=Score, x=date, color=region)) +
+      geom_point() +
+      geom_line(fill='blue') +
+      # geom_text_repel(aes(label=Label)) +
+      labs(
+      title=str_wrap(paste(title, 'By Date', sep=" - "),100),
+      caption = 'Source: UNSD'
+      ) +
+      expand_limits(y=c(0,window)) +
+      theme_bw()
+      
+  print(p1)
+  
+  print(p2)
+  
+  print(p3)
+
+  print(p4)
+
+  assign(paste("sdg",indicator,"df", sep="_"),map_df)
+       
+}
+
+
+#define function to pull data from UN Stats and return
+un_pull <- function(series,start, end) {
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&timePeriodStart=',start,'&timePeriodEnd=',end,'&pageSize=10000',sep=""), flatten = TRUE)$data %>%
+      jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&pageSize=30000',sep=""), flatten = TRUE)$data %>%
+
+    as_tibble() %>%
+    mutate(date=timePeriodStart) %>%
+    right_join(iso3c)
+    
+}  
+
+
+
+```
+
+```{r un_indicators}
+
+#get a list of all SDG indicators
+indicators_url <- 'https://unstats.un.org/SDGAPI/v1/sdg/Indicator/List?pageSize=10000'
+
+#SDG 4.1.1, 4.2.1, 4.5.1, 4.6.1
+indicators_list_df <- read_csv(paste0(raw_dir,"/misc/Gender_SDGs.csv")) 
+indicators_list <- indicators_list_df$Code
+
+
+#bring in the list of indicators
+list_df <- jsonlite::fromJSON(indicators_url, flatten = TRUE) %>%
+  as_tibble() %>%
+  unnest(keep_empty = TRUE)
+
+list_df <- list_df %>%
+  #filter(tier<=2) %>% # keep just the tier 1 & 2 indicators %>%
+  filter(code1 %in% indicators_list) 
+  # group_by(code) %>%
+  # filter(row_number()==1)
+
+```
+
+
+Download raw data
+```{r}
+for (series in list_df$code1) {
+    if (!file.exists(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep=""))) {
+    print(series)
+      tryCatch({
+        url <- "https://unstats.un.org/SDGAPI/v1/sdg/Series/DataCSV"
+        head <- add_headers(`Content-Type` = "application/x-www-form-urlencoded")
+        httr::POST(url, head, accept('application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'),
+                   body=paste0('seriesCodes=',series,'&timePeriodStart=,',lower_year,'&timePeriodEnd=',upper_year),
+                   #content_type_json(),
+                   write_disk(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep=""), overwrite=TRUE) )
+      }, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+    }
+}
+
+```
+
+
+```{r api_download, echo=FALSE}
+
+# now we will loop through the list of indicators and download the SDG databases
+
+#define function to pull data from UN Stats and return
+un_pull_sex_disag <- function(series,start, end) {
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&timePeriodStart=',start,'&timePeriodEnd=',end,'&pageSize=10000',sep=""), flatten = TRUE)$data %>%
+    read_csv(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep="")) %>%
+    mutate(date=as.numeric(TimePeriod) ,
+           sex=`[Sex]`,
+           Nature=`[Nature]`,
+           geoAreaCode =as.character(GeoAreaCode) ) %>%
+    left_join(iso3c) %>%
+    right_join(iso_empty) %>%
+    mutate(available=!is.na(Value),  #check whether indicator is available
+           quality=case_when(
+             (available & Nature=='C') ~ 1,
+             (available & Nature=='CA') ~ 1,
+             (available & is.na(Nature)) ~ 1,
+             (available & (Nature=='E' | Nature=='G')) ~ 1,
+             (available & Nature=='M') ~ 0,
+              Nature=='N' ~ as.numeric(NA), #these indicators aren't relevenat for countries.
+             !available ~ 0
+           )) %>%
+    group_by(date, sex) %>%
+    mutate(available_year=(max(available, na.rm=T)==1),
+           quality=if_else(available_year==FALSE,as.numeric(NA),quality)) %>% #check if indicator is available at all for that year for any country.  If not, then do not penalize countries for not reporting.
+    group_by(iso3c, date, sex) %>%
+    summarise(ind_value=mean(as.numeric(Value ), na.rm=T),
+              ind_metadata=first(Nature),
+              ind_quality=mean(quality, na.rm=T)
+              ) 
+}  
+
+un_pull <- function(series,start, end) {
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&timePeriodStart=',start,'&timePeriodEnd=',end,'&pageSize=10000',sep=""), flatten = TRUE)$data %>%
+    read_csv(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep="")) %>%
+        mutate(date=as.numeric(TimePeriod),
+               Nature=`[Nature]`,
+           geoAreaCode =as.character(GeoAreaCode) ) %>%
+    left_join(iso3c) %>%
+    right_join(iso_empty) %>%
+    mutate(available=!is.na(Value ),  #check whether indicator is available
+           quality=case_when(
+             (available & Nature=='C') ~ 1,
+             (available & Nature=='CA') ~ 1,
+             (available & is.na(Nature)) ~ 1,
+             (available & (Nature=='E' | Nature=='G')) ~ 1,
+             (available & Nature=='M') ~ 0,
+             Nature=='N' ~ as.numeric(NA), #these indicators aren't relevenat for countries.
+             !available ~ 0
+           )) %>%
+    group_by(date) %>%
+    mutate(available_year=(max(available, na.rm=T)==1),
+           quality=if_else(available_year==FALSE,as.numeric(NA),quality)) %>% #check if indicator is available at all for that year for any country.  If not, then do not penalize countries for not reporting.
+    group_by(iso3c, date) %>%
+    summarise(ind_value=mean(as.numeric(Value ), na.rm=T),
+              ind_metadata=first(Nature),
+              ind_quality=mean(quality, na.rm=T)
+              ) 
+}  
+
+
+
+
+```
+
+
+
+
+Download sex disaggregated.
+```{r}
+
+list_gender_df <- list_df %>%
+  left_join(indicators_list_df %>% rename(code1=Code)) %>%
+  filter(Gender_Breakdown==1)
+
+for (series in list_gender_df$code1) {
+  tryCatch({
+  if (!file.exists(paste(raw_dir,'/sdg_data/',series,'_sex_disagg.csv',sep=""))) {
+    print(series)
+
+
+  #Sys.sleep(60)
+    #create a temporary database that will have the value, metadata info, and quality measure for each year and couuntry.
+    indicators_df <- list_df %>%
+      filter(code1==series) %>%
+      mutate(
+      values = map(
+        code1,
+        un_pull_sex_disag,'2010','2020' )
+      ) %>%
+      unnest(values) %>%
+      select(iso3c, date, goal, target, code, code1, description1, ind_value, ind_metadata, ind_quality, sex) %>%
+      write_excel_csv(paste(raw_dir,'/sdg_data/',series,'_sex_disagg.csv',sep=""))
+
+  }
+
+}, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+
+}
+
+```
+
+
+
+Check if any info available
+
+```{r}
+
+list_df<- list_df[seq(dim(list_df)[1],1),]
+
+#loop through all sdg indicators and append to a database containing the value, metadata info, and quality measure for each year and couuntry.
+#loop through all sdg indicators and append to a database containing the value, metadata info, and quality measure for each year and couuntry.
+for (series in list_df$code1) {
+  tryCatch({
+  if (!file.exists(paste(raw_dir,'/sdg_data/',series,'.csv',sep=""))) {
+    print(series)
+
+  # #get the raw data  
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&pageSize=20000',sep=""), flatten = TRUE)$data %>%
+  #   as_tibble() %>%
+  #   mutate(date=timePeriodStart) %>%
+  #   right_join(iso_empty) %>%
+  #   mutate(across(is_list,as.character)) %>%
+  #  write_excel_csv(paste(raw_dir,'/sdg_data/',series,'_raw.csv',sep=""))
+  
+  #Sys.sleep(60)
+    #create a temporary database that will have the value, metadata info, and quality measure for each year and couuntry.
+    indicators_df <- list_df %>%
+      filter(code1==series) %>%
+      mutate(
+      values = map(
+        code1,
+        un_pull,'2010','2020' )
+      ) %>%
+      unnest(values) %>%
+      select(iso3c, date, goal, target, code, code1, description1, ind_value, ind_metadata, ind_quality) %>%
+      write_excel_csv(paste(raw_dir,'/sdg_data/',series,'.csv',sep=""))
+
+  }
+
+}, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+
+}
+
+```
+
+
+# Modelled estiamtes
+
+Reclassify data in this section by giving credit for modelled data
+
+```{r api_downloadm, echo=FALSE}
+
+# now we will loop through the list of indicators and download the SDG databases
+
+#define function to pull data from UN Stats and return
+un_pull_sex_disag_modelled <- function(series,start, end) {
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&timePeriodStart=',start,'&timePeriodEnd=',end,'&pageSize=10000',sep=""), flatten = TRUE)$data %>%
+    read_csv(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep="")) %>%
+    mutate(date=TimePeriod ,
+           sex=`[Sex]`,
+           Nature=`[Nature]`,
+           geoAreaCode =as.character(GeoAreaCode) ) %>%
+    left_join(iso3c) %>%
+    right_join(iso_empty) %>%
+    mutate(available=!is.na(Value),  #check whether indicator is available
+           quality=case_when(
+             (available & Nature=='C') ~ 1,
+             (available & Nature=='CA') ~ 1,
+             (available & is.na(Nature)) ~ 1,
+             (available & (Nature=='E' | Nature=='G')) ~ 1,
+             (available & Nature=='M') ~ 1,
+              Nature=='N' ~ as.numeric(NA), #these indicators aren't relevenat for countries.
+             !available ~ 0
+           )) %>%
+    group_by(date, sex) %>%
+    mutate(available_year=(max(available, na.rm=T)==1),
+           quality=if_else(available_year==FALSE,as.numeric(NA),quality)) %>% #check if indicator is available at all for that year for any country.  If not, then do not penalize countries for not reporting.
+    group_by(iso3c, date, sex) %>%
+    summarise(ind_value=mean(as.numeric(Value ), na.rm=T),
+              ind_metadata=first(Nature),
+              ind_quality=mean(quality, na.rm=T)
+              ) 
+}  
+
+un_pull_modelled <- function(series,start, end) {
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&timePeriodStart=',start,'&timePeriodEnd=',end,'&pageSize=10000',sep=""), flatten = TRUE)$data %>%
+    read_csv(paste(raw_dir,'/sdg_data/raw/',series,'_raw.csv',sep="")) %>%
+        mutate(date=TimePeriod,
+               Nature=`[Nature]`,
+           geoAreaCode =as.character(GeoAreaCode) ) %>%
+    left_join(iso3c) %>%
+    right_join(iso_empty) %>%
+    mutate(available=!is.na(Value ),  #check whether indicator is available
+           quality=case_when(
+             (available & Nature=='C') ~ 1,
+             (available & Nature=='CA') ~ 1,
+             (available & is.na(Nature)) ~ 1,
+             (available & (Nature=='E' | Nature=='G')) ~ 1,
+             (available & Nature=='M') ~ 1,
+             Nature=='N' ~ as.numeric(NA), #these indicators aren't relevenat for countries.
+             !available ~ 0
+           )) %>%
+    group_by(date) %>%
+    mutate(available_year=(max(available, na.rm=T)==1),
+           quality=if_else(available_year==FALSE,as.numeric(NA),quality)) %>% #check if indicator is available at all for that year for any country.  If not, then do not penalize countries for not reporting.
+    group_by(iso3c, date) %>%
+    summarise(ind_value=mean(as.numeric(Value ), na.rm=T),
+              ind_metadata=first(Nature),
+              ind_quality=mean(quality, na.rm=T)
+              ) 
+}  
+
+
+
+
+```
+
+
+
+
+Download sex disaggregated.
+```{r}
+
+list_gender_df <- list_df %>%
+  left_join(indicators_list_df %>% rename(code1=Code)) %>%
+  filter(Gender_Breakdown==1)
+
+for (series in list_gender_df$code1) {
+  tryCatch({
+  if (!file.exists(paste(raw_dir,'/sdg_data/',series,'_sex_disagg_modelled.csv',sep=""))) {
+    print(series)
+
+
+  #Sys.sleep(60)
+    #create a temporary database that will have the value, metadata info, and quality measure for each year and couuntry.
+    indicators_df <- list_df %>%
+      filter(code1==series) %>%
+      mutate(
+      values = map(
+        code1,
+        un_pull_sex_disag_modelled,'2010','2020' )
+      ) %>%
+      unnest(values) %>%
+      select(iso3c, date, goal, target, code, code1, description1, ind_value, ind_metadata, ind_quality, sex) %>%
+      write_excel_csv(paste(raw_dir,'/sdg_data/',series,'_sex_disagg_modelled.csv',sep=""))
+
+  }
+
+}, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+
+}
+
+```
+
+
+
+Check if any info available
+
+```{r}
+
+list_df<- list_df[seq(dim(list_df)[1],1),]
+
+#loop through all sdg indicators and append to a database containing the value, metadata info, and quality measure for each year and couuntry.
+#loop through all sdg indicators and append to a database containing the value, metadata info, and quality measure for each year and couuntry.
+for (series in list_df$code1) {
+  tryCatch({
+  if (!file.exists(paste(raw_dir,'/sdg_data/',series,'_modelled.csv',sep=""))) {
+    print(series)
+
+  # #get the raw data  
+  # jsonlite::fromJSON(paste('https://unstats.un.org/SDGAPI/v1/sdg/Series/Data?seriesCode=',series,'&pageSize=20000',sep=""), flatten = TRUE)$data %>%
+  #   as_tibble() %>%
+  #   mutate(date=timePeriodStart) %>%
+  #   right_join(iso_empty) %>%
+  #   mutate(across(is_list,as.character)) %>%
+  #  write_excel_csv(paste(raw_dir,'/sdg_data/',series,'_raw.csv',sep=""))
+  
+  #Sys.sleep(60)
+    #create a temporary database that will have the value, metadata info, and quality measure for each year and couuntry.
+    indicators_df <- list_df %>%
+      filter(code1==series) %>%
+      mutate(
+      values = map(
+        code1,
+        un_pull_modelled,'2010','2020' )
+      ) %>%
+      unnest(values) %>%
+      select(iso3c, date, goal, target, code, code1, description1, ind_value, ind_metadata, ind_quality) %>%
+      write_excel_csv(paste(raw_dir,'/sdg_data/',series,'_modelled.csv',sep=""))
+
+  }
+
+}, error=function(e){cat("ERROR :",conditionMessage(e), "\n")})
+
+}
+
+```

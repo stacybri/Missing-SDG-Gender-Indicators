@@ -1,0 +1,69 @@
+SDG,Description,Code,Gender_Breakdown,ccode
+1.1.1 ,"Proportion of the population living below the international poverty line by sex, age, employment status and geographic location",SI_POV_DAY1,1,1110
+1.1.1 ,"Proportion of the population living below the international poverty line by sex, age, employment status and geographic location",SI_POV_EMP1,1,1111
+1.2.1,"Proportion of population living below the national poverty line, by sex and age",SI_POV_NAHC,1,1210
+1.2.2 ,"Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",SD_MDP_MUHC,1,1220
+1.3.1,"Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",SI_COV_BENFTS,1,1310
+1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDDOC,1,1420
+1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDSEC,1,1420
+1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDSTR,1,1420
+2.2.3 ,"Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",SH_STA_ANEM_PREG,0,2230
+2.3.2 ,"Average income of small-scale food producers, by sex and indigenous status",SI_AGR_SSFP,1,2320
+3.1.1 ,Maternal mortality ratio,SH_STA_MORT,0,3110
+3.1.2 ,Proportion of births attended by skilled health personnel,SH_STA_BRTC,0,3120
+3.3.1 ,"Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",SH_HIV_INCD,1,3310
+3.7.1 ,Proportion of women of reproductive age (aged 15–49 years) who have their need for family planning satisfied with modern methods,SH_FPL_MTMM,0,3710
+3.7.2 ,"Adolescent birth rate (aged 10–14 years; aged 15–19 years) per 1,000 women in that age group",SP_DYN_ADKL,0,3720
+4.1.1 ,"Proportion of children and young people (a) in grades 2/3; (b) at the end of primary; and (c) at the end of lower secondary achieving at least a minimum proficiency level in (i) reading and (ii) mathematics, by sex",SE_TOT_PRFL,1,4110
+4.2.1 ,"Proportion of children aged 24–59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",SE_DEV_ONTRK,1,4210
+4.2.2 ,"Participation rate in organized learning (one year before the official primary entry age), by sex",SE_PRE_PARTN,1,4220
+4.3.1 ,"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",SE_ADT_EDUCTRN,1,4310
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_PTNPRE,0,4510
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_TCAQ,0,4510
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_PART,0,4510
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_ICTS,0,4510
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_TOT_GPI,0,4510
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_AGP_CPRA,0,4510
+4.6.1,"Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",SE_ADT_FUNS,1,4610
+4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_TOT_GPI_FS,0,4510
+5.1.1 ,"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",SG_LGL_GENEQMAR,0,5110
+5.1.1 ,"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",SG_LGL_GENEQEMP,0,5110
+5.1.1 ,"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",SG_LGL_GENEQLFP,0,5110
+5.1.1 ,"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",SG_LGL_GENEQVAW,0,5110
+5.2.1 ,"Proportion of ever-partnered women and girls aged 15 years and older subjected to physical, sexual or psychological violence by a current or former intimate partner in the previous 12 months, by form of violence and by age",VC_VAW_MARR,0,5210
+5.2.2 ,"Proportion of women and girls aged 15 years and older subjected to sexual violence by persons other than an intimate partner in the previous 12 months, by age and place of occurrence",,0,5220
+5.3.1 ,Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18,SP_DYN_MRBF18,0,5310
+5.3.1 ,Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18,SP_DYN_MRBF15,0,5310
+5.3.2 ,"Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",SH_STA_FGMS,0,5320
+5.4.1 ,"Proportion of time spent on unpaid domestic and care work, by sex, age and location",SL_DOM_TSPD,1,5410
+5.5.1 ,Proportion of seats held by women in (a) national parliaments and (b) local governments,SG_GEN_PARL,0,5510
+5.5.1 ,Proportion of seats held by women in (a) national parliaments and (b) local governments,SG_GEN_LOCGELS,0,5510
+5.5.2 ,Proportion of women in managerial positions,IC_GEN_MGTN,0,5520
+5.6.1 ,"Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",SH_FPL_INFM,0,5610
+5.6.2 ,"Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",SH_LGR_ACSRHE,0,5620
+5.a.1 ,"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",SP_GNP_WNOWNS,1,5710
+5.a.1 ,"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",SP_LGL_LNDAGSEC,1,5710
+5.a.2 ,Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control,SG_LGL_LNDFEMOD,0,5720
+5.b.1 ,"Proportion of individuals who own a mobile telephone, by sex",IT_MOB_OWN,1,5810
+5.c.1 ,Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,SG_GEN_EQPWN,0,5910
+8.3.1 ,"Proportion of informal employment in total employment, by sector and sex",SL_ISV_IFEM,1,8310
+8.5.1,"Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",SL_EMP_EARN,1,8510
+8.5.2 ,"Unemployment rate, by sex, age and persons with disabilities",SL_TLF_UEM,1,8520
+8.7.1 ,"Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",SL_TLF_CHLDEA,1,8710
+8.8.1 ,"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",SL_EMP_INJUR,1,8810
+8.8.1 ,"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",SL_EMP_FTLINJUR,1,8810
+8.8.2,"Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",SL_LBR_NTLCPL,1,8820
+10.2.1 ,"Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",SI_POV_50MI,1,10210
+11.2.1 ,"Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",,1,11210
+11.7.1 ,"Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",,1,11710
+11.7.2 ,"Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",,1,11720
+16.1.1 ,"Number of victims of intentional homicide per 100,000 population, by sex and age",VC_IHR_PSRC,1,16110
+16.1.2 ,"Conflict-related deaths per 100,000 population, by sex, age and cause",VC_DTH_TOCV,1,16120
+16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_PHYL,1,16130
+16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_ROBB,1,16130
+16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_SEXL,1,16130
+16.2.2 ,"Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",VC_HTF_DETV,1,16220
+16.2.3 ,Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18,VC_VAW_SXVLN,1,16230
+16.7.1 ,"Proportions of positions in national and local public institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",SG_DMK_PARLMP_UC,0,16710
+16.7.1 ,"Proportions of positions in national and local public institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",SG_DMK_PARLMP_LC,0,16710
+16.7.2 ,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",,1,16720
