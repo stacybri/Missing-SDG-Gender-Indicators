@@ -61,7 +61,7 @@ lower_year <- 2020-window
 pop_filt <- 200000
 
 # rerun the data
-rerun=FALSE
+rerun=TRUE
 cacher=TRUE
 ```
 
@@ -741,7 +741,6 @@ for (i in c(2004:2020)) {
 }
 write_excel_csv(un_aki, path=paste(output_dir, 'SPI_Gender_UNSD_data_5yr.csv', sep="/"))
 
-write_excel_csv(un_aki, path=paste(output_dir, 'SPI_Gender_UNSD_data_rev_5yr.csv', sep="/"))
 ####
 # 3 Year window
 ####
