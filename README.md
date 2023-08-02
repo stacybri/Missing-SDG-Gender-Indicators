@@ -175,11 +175,11 @@ The WDIECXEL.xlsx file contains data for all indicators, but just a subset of th
 | -- | -- |
 | SP.POP.TOTL | Population, total |
 | IQ.SPI.OVRL | SPI Overall Score |
-| IQ.SPI.PIL1 | SPI Pillar 1: Basic Human Needs |
-| IQ.SPI.PIL2 | SPI Pillar 2: Foundations of Wellbeing |
-| IQ.SPI.PIL3 | SPI Pillar 3: Opportunity |
-| IQ.SPI.PIL4 | SPI Pillar 4: Empowerment |
-| IQ.SPI.PIL5 | SPI Pillar 5: Legitimacy of the State |
+| IQ.SPI.PIL1 | SPI Pillar 1: Data Use |
+| IQ.SPI.PIL2 | SPI Pillar 2: Data Services |
+| IQ.SPI.PIL3 | SPI Pillar 3: Data Products |
+| IQ.SPI.PIL4 | SPI Pillar 4: Data Sources |
+| IQ.SPI.PIL5 | SPI Pillar 5: Data Infrastructure |
 | NY.GDP.PCAP.PP.CD | GDP per capita, PPP (current international $) |
 | SG.LAW.INDX | Women Business and the Law Index Score (scale 1-100) |
 | NY.GDP.PCAP.KD | GDP per capita (constant 2015 US$) |
