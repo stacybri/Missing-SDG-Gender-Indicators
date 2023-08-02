@@ -29,3 +29,9 @@ The data are licensed under a Creative Commons/CC-BY-4.0 license.
 | -- | -- | -- | -- | -- | 
 | “World Development Indicators | WDIEXCEL.xlsx | 01_raw_data/ | TRUE | World Bank (2023). World Development Indicators.   |
 | “UN SDG Database” | IT_CEN_MGTN.csv; IT_MOB_OWN.csv; SD_MDP_MUHC.csv;... | 01_raw_data/sdg_data/ | TRUE | UN Global SDG Database |
+
+### Software
+
+R version 4.2.1 (2022-06-23 ucrt) -- "Funny Looking Kid" was used.
+
+This repository contains several files from the R package "renv". The renv package helps manage specific package versions used to produce the results in this repository. Because package version conflicts can make code that runs on one system not run on another system, it is important to have a list of the specific package versions used and a workflow for accessing these specific packages. The renv package provides this. In order to use renv, see the renv documentation here (https://rstudio.github.io/renv/articles/renv.html). In general, the renv::restore() command should install all packages found in the renv.lock file in this repository, so that version conflicts do not cause errors.
