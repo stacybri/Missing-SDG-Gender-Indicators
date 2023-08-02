@@ -45,7 +45,7 @@ The data are licensed under a Creative Commons/CC-BY-4.0 license.
 | Data.Name  | Data.Files | Location | Provided | Citation |
 | -- | -- | -- | -- | -- | 
 | World Development Indicators | WDIEXCEL.xlsx | 01_raw_data/ | TRUE | World Bank (2023). World Development Indicators.   |
-| UN SDG Database | IT_CEN_MGTN.csv; IT_MOB_OWN.csv; SD_MDP_MUHC.csv;... | 01_raw_data/sdg_data/ | TRUE | UN Global SDG Database |
+| UN SDG Database | IT_CEN_MGTN.csv; IT_MOB_OWN.csv; SD_MDP_MUHC.csv;... | 01_raw_data/sdg_data/ | TRUE | UN Statistics Division (2023). UN Global SDG Database. |
 
 ### Data Description
 
