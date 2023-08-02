@@ -1,5 +1,5 @@
 --- 
- authors: 
+ Authors: 
     - Kathleen Beegle 
     - Umar Serajuddin 
     - Brian Stacy 
