@@ -2044,6 +2044,86 @@ avail_plt_df5 %>%
 
 ```
 
+## Figure A1.7 Comparison of GDP per capita with SDG Indicator Availability and Gender Data Compass Data Availability.
+
+```{r}
+#add data from the gender data compass
+gdc_df <- read_stata(file=here("01_raw_data", "misc", "GDC.dta"))
+
+alt_index_compare_df <- combined_df %>%
+  left_join(gdc_df)
+
+fig_num1 <- ggplot(alt_index_compare_df, aes(x=NY.GDP.PCAP.PP.CD)) +
+  geom_point(aes(y=availability, color="SDG Gender % Available") ) +
+  geom_smooth(aes(y=availability, color="SDG Gender % Available"), method='lm',show.legend = FALSE) +
+  geom_point(aes(y=GDC_AO, color="GDC Availability/Openness Score")) + 
+  geom_smooth(aes(y=GDC_AO, color="GDC Availability/Openness Score"), method='lm', show.legend = FALSE) +
+  theme_spi() + 
+  scale_x_log10(labels=scales::comma) +
+  xlab('GDP per capita, PPP (current international $), logged') +
+  ylab('Gender Availability Indicator Score (0-100)') +
+  geom_richtext(
+    aes(y = 87, x = 40000,label = eq_plot_txt(combined_df, availability, log10(NY.GDP.PCAP.PP.CD),wgt=NULL), hjust=0.2, color="SDG Gender % Available"), show.legend = FALSE
+  ) +  
+  geom_richtext(
+    aes(y = 87, x = 5000,label = eq_plot_txt(combined_df, GDC_AO, log10(NY.GDP.PCAP.PP.CD),wgt=NULL), hjust=0.2, color="GDC Availability/Openness Score"), show.legend = FALSE
+  ) +    
+  theme(legend.position = 'bottom') +
+  expand_limits(y=c(0,100)) +
+  scale_color_manual(
+    values=c(
+      "SDG Gender % Available"="#e76f51",
+      "GDC Availability/Openness Score"="#2a9d8f"
+    )
+  ) +
+  labs(
+    title='Plot of GDP per capita and Availability of Gender Indicators',
+    caption=str_wrap('Source: GDP per capita from the World Development Indicatrs (NY.GDP.PCAP.PP.CD).  The availability of Gender SDG Indicators based on authors calculations based on the UN Global SDG Database.  GDC Availability/Openness Score comes the Gender Data Compass (https://gdc.opendatawatch.com/).',100)
+  )
+
+fig_num1
+```
+
+```{r, fig.height=10 }
+# randomly selected set of 30 countries
+set.seed(5234)
+
+gdc_samp <- alt_index_compare_df %>% 
+  filter(!is.na(GDC_AO)) %>%
+  sample_n(30) %>%
+  #pivot longer
+  select(country, iso3c, availability, GDC_AO) %>%
+  pivot_longer(
+    cols=c(availability, GDC_AO),
+    names_to='Index',
+    values_to='value'
+  ) %>%
+  mutate(
+    Index=if_else(Index=="availability", "SDG Gender % Available", "GDC Availability/Openness Score" )
+  ) 
+
+fig_num2 <- ggplot(gdc_samp, aes(x=country, y=value, fill=Index)) +
+  geom_col(position='dodge') +
+  scale_x_discrete(limits=rev) +
+  coord_flip() +
+  scale_fill_manual(
+    values=c(
+      "SDG Gender % Available"="#e76f51",
+      "GDC Availability/Openness Score"="#2a9d8f"
+    )
+  ) +
+  theme_spi() +
+  theme(legend.position='bottom') +
+  labs(
+    title='Plot of GDP per capita and Availability of Gender Indicators',
+    caption=str_wrap('Source: GDP per capita from the World Development Indicatrs (NY.GDP.PCAP.PP.CD).  The availability of Gender SDG Indicators based on authors calculations based on the UN Global SDG Database.  GDC Availability/Openness Score comes the Gender Data Compass (https://gdc.opendatawatch.com/).',100)
+  )
+
+fig_num2
+```
+
+
+
 ## Annex 3
 
 ```{r corfun}
