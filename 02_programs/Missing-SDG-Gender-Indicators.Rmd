@@ -231,45 +231,6 @@ table1dat <- list_df %>%
 
 
 
-```{r sdgtotal}
-
-# get totals for all SDGs
-all_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_alltier_data_5yr.csv")) %>%
-  filter(date==upper_year) %>%
-  filter(!(iso3c %in% pop_exlude_cntry)) %>%
-    #collapse to country level
-  group_by(iso3c, country) %>%
-  summarise(
-    availability=wtd.mean(ind_quality, weight=ind_number)
-  ) 
-
-global_availability <- mean(all_sdg_df$availability)
-
-# get totals for all SDGs
-all_gender_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_gender_data_5yr.csv")) %>%
-  filter(date==upper_year) %>%
-  filter(!(iso3c %in% pop_exlude_cntry)) %>%
-    #collapse to country level
-  group_by(iso3c, country, goal) %>%
-  summarise(
-    availability=wtd.mean(ind_quality, weight=ind_number)
-  ) 
-
-global_gender_availability <- mean(all_gender_sdg_df$availability)
-
-# get totals for all SDGs
-all_nongender_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_nongender_data_5yr.csv")) %>%
-  filter(date==upper_year) %>%
-  filter(!(iso3c %in% pop_exlude_cntry)) %>%
-    #collapse to country level
-  group_by(iso3c, country, goal) %>%
-  summarise(
-    availability=wtd.mean(ind_quality, weight=ind_number)
-  ) 
-
-global_nongender_availability <- mean(all_nongender_sdg_df$availability)
-  
-```
 
 ```{r save, echo=FALSE, message=FALSE, warning=FALSE, show_col_types = FALSE, cache=cacher}
 
@@ -807,6 +768,45 @@ write_excel_csv(un_aki, path=paste(output_dir, 'SPI_Gender_UNSD_data_1yr.csv', s
 
 ```
 
+```{r sdgtotal}
+
+# get totals for all SDGs
+all_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_alltier_data_5yr.csv")) %>%
+  filter(date==upper_year) %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+    #collapse to country level
+  group_by(iso3c, country) %>%
+  summarise(
+    availability=wtd.mean(ind_quality, weight=ind_number)
+  ) 
+
+global_availability <- mean(all_sdg_df$availability)
+
+# get totals for all SDGs
+all_gender_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_gender_data_5yr.csv")) %>%
+  filter(date==upper_year) %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+    #collapse to country level
+  group_by(iso3c, country, goal) %>%
+  summarise(
+    availability=wtd.mean(ind_quality, weight=ind_number)
+  ) 
+
+global_gender_availability <- mean(all_gender_sdg_df$availability)
+
+# get totals for all SDGs
+all_nongender_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_nongender_data_5yr.csv")) %>%
+  filter(date==upper_year) %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+    #collapse to country level
+  group_by(iso3c, country, goal) %>%
+  summarise(
+    availability=wtd.mean(ind_quality, weight=ind_number)
+  ) 
+
+global_nongender_availability <- mean(all_nongender_sdg_df$availability)
+  
+```
 
 ```{r corrdf, include=FALSE}
 # get correlation analysis data prepared
@@ -984,7 +984,7 @@ avail_plt_df %>%
   geom_jitter(aes(size = SP.POP.TOTL), alpha = 0.25, width = 0.2) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "text", size = 5, color='black') +
-  geom_text(data=reg_avg, aes(y=avg, x=region, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
+  geom_text(data=reg_avg, aes(y=avg, x=region, label=round(avg,1)), color="black", position=position_dodge()) +
   geom_hline(aes(yintercept = world_avg), color = "gray70", size = 0.6) +
   labs(caption=str_wrap(paste0("The 25th percentile of the SDG gender availability is ",world_p25,"%. The median is ",world_p50,"% and the 75th percentile is ",world_p75,"%.",' Means are unweighted.  Circles are sized according to population'),120)) +
   theme_bw() +
@@ -1260,6 +1260,52 @@ table1 <- table1_df %>%
 
 table1
 ```
+
+```{r, include=false}
+#compare values in table1_df with original
+table_1_orig <- read_csv(paste0(output_dir,"/table_1_paper_version.csv" )) %>%
+  filter(!is.na(Indicator)) %>%
+  mutate(across(c("Sex Disaggregation Available", "Any Data Available"), ~as.numeric(str_remove(., "%")))) %>%
+  transmute(
+    Description=Description,
+    `Sub-Indicators`=`Sub-Indicator (if any)`,
+    `Sex Disaggregation Available - Original`= `Sex Disaggregation Available`,
+    `Any Data Available - Original`= `Any Data Available`)
+
+#join the tables and save as csv to output_dir
+table1_comb_df <- table1_df %>%
+  rename(
+    `Sex Disaggregation Available - Updated`=`Sex Disaggregation Available`,
+    `Any Data Available - Updated`=`Any Data Available`
+  )
+table1_comb_df$`Sex Disaggregation Available - Original` <- table_1_orig$`Sex Disaggregation Available - Original`
+table1_comb_df$`Any Data Available - Original` <- table_1_orig$`Any Data Available - Original`
+
+#create a flag if the values are different by more than 5 points
+table1_comb_df$`Sex Disaggregation Available - Different` <- ifelse(abs(table1_comb_df$`Sex Disaggregation Available - Updated`-table1_comb_df$`Sex Disaggregation Available - Original`)>5,"More than 5 point change","little change")
+#now more than 10 points
+table1_comb_df$`Sex Disaggregation Available - Different` <- ifelse(abs(table1_comb_df$`Sex Disaggregation Available - Updated`-table1_comb_df$`Sex Disaggregation Available - Original`)>10,"More than 10 point change",table1_comb_df$`Sex Disaggregation Available - Different`)
+
+#now more than 20 points
+table1_comb_df$`Sex Disaggregation Available - Different` <- ifelse(abs(table1_comb_df$`Sex Disaggregation Available - Updated`-table1_comb_df$`Sex Disaggregation Available - Original`)>20,"More than 20 point change",table1_comb_df$`Sex Disaggregation Available - Different`)
+
+#do same for any data available
+#more than 5 points
+table1_comb_df$`Any Data Available - Different` <- ifelse(abs(table1_comb_df$`Any Data Available - Updated`-table1_comb_df$`Any Data Available - Original`)>5,"More than 5 point change","little change")
+#now more than 10 points
+table1_comb_df$`Any Data Available - Different` <- ifelse(abs(table1_comb_df$`Any Data Available - Updated`-table1_comb_df$`Any Data Available - Original`)>10,"More than 10 point change",table1_comb_df$`Any Data Available - Different`)
+#now more than 20 points
+table1_comb_df$`Any Data Available - Different` <- ifelse(abs(table1_comb_df$`Any Data Available - Updated`-table1_comb_df$`Any Data Available - Original`)>20,"More than 20 point change",table1_comb_df$`Any Data Available - Different`)
+
+
+#write to csv
+write_csv(table1_comb_df, paste0(output_dir, "/table1_comparison.csv"))
+
+
+
+
+```
+
 
 
 
