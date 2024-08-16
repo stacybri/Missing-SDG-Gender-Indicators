@@ -186,7 +186,10 @@ indicators_list <- sdg_tab %>%
 
 indicators_list <- indicators_list$Code
 
-
+#all list
+all_list_df <- jsonlite::fromJSON(indicators_url, flatten = TRUE) %>%
+  as_tibble() %>%
+  unnest(keep_empty = TRUE)
 #bring in the list of indicators
 list_df <- jsonlite::fromJSON(indicators_url, flatten = TRUE) %>%
   as_tibble() %>%
@@ -233,14 +236,17 @@ table1dat <- list_df %>%
 
 ```{r sdgtotal}
 
-# get totals for all SDGs
+
+
+
 all_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_alltier_data_5yr.csv")) %>%
   filter(date==upper_year) %>%
   filter(!(iso3c %in% pop_exlude_cntry)) %>%
     #collapse to country level
   group_by(iso3c, country) %>%
   summarise(
-    availability=wtd.mean(ind_quality, weight=ind_number)
+    availability=wtd.mean(ind_quality, weight=ind_number),
+    total_indicators=sum(ind_number)
   ) 
 
 global_availability <- mean(all_sdg_df$availability)
@@ -868,6 +874,95 @@ haven::write_dta(combined_df_sv, path=paste0(output_dir, '/SPI_Gender_SDG_data.d
 
 
 ```
+
+```{r}
+avail_top5_dhs_SPI_df <- read_csv(paste0(output_dir, '/SPI_Gender_UNSD_data_5yr.csv')) %>%   filter(!(iso3c %in% pop_exlude_cntry)) %>%
+  mutate(availability=100*ind_quality) %>% #convert ind_quality measure which is 0-1 to percentage available by multiplying by 100
+  filter(date==2019 & goal=="Top 5 DHS/MICS Dropped") #keep just most recent year
+
+#calculate global average
+world_avg <-
+  avail_top5_dhs_SPI_df %>%
+  summarise(avg = mean(availability, na.rm = T)) %>%
+  pull(avg)
+
+world_p25 <- scales::comma(quantile(avail_top5_dhs_SPI_df$availability, p=0.25, na.rm=TRUE))
+world_p50 <- scales::comma(quantile(avail_top5_dhs_SPI_df$availability, p=0.5, na.rm=TRUE))
+world_p75 <- scales::comma(quantile(avail_top5_dhs_SPI_df$availability, p=0.75, na.rm=TRUE))
+#calculate regional average
+inc_avg <-
+  avail_top5_dhs_SPI_df %>%
+  #mutate(income_level = ifelse(iso3c == "VEN", "Upper middle income", income_level)) %>%
+  filter(!is.na(income_level) & income_level != "Not classified") %>%
+  group_by(income_level) %>%
+  summarise(avg = mean(availability, na.rm = T)) %>%
+  arrange(-avg) %>%
+  ungroup()                                        
+
+avail_top5_dhs_SPI_df <- avail_top5_dhs_SPI_df %>%
+    mutate(income_level=factor(income_level, levels= c("High income", "Upper middle income", 
+                                                       "Lower middle income", "Low income"))) 
+#set annotatino arrows
+arrows <-
+  tibble(
+    x1 = c(3.2, 1.5),
+    x2 = c(2.5, 1.15),
+    y1 = c(world_avg + 20, 20),
+    y2 = c(world_avg + 2, 31)
+  )
+
+avail_top5_dhs_SPI_df %>%
+  filter(!is.na(income_level)) %>%
+  mutate(income_level=ordered(income_level, levels=c("High income", "Upper middle income", 
+                                                       "Lower middle income", "Low income"))) %>%
+  arrange(income_level) %>%
+  ggplot(aes(y=availability, x=income_level,
+             color=income_level)) +
+  geom_segment(
+    data=inc_avg,
+    aes(x = income_level, xend = income_level,
+        y = world_avg, yend = avg),
+    size = 0.8
+  ) +
+  #geom_boxplot(aes(color=region), outlier.alpha = 0) +
+  geom_jitter( alpha = 0.25, width = 0.2) +
+  #geom_point(size = 3, alpha = 0.15) +
+  #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
+    geom_text(data=inc_avg, aes(y=avg, x=income_level, label=scales::comma(round(avg,0))), color="black", position=position_dodge()) +
+  #geom_text(data=reg_avg, aes(y=avg, x=region, label=scales::comma(round(avg,1))), color="black") +
+  geom_hline(aes(yintercept = world_avg), color = "gray70", size = 0.6) +
+  labs(caption=str_wrap(paste0("The 25th percentile of the SDG gender availability is ",world_p25,"%. The median is ",world_p50,"% and the 75th percentile is ",world_p75,"%.",' Means are unweighted.  Circles are sized according to population'),120)) +
+  theme_bw() +
+  coord_flip() +
+    expand_limits(y=c(0,100)) +
+  ylab('SDG Gender Indicator Availability') +
+   scale_x_discrete(
+     limits=levels(avail_top5_dhs_SPI_df$income_level),
+     breaks=levels(avail_top5_dhs_SPI_df$income_level)
+   ) +
+  # scale_y_log10(
+  #   labels=scales::comma
+  # ) +
+  theme(
+    legend.position = 'none',
+    axis.title.y = element_blank(),
+    text = element_text(size=14) 
+  ) +
+  annotate( #annotations
+    "text", x = 3.35, y = 60, family = "Poppins", size = 4, color = "gray20", lineheight = .9,
+    label = glue::glue("Average across all\ncountries: {round(world_avg, 1)}%")
+  ) +
+  annotate(
+    "text", x = 1.4, y = 10, family = "Poppins", size = 4, color = "gray20",
+    label = str_wrap("income level average",15)
+  ) +
+  geom_curve( #add curves for annotatino
+    data = arrows, aes(x = x1, y = y1, xend = x2, yend = y2),
+    arrow = arrow(length = unit(0.08, "inch")), size = 0.5,
+    color = "gray20", curvature = -0.3
+  )
+```
+
 
 # Main Tables and Figures
 
