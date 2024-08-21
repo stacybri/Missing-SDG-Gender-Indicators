@@ -3,12 +3,26 @@ SDG,Description,Code,Gender_Breakdown,ccode
 1.1.1 ,"Proportion of the population living below the international poverty line by sex, age, employment status and geographic location",SI_POV_EMP1,1,1111
 1.2.1,"Proportion of population living below the national poverty line, by sex and age",SI_POV_NAHC,1,1210
 1.2.2 ,"Proportion of men, women and children of all ages living in poverty in all its dimensions according to national definitions",SD_MDP_MUHC,1,1220
+1.2.2,Average proportion of deprivations for people multidimensionally poor (%),SD_MDP_ANDI,1,1220
+1.2.2,Proportion of children living in child-specific multidimensional poverty (%),SD_MDP_CSMP,1,1220
 1.3.1,"Proportion of population covered by social protection floors/systems, by sex, distinguishing children, unemployed persons, older persons, persons with disabilities, pregnant women, newborns, work-injury victims and the poor and the vulnerable",SI_COV_BENFTS,1,1310
+1.3.1,[ILO] Proportion of mothers with newborns receiving maternity cash benefit (%),SI_COV_MATNL,1,1310
+1.3.1,"[ILO] Proportion of poor population receiving social assistance cash benefit, by sex (%)",SI_COV_POOR,1,1310
+1.3.1,"[ILO] Proportion of children/households receiving child/family cash benefit, by sex (%)",SI_COV_CHLD,1,1310
+1.3.1,"[ILO] Proportion of unemployed persons receiving unemployment cash benefit, by sex (%)",SI_COV_UEMP,1,1310
+1.3.1,"[ILO] Proportion of vulnerable population receiving social assistance cash benefit, by sex (%)",SI_COV_VULN,1,1310
+1.3.1,"[ILO] Proportion of employed population covered in the event of work injury, by sex (%)",SI_COV_WKINJRY,1,1310
+1.3.1,"[ILO] Proportion of population covered by at least one social protection benefit, by sex (%)",SI_COV_BENFTS,1,1310
+1.3.1,"[ILO] Proportion of population with severe disabilities receiving disability cash benefit, by sex (%)",SI_COV_DISAB,1,1310
+1.3.1,"[ILO] Proportion of population above statutory pensionable age receiving a pension, by sex (%)",SI_COV_PENSN,1,1310
 1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDDOC,1,1420
 1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDSEC,1,1420
 1.4.2,"Proportion of total adult population with secure tenure rights to land, (a) with legally recognized documentation, and (b) who perceive their rights to land as secure, by sex and type of tenure",SP_LGL_LNDSTR,1,1420
-2.2.3 ,"Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",SH_STA_ANEM_PREG,0,2230
-2.3.2 ,"Average income of small-scale food producers, by sex and indigenous status",SI_AGR_SSFP,1,2320
+2.2.3 ,"Prevalence of anaemia in women aged 15 to 49 years, by pregnancy status (percentage)",SH_STA_ANEM,0,2230
+2.2.3,"Proportion of women aged 15-49 years with anaemia, pregnant (%)",SH_STA_ANEM_PREG,0,2230
+2.2.3,"Proportion of women aged 15-49 years with anaemia, non-pregnant (%)",SH_STA_ANEM_NPRG,0,2230
+2.3.2,"Average income of small-scale food producers, PPP (constant 2017 international $)",SI_AGR_SSFP,1,2320
+2.3.2,"Average income of large-scale food producers, PPP (constant 2017 international $)",SI_AGR_LSFP,1,2320
 3.1.1 ,Maternal mortality ratio,SH_STA_MORT,0,3110
 3.1.2 ,Proportion of births attended by skilled health personnel,SH_STA_BRTC,0,3120
 3.3.1 ,"Number of new HIV infections per 1,000 uninfected population, by sex, age and key populations",SH_HIV_INCD,1,3310
@@ -18,12 +32,21 @@ SDG,Description,Code,Gender_Breakdown,ccode
 4.2.1 ,"Proportion of children aged 24–59 months who are developmentally on track in health, learning and psychosocial well-being, by sex",SE_DEV_ONTRK,1,4210
 4.2.2 ,"Participation rate in organized learning (one year before the official primary entry age), by sex",SE_PRE_PARTN,1,4220
 4.3.1 ,"Participation rate of youth and adults in formal and non-formal education and training in the previous 12 months, by sex",SE_ADT_EDUCTRN,1,4310
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_PTNPRE,0,4510
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_TCAQ,0,4510
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_PART,0,4510
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_GPI_ICTS,0,4510
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_TOT_GPI,0,4510
-4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_AGP_CPRA,0,4510
+4.5.1,"Adjusted gender parity index for participation rate in organized learning (one year before the official primary entry age), (ratio)",SE_GPI_PTNPRE,0,4510
+4.5.1,"Adjusted gender parity index for the proportion of teachers with the minimum required qualifications, by education level (ratio)",SE_GPI_TCAQ,0,4510
+4.5.1,Adjusted gender parity index for participation rate in formal and non-formal education and training (ratio),SE_GPI_PART,0,4510
+4.5.1,"Gender parity index for youth/adults with information and communications technology (ICT) skills, by type of skill (ratio)",SE_GPI_ICTS,0,4510
+4.5.1,"Adjusted immigration status parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",SE_IMP_FPOF,0,4510
+4.5.1,Adjusted immigration status parity index for achieving a minimum proficiency level in reading and mathematics (ratio),SE_NAP_ACHI,0,4510
+4.5.1,Adjusted language test parity index for achieving a minimum proficiency level in reading and mathematics (ratio),SE_LGP_ACHI,0,4510
+4.5.1,Adjusted gender parity index for achieving a minimum proficiency level in reading and mathematics (ratio),SE_TOT_GPI,0,4510
+4.5.1,Adjusted low to high socio-economic parity index for achieving a minimum proficiency level in reading and mathematics (ratio),SE_TOT_SESPI,0,4510
+4.5.1,Adjusted rural to urban parity index for achieving a minimum proficiency level in reading and mathematics (ratio),SE_TOT_RUPI,0,4510
+4.5.1,"Adjusted location parity index for completion rate, by sex, wealth quintile and education level",SE_ALP_CPLR,0,4510
+4.5.1,"Adjusted wealth parity index for completion rate, by sex, location and education level",SE_AWP_CPRA,0,4510
+4.5.1,"Adjusted gender parity index for completion rate, by location, wealth quintile and education level",SE_AGP_CPRA,0,4510
+4.5.1,"Adjusted gender parity index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",SE_TOT_GPI_FS,0,4510
+4.5.1,"Adjusted low to high socio-economic parity status index for achieving at least a fixed level of proficiency in functional skills, by numeracy/literacy skills (ratio)",SE_TOT_SESPI_FS,0,4510
 4.6.1,"Proportion of population in a given age group achieving at least a fixed level of proficiency in functional (a) literacy and (b) numeracy skills, by sex",SE_ADT_FUNS,1,4610
 4.5.1 ,"Parity indices (female/male, rural/urban, bottom/top wealth quintile and others such as disability status, indigenous peoples and conflict-affected, as data become available) for all education indicators on this list that can be disaggregated",SE_TOT_GPI_FS,0,4510
 5.1.1 ,"Whether or not legal frameworks are in place to promote, enforce and monitor equality and non-discrimination on the basis of sex",SG_LGL_GENEQMAR,0,5110
@@ -35,35 +58,104 @@ SDG,Description,Code,Gender_Breakdown,ccode
 5.3.1 ,Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18,SP_DYN_MRBF18,0,5310
 5.3.1 ,Proportion of women aged 20–24 years who were married or in a union before age 15 and before age 18,SP_DYN_MRBF15,0,5310
 5.3.2 ,"Proportion of girls and women aged 15–49 years who have undergone female genital mutilation/cutting, by age",SH_STA_FGMS,0,5320
-5.4.1 ,"Proportion of time spent on unpaid domestic and care work, by sex, age and location",SL_DOM_TSPD,1,5410
-5.5.1 ,Proportion of seats held by women in (a) national parliaments and (b) local governments,SG_GEN_PARL,0,5510
-5.5.1 ,Proportion of seats held by women in (a) national parliaments and (b) local governments,SG_GEN_LOCGELS,0,5510
-5.5.2 ,Proportion of women in managerial positions,IC_GEN_MGTN,0,5520
+5.4.1,"Proportion of time spent on unpaid care work, by sex, age and location (%)",SL_DOM_TSPDCW,1,5410
+5.4.1,"Proportion of time spent on unpaid domestic chores, by sex, age and location (%)",SL_DOM_TSPDDC,1,5410
+5.4.1,"Proportion of time spent on unpaid domestic chores and care work, by sex, age and location (%)",SL_DOM_TSPD,1,5410
+5.5.1,Number of seats held by women in national parliaments (number),SG_GEN_PARLN,0,5510
+5.5.1,Current number of seats in national parliaments (number),SG_GEN_PARLNT,0,5510
+5.5.1,Proportion of seats held by women in national parliaments (% of total number of seats),SG_GEN_PARL,0,5510
+5.5.1,Proportion of elected seats held by women in deliberative bodies of local government (%),SG_GEN_LOCGELS,0,5510
+5.5.2,Proportion of women in managerial positions - 13th ICLS (%),IC_GEN_MGTL,0,5520
+5.5.2,Proportion of women in senior and middle management positions - 13th ICLS (%),IC_GEN_MGTN,0,5520
+5.5.2,Proportion of women in managerial positions - 19th ICLS (%),IC_GEN_MGTL_19ICLS,0,5520
+5.5.2,Proportion of women in senior and middle management positions - 19th ICLS (%),IC_GEN_MGTN_19ICLS,0,5520
 5.6.1 ,"Proportion of women aged 15–49 years who make their own informed decisions regarding sexual relations, contraceptive use and reproductive health care",SH_FPL_INFM,0,5610
+5.6.2,"(S.1.C.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 1: Maternity Care (%)",SH_LGR_ACSRHEC1,0,5620
+5.6.2,"(S.4.C.10) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 10: HIV Counselling and Test Services",SH_LGR_ACSRHEC10,0,5620
+5.6.2,"(S.4.C.11) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 11: HIV Treatment and Care Services (%)",SH_LGR_ACSRHEC11,0,5620
+5.6.2,"(S.4.C.12) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 12: HIV Confidentiality (%)",SH_LGR_ACSRHEC12,0,5620
+5.6.2,"(S.4.C.13) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 13: HPV Vaccine (%)",SH_LGR_ACSRHEC13,0,5620
+5.6.2,"(S.1.C.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 2: Life Saving Commodities (%)",SH_LGR_ACSRHEC2,0,5620
+5.6.2,"(S.1.C.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 3: Abortion",SH_LGR_ACSRHEC3,0,5620
+5.6.2,"(S.1.C.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 4: Post-Abortion Care (%)",SH_LGR_ACSRHEC4,0,5620
+5.6.2,"(S.2.C.5) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 5: Contraceptive Services (%)",SH_LGR_ACSRHEC5,0,5620
+5.6.2,"(S.2.C.6) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 6: Contraceptive Consent (%)",SH_LGR_ACSRHEC6,0,5620
+5.6.2,"(S.2.C.7) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 7: Emergency Contraception (%)",SH_LGR_ACSRHEC7,0,5620
+5.6.2,"(S.3.C.8) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 8: Sexuality Education Curriculum Laws (%)",SH_LGR_ACSRHEC8,0,5620
+5.6.2,"(S.3.C.9) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Component 9: Sexuality Education Curriculum Topics (%)",SH_LGR_ACSRHEC9,0,5620
+5.6.2,"(S.1) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 1: Maternity Care (%)",SH_LGR_ACSRHES1,0,5620
+5.6.2,"(S.2) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 2: Contraceptive and Family Planning (%)",SH_LGR_ACSRHES2,0,5620
+5.6.2,"(S.3) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 3: Sexuality Education (%)",SH_LGR_ACSRHES3,0,5620
+5.6.2,"(S.4) Extent to which countries have laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education: Section 4: HIV and HPV (%)",SH_LGR_ACSRHES4,0,5620
 5.6.2 ,"Number of countries with laws and regulations that guarantee full and equal access to women and men aged 15 years and older to sexual and reproductive health care, information and education",SH_LGR_ACSRHE,0,5620
 5.a.1 ,"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",SP_GNP_WNOWNS,1,5710
 5.a.1 ,"(a) Proportion of total agricultural population with ownership or secure rights over agricultural land, by sex; and (b) share of women among owners or rights-bearers of agricultural land, by type of tenure",SP_LGL_LNDAGSEC,1,5710
 5.a.2 ,Proportion of countries where the legal framework (including customary law) guarantees women’s equal rights to land ownership and/or control,SG_LGL_LNDFEMOD,0,5720
 5.b.1 ,"Proportion of individuals who own a mobile telephone, by sex",IT_MOB_OWN,1,5810
-5.c.1 ,Proportion of countries with systems to track and make public allocations for gender equality and women’s empowerment,SG_GEN_EQPWN,0,5910
+5.c.1,Proportion of countries with systems to track and make public allocations for gender equality and women's empowerment (%),SG_GEN_EQPWN,0,5910
+5.c.1,Countries with systems to track and make public allocations for gender equality and women's empowerment (0 = does not meet the requirement; 1 = approached the requirement; 2  =  Fully meets requirement),SG_GEN_EQPWNN,0,5910
 8.3.1 ,"Proportion of informal employment in total employment, by sector and sex",SL_ISV_IFEM,1,8310
 8.5.1,"Average hourly earnings of female and male employees, by occupation, age and persons with disabilities",SL_EMP_EARN,1,8510
-8.5.2 ,"Unemployment rate, by sex, age and persons with disabilities",SL_TLF_UEM,1,8520
+8.5.2,"Unemployment rate, by sex and age - 13th ICLS (%)",SL_TLF_UEM,1,8520
+8.5.2,"Unemployment rate, by sex and disability - 13th ICLS (%)",SL_TLF_UEMDIS,1,8520
+8.5.2,"Unemployment rate, by sex and age - 19th ICLS (%)",SL_TLF_UEM_19ICLS,1,8520
+8.5.2,"Unemployment rate, by sex and disability - 19th ICLS (%)",SL_TLF_UEMDIS_19ICLS,1,8520
 8.7.1 ,"Proportion and number of children aged 5–17 years engaged in child labour, by sex and age",SL_TLF_CHLDEA,1,8710
+8.7.1,"Proportion of children engaged in economic activity and household chores, by sex and age (%)",SL_TLF_CHLDEC,1,8710
 8.8.1 ,"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",SL_EMP_INJUR,1,8810
 8.8.1 ,"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",SL_EMP_FTLINJUR,1,8810
 8.8.2,"Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",SL_LBR_NTLCPL,1,8820
 10.2.1 ,"Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",SI_POV_50MI,1,10210
 11.2.1 ,"Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",,1,11210
-11.7.1 ,"Average share of the built-up area of cities that is open space for public use for all, by sex, age and persons with disabilities",,1,11710
+11.7.1,Average share of the built-up area of cities that is open space for public use for all (%),EN_URB_OPENSP,1,11710
+11.7.1,Average share of urban population with convenient access to open public spaces (%),EN_ACS_URB_OPENSP,1,11710
 11.7.2 ,"Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",,1,11720
-16.1.1 ,"Number of victims of intentional homicide per 100,000 population, by sex and age",VC_IHR_PSRC,1,16110
-16.1.2 ,"Conflict-related deaths per 100,000 population, by sex, age and cause",VC_DTH_TOCV,1,16120
-16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_PHYL,1,16130
+16.1.1,"Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)",VC_IHR_PSRC,1,16110
+16.1.1,"Number of victims of intentional homicide, by sex (number)",VC_IHR_PSRCN,1,16110
+16.1.2,"Number of conflict-related deaths (civilians), by sex, age and cause of death (Number)",VC_DTH_TOCVN,1,16120
+16.1.2,"Number of total conflict-related deaths per 100,000 population (Per 100,000 population)",VC_DTH_TOTR,1,16120
+16.1.2,"Number of total conflict-related deaths, by sex, age and cause of death (Number)",VC_DTH_TOTN,1,16120
+16.1.2,"Number of conflict-related deaths (unknown), by sex, age and cause of death (Number)",VC_DTH_TOUNN,1,16120
+16.1.2,"Number of conflict-related deaths (non-civilians), by sex, age and cause of death (Number)",VC_DTH_TONCVN,1,16120
+16.1.2,"Conflict-related total death rate, by sex, age and cause of death (%)",VC_DTH_TOTPT,1,16120
 16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_ROBB,1,16130
 16.1.3,"Proportion of population subjected to (a) physical violence, (b) psychological violence and (c) sexual violence in the previous 12 months",VC_VOV_SEXL,1,16130
-16.2.2 ,"Number of victims of human trafficking per 100,000 population, by sex, age and form of exploitation",VC_HTF_DETV,1,16220
+16.1.3,"Proportion of population subjected to physical violence in the previous 12 months, by sex (%)",VC_VOV_PHYL,1,16130
+16.1.3,"Proportion of population subjected to robbery in the previous 12 months, by sex (%)",VC_VOV_ROBB,1,16130
+16.1.3,"Proportion of population subjected to sexual violence in the previous 12 months, by sex (%)",VC_VOV_SEXL,1,16130
+16.1.3,"Proportion of population subjected to psychological violence in the previous 12 months, by sex (%)",VC_VOV_PSYCHL,1,16130
+16.1.3,"Proportion of population subjected to physical assault in the previous 12 months, by sex (%)",VC_VOV_PHY_ASLT,1,16130
+16.1.3,"Proportion of population subjected to sexual assault in the previous 12 months, by sex (%)",VC_VOV_SEX_ASLT,1,16130
+16.2.2,"Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (number)",VC_HTF_DETVFL,1,16220
+16.2.2,"Detected victims of human trafficking for other purposes, by age and sex (number)",VC_HTF_DETVOP,1,16220
+16.2.2,"Detected victims of human trafficking for removal of organ, by age and sex (number)",VC_HTF_DETVOG,1,16220
+16.2.2,"Detected victims of human trafficking for sexual exploitation, by age and sex (number)",VC_HTF_DETVSX,1,16220
+16.2.2,"Detected victims of human trafficking, by age and sex (number)",VC_HTF_DETV,1,16220
+16.2.2,"Detected victims of human trafficking for forced labour, servitude and slavery, by age and sex (per 100,000 population)",VC_HTF_DETVFLR,1,16220
+16.2.2,"Detected victims of human trafficking for other purposes, by age and sex (per 100,000 population)",VC_HTF_DETVOPR,1,16220
+16.2.2,"Detected victims of human trafficking for removal of organ, by age and sex (per 100,000 population)",VC_HTF_DETVOGR,1,16220
+16.2.2,"Detected victims of human trafficking for sexual exploitation, by age and sex (per 100,000 population)",VC_HTF_DETVSXR,1,16220
+16.2.2,"Detected victims of human trafficking, by age and sex (per 100,000 population)",VC_HTF_DETVR,1,16220
 16.2.3 ,Proportion of young women and men aged 18–29 years who experienced sexual violence by age 18,VC_VAW_SXVLN,1,16230
-16.7.1 ,"Proportions of positions in national and local public institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",SG_DMK_PARLMP_UC,0,16710
+16.7.1,"Number of chairs of permanent committees, by age sex and focus of the committee, Joint Committees",SG_DMK_PARLCC_JC,0,16710
+16.7.1,"Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population�with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral",SG_DMK_PARLMP_LC,0,16710
+16.7.1,"Number of speakers in parliament, by age and sex , Lower Chamber or Unicameral",SG_DMK_PARLSP_LC,0,16710
+16.7.1,"Number of chairs of permanent committees, by age sex and focus of the committee, Lower Chamber or Unicameral",SG_DMK_PARLCC_LC,0,16710
+16.7.1,"Ratio for female members of parliaments (Ratio of the proportion of women in parliament in the proportion of women in the national population�with the age of eligibility as a lower bound boundary), Upper Chamber",SG_DMK_PARLMP_UC,0,16710
+16.7.1,"Number of speakers in parliament, by age and sex, Upper Chamber",SG_DMK_PARLSP_UC,0,16710
+16.7.1,"Number of chairs of permanent committees, by age sex and focus of the committee, Upper Chamber",SG_DMK_PARLCC_UC,0,16710
+16.7.1,"Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below)�with the age of eligibility as a lower bound boundary), Lower Chamber or Unicameral",SG_DMK_PARLYR_LC,0,16710
+16.7.1,"Proportion of youth in parliament (age 45 or below), Lower Chamber or Unicameral (%)",SG_DMK_PARLYP_LC,0,16710
+16.7.1,"Number of youth in parliament (age 45 or below), Lower Chamber or Unicameral (Number)",SG_DMK_PARLYN_LC,0,16710
+16.7.1,"Ratio of young members in parliament (Ratio of the proportion of young members in parliament (age 45 or below) in the proportion of the national population (age 45 or below)�with the age of eligibility as a lower bound boundary), Upper Chamber",SG_DMK_PARLYR_UC,0,16710
+16.7.1,"Proportion of youth in parliament (age 45 or below), Upper Chamber (%)",SG_DMK_PARLYP_UC,0,16710
+16.7.1,"Number of youth in parliament (age 45 or below), Upper Chamber (Number)",SG_DMK_PARLYN_UC,0,16710
+16.7.1,Proportions of positions in the public service compared to national distributions (ratio),SG_DMK_PSRVC,0,16710
+16.7.1,Proportions of positions in the judiciary compared to national distributions (ratio),SG_DMK_JDC,0,16710
+16.7.1,"Proportions of positions in the judiciary compared to national distributions, Higher Courts (ratio)",SG_DMK_JDC_HGR,0,16710
+16.7.1,"Proportions of positions in the judiciary compared to national distributions, Lower Courts (ratio)",SG_DMK_JDC_LWR,0,16710
+16.7.1,"Proportions of positions in the judiciary compared to national distributions, Constitutional Court (ratio)",SG_DMK_JDC_CNS,0,16710
 16.7.1 ,"Proportions of positions in national and local public institutions, including (a) the legislatures; (b) the public service; and (c) the judiciary, compared to national distributions, by sex, age, persons with disabilities and population groups",SG_DMK_PARLMP_LC,0,16710
-16.7.2 ,"Proportion of population who believe decision-making is inclusive and responsive, by sex, age, disability and population group",,1,16720
+16.7.2,Proportion of population who believe decision-making is inclusive and responsive (%),IU_DMK_ICRS,1,16720
+16.7.2,Proportion of population who believe decision-making is inclusive (%),IU_DMK_INCL,1,16720
+16.7.2,Proportion of population who believe decision-making is responsive (%),IU_DMK_RESP,1,16720

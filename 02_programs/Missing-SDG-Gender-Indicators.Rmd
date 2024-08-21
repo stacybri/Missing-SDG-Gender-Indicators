@@ -485,7 +485,26 @@ un_aki_fun <- function(date_start, date_end) {
     select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
     mutate(date=date_end,
            goal="Combined")
-  
+
+  any <- un_sdg_filled_df %>%
+    filter(between(date,date_start,date_end) ) %>%
+    filter(!is.na(ind_quality)) %>%
+    group_by(iso3c, ccode) %>%
+    summarise(ind_quality=max(ind_quality, na.rm=T),
+              ind_value=mean(ind_value, na.rm=T),
+              ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
+      mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
+      group_by(iso3c) %>%
+      summarise(ind_quality=round(sum(ind_quality)/50,3),
+                goal_count=50,
+                ind_number=n() #get whether indicator exists at all in 5 years of this across countries
+              ) %>%
+    left_join(country_metadata) %>%
+    filter(!is.na(region)) %>%
+    select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+    mutate(date=date_end,
+           goal="Any Data Available")
+    
     tier1 <- un_sdg_combined_df %>%
       filter(between(date,date_start,date_end) ) %>%
       filter(!is.na(ind_quality)) %>%
@@ -597,6 +616,7 @@ un_aki_fun <- function(date_start, date_end) {
 
    
   global %>%
+    bind_rows(any) %>%
     bind_rows(tier1) %>%
     bind_rows(tier2) %>%
     bind_rows(goal) %>%
@@ -805,8 +825,12 @@ all_nongender_sdg_df <- read_csv(paste0(raw_dir, "/SPI_D3_UNSD_nongender_data_5y
   ) 
 
 global_nongender_availability <- mean(all_nongender_sdg_df$availability)
+
+
   
 ```
+
+
 
 ```{r corrdf, include=FALSE}
 # get correlation analysis data prepared
@@ -1019,6 +1043,22 @@ avail_plt_df %>%
 #reg_avg %>% flextable()
 
 ```
+
+```{r}
+#availability if all sex disaggregated indicators had value where overall value was present
+any_avail_plt_df <- read_csv(paste0(output_dir, '/SPI_Gender_UNSD_data_5yr.csv')) %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+  mutate(availability=100*ind_quality) %>% #convert ind_quality measure which is 0-1 to percentage available by multiplying by 100
+  filter(date==2020 & goal=="Any Data Available") 
+
+any_world_avg <-
+  any_avail_plt_df %>%
+  summarise(avg = mean(availability, na.rm = T)) %>%
+  pull(avg)
+```
+
+
+For example, of the 32 gender-related indicators which are sex disaggregated, if countries which had a population estimate also had a sex-disaggregated estimate (almost always, if not always, feasible), the SDG gender coverage rate would be `r 100*round(any_world_avg,3)`% instead of `r 100*round(world_avg,3)`%. 
 
 ## Figure 4. Availability of SDG gender indicators by income group (N=181 countries)
 
