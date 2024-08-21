@@ -106,10 +106,10 @@ SDG,Description,Code,Gender_Breakdown,ccode
 8.8.1 ,"Frequency rates of fatal and non-fatal occupational injuries, by sex and migrant status",SL_EMP_FTLINJUR,1,8810
 8.8.2,"Level of national compliance with labour rights (freedom of association and collective bargaining) based on International Labour Organization (ILO) textual sources and national legislation, by sex and migrant status",SL_LBR_NTLCPL,1,8820
 10.2.1 ,"Proportion of people living below 50 per cent of median income, by sex, age and persons with disabilities",SI_POV_50MI,1,10210
-11.2.1 ,"Proportion of population that has convenient access to public transport, by sex, age and persons with disabilities",,1,11210
+11.2.1,Proportion of population that has convenient access to public transport (%),SP_TRN_PUBL,1,11210
 11.7.1,Average share of the built-up area of cities that is open space for public use for all (%),EN_URB_OPENSP,1,11710
 11.7.1,Average share of urban population with convenient access to open public spaces (%),EN_ACS_URB_OPENSP,1,11710
-11.7.2 ,"Proportion of persons victim of physical or sexual harassment, by sex, age, disability status and place of occurrence, in the previous 12 months",,1,11720
+11.7.2,"Proportion of persons victim of non-sexual or sexual harassment, in the previous 12 months (%)",VC_VOH_SXPH,1,11720
 16.1.1,"Number of victims of intentional homicide per 100,000 population, by sex (victims per 100,000 population)",VC_IHR_PSRC,1,16110
 16.1.1,"Number of victims of intentional homicide, by sex (number)",VC_IHR_PSRCN,1,16110
 16.1.2,"Number of conflict-related deaths (civilians), by sex, age and cause of death (Number)",VC_DTH_TOCVN,1,16120

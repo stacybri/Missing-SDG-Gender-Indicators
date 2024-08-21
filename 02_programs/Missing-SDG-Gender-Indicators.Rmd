@@ -1301,7 +1301,7 @@ table1 <- table1_df %>%
 table1
 ```
 
-```{r, include=false}
+```{r}
 #compare values in table1_df with original
 table_1_orig <- read_csv(paste0(output_dir,"/table_1_paper_version.csv" )) %>%
   filter(!is.na(Indicator)) %>%

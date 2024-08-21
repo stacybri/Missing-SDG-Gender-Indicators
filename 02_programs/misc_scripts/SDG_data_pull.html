@@ -388,69 +388,96 @@ list_df &lt;- list_df %&gt;%
       }, error=function(e){cat(&quot;ERROR :&quot;,conditionMessage(e), &quot;\n&quot;)})
     }
 }</code></pre>
-<pre><code>## [1] &quot;SI_POV_DAY1&quot;
-## [1] &quot;SI_POV_EMP1&quot;
-## [1] &quot;SI_POV_NAHC&quot;
-## [1] &quot;SD_MDP_MUHC&quot;
-## [1] &quot;SI_COV_BENFTS&quot;
-## [1] &quot;SP_LGL_LNDDOC&quot;
-## [1] &quot;SP_LGL_LNDSEC&quot;
-## [1] &quot;SP_LGL_LNDSTR&quot;
-## [1] &quot;SH_STA_ANEM_PREG&quot;
-## [1] &quot;SI_AGR_SSFP&quot;
-## [1] &quot;SH_STA_MORT&quot;
-## [1] &quot;SH_STA_BRTC&quot;
-## [1] &quot;SH_HIV_INCD&quot;
-## [1] &quot;SH_FPL_MTMM&quot;
-## [1] &quot;SP_DYN_ADKL&quot;
-## [1] &quot;SE_TOT_PRFL&quot;
-## [1] &quot;SE_DEV_ONTRK&quot;
-## [1] &quot;SE_PRE_PARTN&quot;
-## [1] &quot;SE_ADT_EDUCTRN&quot;
-## [1] &quot;SE_GPI_PTNPRE&quot;
-## [1] &quot;SE_GPI_TCAQ&quot;
-## [1] &quot;SE_GPI_PART&quot;
-## [1] &quot;SE_GPI_ICTS&quot;
-## [1] &quot;SE_TOT_GPI&quot;
-## [1] &quot;SE_AGP_CPRA&quot;
-## [1] &quot;SE_TOT_GPI_FS&quot;
-## [1] &quot;SE_ADT_FUNS&quot;
-## [1] &quot;SG_LGL_GENEQLFP&quot;
-## [1] &quot;SG_LGL_GENEQVAW&quot;
-## [1] &quot;SG_LGL_GENEQEMP&quot;
-## [1] &quot;SG_LGL_GENEQMAR&quot;
-## [1] &quot;VC_VAW_MARR&quot;
-## [1] NA
-## [1] &quot;SP_DYN_MRBF18&quot;
-## [1] &quot;SP_DYN_MRBF15&quot;
-## [1] &quot;SH_STA_FGMS&quot;
-## [1] &quot;SL_DOM_TSPD&quot;
-## [1] &quot;SG_GEN_PARL&quot;
-## [1] &quot;SG_GEN_LOCGELS&quot;
-## [1] &quot;IC_GEN_MGTN&quot;
-## [1] &quot;SH_FPL_INFM&quot;
-## [1] &quot;SH_LGR_ACSRHE&quot;
-## [1] &quot;SP_LGL_LNDAGSEC&quot;
-## [1] &quot;SP_GNP_WNOWNS&quot;
-## [1] &quot;SG_LGL_LNDFEMOD&quot;
-## [1] &quot;IT_MOB_OWN&quot;
-## [1] &quot;SG_GEN_EQPWN&quot;
-## [1] &quot;SL_ISV_IFEM&quot;
-## [1] &quot;SL_EMP_EARN&quot;
-## [1] &quot;SL_TLF_UEM&quot;
-## [1] &quot;SL_TLF_CHLDEA&quot;
-## [1] &quot;SL_EMP_FTLINJUR&quot;
-## [1] &quot;SL_EMP_INJUR&quot;
-## [1] &quot;SL_LBR_NTLCPL&quot;
-## [1] &quot;SI_POV_50MI&quot;
-## [1] &quot;VC_IHR_PSRC&quot;
-## [1] &quot;VC_VOV_PHYL&quot;
-## [1] &quot;VC_VOV_ROBB&quot;
-## [1] &quot;VC_VOV_SEXL&quot;
-## [1] &quot;VC_HTF_DETV&quot;
-## [1] &quot;VC_VAW_SXVLN&quot;
-## [1] &quot;SG_DMK_PARLMP_LC&quot;
-## [1] &quot;SG_DMK_PARLMP_UC&quot;</code></pre>
+<pre><code>## [1] &quot;SD_MDP_ANDI&quot;
+## [1] &quot;SD_MDP_CSMP&quot;
+## [1] &quot;SI_COV_MATNL&quot;
+## [1] &quot;SI_COV_POOR&quot;
+## [1] &quot;SI_COV_CHLD&quot;
+## [1] &quot;SI_COV_UEMP&quot;
+## [1] &quot;SI_COV_VULN&quot;
+## [1] &quot;SI_COV_WKINJRY&quot;
+## [1] &quot;SI_COV_DISAB&quot;
+## [1] &quot;SI_COV_PENSN&quot;
+## [1] &quot;SH_STA_ANEM&quot;
+## [1] &quot;SH_STA_ANEM_NPRG&quot;
+## [1] &quot;SI_AGR_LSFP&quot;
+## [1] &quot;SE_IMP_FPOF&quot;
+## [1] &quot;SE_NAP_ACHI&quot;
+## [1] &quot;SE_LGP_ACHI&quot;
+## [1] &quot;SE_TOT_SESPI&quot;
+## [1] &quot;SE_TOT_RUPI&quot;
+## [1] &quot;SE_ALP_CPLR&quot;
+## [1] &quot;SE_AWP_CPRA&quot;
+## [1] &quot;SE_TOT_SESPI_FS&quot;
+## [1] &quot;SL_DOM_TSPDCW&quot;
+## [1] &quot;SL_DOM_TSPDDC&quot;
+## [1] &quot;SG_GEN_PARLN&quot;
+## [1] &quot;SG_GEN_PARLNT&quot;
+## [1] &quot;IC_GEN_MGTL&quot;
+## [1] &quot;IC_GEN_MGTL_19ICLS&quot;
+## [1] &quot;IC_GEN_MGTN_19ICLS&quot;
+## [1] &quot;SH_LGR_ACSRHEC1&quot;
+## [1] &quot;SH_LGR_ACSRHEC10&quot;
+## [1] &quot;SH_LGR_ACSRHEC11&quot;
+## [1] &quot;SH_LGR_ACSRHEC12&quot;
+## [1] &quot;SH_LGR_ACSRHEC13&quot;
+## [1] &quot;SH_LGR_ACSRHEC2&quot;
+## [1] &quot;SH_LGR_ACSRHEC3&quot;
+## [1] &quot;SH_LGR_ACSRHEC4&quot;
+## [1] &quot;SH_LGR_ACSRHEC5&quot;
+## [1] &quot;SH_LGR_ACSRHEC6&quot;
+## [1] &quot;SH_LGR_ACSRHEC7&quot;
+## [1] &quot;SH_LGR_ACSRHEC8&quot;
+## [1] &quot;SH_LGR_ACSRHEC9&quot;
+## [1] &quot;SH_LGR_ACSRHES1&quot;
+## [1] &quot;SH_LGR_ACSRHES2&quot;
+## [1] &quot;SH_LGR_ACSRHES3&quot;
+## [1] &quot;SH_LGR_ACSRHES4&quot;
+## [1] &quot;SG_GEN_EQPWNN&quot;
+## [1] &quot;SL_TLF_UEMDIS&quot;
+## [1] &quot;SL_TLF_UEM_19ICLS&quot;
+## [1] &quot;SL_TLF_UEMDIS_19ICLS&quot;
+## [1] &quot;SL_TLF_CHLDEC&quot;
+## [1] &quot;EN_URB_OPENSP&quot;
+## [1] &quot;EN_ACS_URB_OPENSP&quot;
+## [1] &quot;VC_IHR_PSRCN&quot;
+## [1] &quot;VC_VOV_PSYCHL&quot;
+## [1] &quot;VC_VOV_PHY_ASLT&quot;
+## [1] &quot;VC_VOV_SEX_ASLT&quot;
+## [1] &quot;VC_DTH_TOCVN&quot;
+## [1] &quot;VC_DTH_TOTR&quot;
+## [1] &quot;VC_DTH_TOTN&quot;
+## [1] &quot;VC_DTH_TOUNN&quot;
+## [1] &quot;VC_DTH_TONCVN&quot;
+## [1] &quot;VC_DTH_TOTPT&quot;
+## [1] &quot;VC_HTF_DETVFL&quot;
+## [1] &quot;VC_HTF_DETVOP&quot;
+## [1] &quot;VC_HTF_DETVOG&quot;
+## [1] &quot;VC_HTF_DETVSX&quot;
+## [1] &quot;VC_HTF_DETVFLR&quot;
+## [1] &quot;VC_HTF_DETVOPR&quot;
+## [1] &quot;VC_HTF_DETVOGR&quot;
+## [1] &quot;VC_HTF_DETVSXR&quot;
+## [1] &quot;VC_HTF_DETVR&quot;
+## [1] &quot;SG_DMK_PARLCC_JC&quot;
+## [1] &quot;SG_DMK_PARLSP_LC&quot;
+## [1] &quot;SG_DMK_PARLCC_LC&quot;
+## [1] &quot;SG_DMK_PARLSP_UC&quot;
+## [1] &quot;SG_DMK_PARLCC_UC&quot;
+## [1] &quot;SG_DMK_PARLYR_LC&quot;
+## [1] &quot;SG_DMK_PARLYP_LC&quot;
+## [1] &quot;SG_DMK_PARLYN_LC&quot;
+## [1] &quot;SG_DMK_PARLYR_UC&quot;
+## [1] &quot;SG_DMK_PARLYP_UC&quot;
+## [1] &quot;SG_DMK_PARLYN_UC&quot;
+## [1] &quot;SG_DMK_PSRVC&quot;
+## [1] &quot;SG_DMK_JDC&quot;
+## [1] &quot;SG_DMK_JDC_HGR&quot;
+## [1] &quot;SG_DMK_JDC_LWR&quot;
+## [1] &quot;SG_DMK_JDC_CNS&quot;
+## [1] &quot;IU_DMK_ICRS&quot;
+## [1] &quot;IU_DMK_INCL&quot;
+## [1] &quot;IU_DMK_RESP&quot;</code></pre>
 <p>Download sex disaggregated.</p>
 <pre class="r"><code>list_gender_df &lt;- list_df %&gt;%
   left_join(indicators_list_df %&gt;% rename(code1=Code)) %&gt;%
@@ -480,35 +507,25 @@ for (series in list_gender_df$code1) {
 }, error=function(e){cat(&quot;ERROR :&quot;,conditionMessage(e), &quot;\n&quot;)})
 
 }</code></pre>
-<pre><code>## [1] &quot;SI_POV_DAY1&quot;
-## [1] &quot;SI_POV_EMP1&quot;
-## [1] &quot;SI_POV_NAHC&quot;
-## [1] &quot;SD_MDP_MUHC&quot;
-## [1] &quot;SI_COV_BENFTS&quot;
-## [1] &quot;SP_LGL_LNDDOC&quot;
-## [1] &quot;SP_LGL_LNDSEC&quot;
-## [1] &quot;SP_LGL_LNDSTR&quot;
-## [1] &quot;SI_AGR_SSFP&quot;
-## [1] &quot;SH_HIV_INCD&quot;
-## [1] &quot;SE_TOT_PRFL&quot;
-## [1] &quot;SE_DEV_ONTRK&quot;
-## [1] &quot;SE_PRE_PARTN&quot;
-## [1] &quot;SE_ADT_EDUCTRN&quot;
-## [1] &quot;SE_ADT_FUNS&quot;
+<pre><code>## [1] &quot;SD_MDP_ANDI&quot;
+## [1] &quot;SD_MDP_CSMP&quot;
+## [1] &quot;SI_COV_MATNL&quot;
+## [1] &quot;SI_COV_POOR&quot;
+## [1] &quot;SI_COV_CHLD&quot;
+## [1] &quot;SI_COV_UEMP&quot;
+## [1] &quot;SI_COV_VULN&quot;
+## [1] &quot;SI_COV_WKINJRY&quot;
+## [1] &quot;SI_COV_DISAB&quot;
+## [1] &quot;SI_COV_PENSN&quot;
+## [1] &quot;SI_AGR_LSFP&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;SL_DOM_TSPD&quot;
-## [1] &quot;SP_LGL_LNDAGSEC&quot;
+## [1] &quot;SL_DOM_TSPDCW&quot;
+## [1] &quot;SL_DOM_TSPDDC&quot;
 ## [1] &quot;SP_GNP_WNOWNS&quot;
 ## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag, &quot;2010&quot;, &quot;2020&quot;)`.
 ## Caused by error in `map()`:
@@ -517,13 +534,10 @@ for (series in list_gender_df$code1) {
 ## ℹ In argument: `sex = [Sex]`.
 ## Caused by error:
 ## ! object &#39;[Sex]&#39; not found 
-## [1] &quot;IT_MOB_OWN&quot;
-## [1] &quot;SL_ISV_IFEM&quot;
-## [1] &quot;SL_EMP_EARN&quot;
-## [1] &quot;SL_TLF_UEM&quot;
-## [1] &quot;SL_TLF_CHLDEA&quot;
-## [1] &quot;SL_EMP_FTLINJUR&quot;
-## [1] &quot;SL_EMP_INJUR&quot;
+## [1] &quot;SL_TLF_UEMDIS&quot;
+## [1] &quot;SL_TLF_UEM_19ICLS&quot;
+## [1] &quot;SL_TLF_UEMDIS_19ICLS&quot;
+## [1] &quot;SL_TLF_CHLDEC&quot;
 ## [1] &quot;SL_LBR_NTLCPL&quot;
 ## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag, &quot;2010&quot;, &quot;2020&quot;)`.
 ## Caused by error in `map()`:
@@ -546,6 +560,22 @@ for (series in list_gender_df$code1) {
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
+## [1] &quot;EN_URB_OPENSP&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `mutate()`:
+## ℹ In argument: `sex = [Sex]`.
+## Caused by error:
+## ! object &#39;[Sex]&#39; not found 
+## [1] &quot;EN_ACS_URB_OPENSP&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `mutate()`:
+## ℹ In argument: `sex = [Sex]`.
+## Caused by error:
+## ! object &#39;[Sex]&#39; not found 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
@@ -558,30 +588,28 @@ for (series in list_gender_df$code1) {
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;VC_IHR_PSRC&quot;
-## [1] &quot;VC_VOV_PHYL&quot;
-## [1] &quot;VC_VOV_ROBB&quot;
-## [1] &quot;VC_VOV_SEXL&quot;
-## [1] &quot;VC_HTF_DETV&quot;
-## [1] &quot;VC_VAW_SXVLN&quot;</code></pre>
+## [1] &quot;VC_IHR_PSRCN&quot;
+## [1] &quot;VC_VOV_PSYCHL&quot;
+## [1] &quot;VC_VOV_PHY_ASLT&quot;
+## [1] &quot;VC_VOV_SEX_ASLT&quot;
+## [1] &quot;VC_DTH_TOCVN&quot;
+## [1] &quot;VC_DTH_TOTR&quot;
+## [1] &quot;VC_DTH_TOTN&quot;
+## [1] &quot;VC_DTH_TOUNN&quot;
+## [1] &quot;VC_DTH_TONCVN&quot;
+## [1] &quot;VC_DTH_TOTPT&quot;
+## [1] &quot;VC_HTF_DETVFL&quot;
+## [1] &quot;VC_HTF_DETVOP&quot;
+## [1] &quot;VC_HTF_DETVOG&quot;
+## [1] &quot;VC_HTF_DETVSX&quot;
+## [1] &quot;VC_HTF_DETVFLR&quot;
+## [1] &quot;VC_HTF_DETVOPR&quot;
+## [1] &quot;VC_HTF_DETVOGR&quot;
+## [1] &quot;VC_HTF_DETVSXR&quot;
+## [1] &quot;VC_HTF_DETVR&quot;
+## [1] &quot;IU_DMK_ICRS&quot;
+## [1] &quot;IU_DMK_INCL&quot;
+## [1] &quot;IU_DMK_RESP&quot;</code></pre>
 <p>Check if any info available</p>
 <pre class="r"><code>list_df&lt;- list_df[seq(dim(list_df)[1],1),]
 
@@ -618,80 +646,108 @@ for (series in list_df$code1) {
 }, error=function(e){cat(&quot;ERROR :&quot;,conditionMessage(e), &quot;\n&quot;)})
 
 }</code></pre>
-<pre><code>## [1] &quot;SG_DMK_PARLMP_UC&quot;
-## [1] &quot;SG_DMK_PARLMP_LC&quot;
-## [1] &quot;VC_VAW_SXVLN&quot;
-## [1] &quot;VC_HTF_DETV&quot;
-## [1] &quot;VC_VOV_SEXL&quot;
-## [1] &quot;VC_VOV_ROBB&quot;
-## [1] &quot;VC_VOV_PHYL&quot;
-## [1] &quot;VC_IHR_PSRC&quot;
+<pre><code>## [1] &quot;IU_DMK_RESP&quot;
+## [1] &quot;IU_DMK_INCL&quot;
+## [1] &quot;IU_DMK_ICRS&quot;
+## [1] &quot;SG_DMK_JDC_CNS&quot;
+## [1] &quot;SG_DMK_JDC_LWR&quot;
+## [1] &quot;SG_DMK_JDC_HGR&quot;
+## [1] &quot;SG_DMK_JDC&quot;
+## [1] &quot;SG_DMK_PSRVC&quot;
+## [1] &quot;SG_DMK_PARLYN_UC&quot;
+## [1] &quot;SG_DMK_PARLYP_UC&quot;
+## [1] &quot;SG_DMK_PARLYR_UC&quot;
+## [1] &quot;SG_DMK_PARLYN_LC&quot;
+## [1] &quot;SG_DMK_PARLYP_LC&quot;
+## [1] &quot;SG_DMK_PARLYR_LC&quot;
+## [1] &quot;SG_DMK_PARLCC_UC&quot;
+## [1] &quot;SG_DMK_PARLSP_UC&quot;
+## [1] &quot;SG_DMK_PARLCC_LC&quot;
+## [1] &quot;SG_DMK_PARLSP_LC&quot;
+## [1] &quot;SG_DMK_PARLCC_JC&quot;
+## [1] &quot;VC_HTF_DETVR&quot;
+## [1] &quot;VC_HTF_DETVSXR&quot;
+## [1] &quot;VC_HTF_DETVOGR&quot;
+## [1] &quot;VC_HTF_DETVOPR&quot;
+## [1] &quot;VC_HTF_DETVFLR&quot;
+## [1] &quot;VC_HTF_DETVSX&quot;
+## [1] &quot;VC_HTF_DETVOG&quot;
+## [1] &quot;VC_HTF_DETVOP&quot;
+## [1] &quot;VC_HTF_DETVFL&quot;
+## [1] &quot;VC_DTH_TOTPT&quot;
+## [1] &quot;VC_DTH_TONCVN&quot;
+## [1] &quot;VC_DTH_TOUNN&quot;
+## [1] &quot;VC_DTH_TOTN&quot;
+## [1] &quot;VC_DTH_TOTR&quot;
+## [1] &quot;VC_DTH_TOCVN&quot;
+## [1] &quot;VC_VOV_SEX_ASLT&quot;
+## [1] &quot;VC_VOV_PHY_ASLT&quot;
+## [1] &quot;VC_VOV_PSYCHL&quot;
+## [1] &quot;VC_IHR_PSRCN&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
+## [1] &quot;EN_ACS_URB_OPENSP&quot;
+## [1] &quot;EN_URB_OPENSP&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;SI_POV_50MI&quot;
-## [1] &quot;SL_LBR_NTLCPL&quot;
-## [1] &quot;SL_EMP_INJUR&quot;
-## [1] &quot;SL_EMP_FTLINJUR&quot;
-## [1] &quot;SL_TLF_CHLDEA&quot;
-## [1] &quot;SL_TLF_UEM&quot;
-## [1] &quot;SL_EMP_EARN&quot;
-## [1] &quot;SL_ISV_IFEM&quot;
-## [1] &quot;SG_GEN_EQPWN&quot;
-## [1] &quot;IT_MOB_OWN&quot;
-## [1] &quot;SG_LGL_LNDFEMOD&quot;
-## [1] &quot;SP_GNP_WNOWNS&quot;
-## [1] &quot;SP_LGL_LNDAGSEC&quot;
-## [1] &quot;SH_LGR_ACSRHE&quot;
-## [1] &quot;SH_FPL_INFM&quot;
-## [1] &quot;IC_GEN_MGTN&quot;
-## [1] &quot;SG_GEN_LOCGELS&quot;
-## [1] &quot;SG_GEN_PARL&quot;
-## [1] &quot;SL_DOM_TSPD&quot;
-## [1] &quot;SH_STA_FGMS&quot;
-## [1] &quot;SP_DYN_MRBF15&quot;
-## [1] &quot;SP_DYN_MRBF18&quot;
+## [1] &quot;SL_TLF_CHLDEC&quot;
+## [1] &quot;SL_TLF_UEMDIS_19ICLS&quot;
+## [1] &quot;SL_TLF_UEM_19ICLS&quot;
+## [1] &quot;SL_TLF_UEMDIS&quot;
+## [1] &quot;SG_GEN_EQPWNN&quot;
+## [1] &quot;SH_LGR_ACSRHES4&quot;
+## [1] &quot;SH_LGR_ACSRHES3&quot;
+## [1] &quot;SH_LGR_ACSRHES2&quot;
+## [1] &quot;SH_LGR_ACSRHES1&quot;
+## [1] &quot;SH_LGR_ACSRHEC9&quot;
+## [1] &quot;SH_LGR_ACSRHEC8&quot;
+## [1] &quot;SH_LGR_ACSRHEC7&quot;
+## [1] &quot;SH_LGR_ACSRHEC6&quot;
+## [1] &quot;SH_LGR_ACSRHEC5&quot;
+## [1] &quot;SH_LGR_ACSRHEC4&quot;
+## [1] &quot;SH_LGR_ACSRHEC3&quot;
+## [1] &quot;SH_LGR_ACSRHEC2&quot;
+## [1] &quot;SH_LGR_ACSRHEC13&quot;
+## [1] &quot;SH_LGR_ACSRHEC12&quot;
+## [1] &quot;SH_LGR_ACSRHEC11&quot;
+## [1] &quot;SH_LGR_ACSRHEC10&quot;
+## [1] &quot;SH_LGR_ACSRHEC1&quot;
+## [1] &quot;IC_GEN_MGTN_19ICLS&quot;
+## [1] &quot;IC_GEN_MGTL_19ICLS&quot;
+## [1] &quot;IC_GEN_MGTL&quot;
+## [1] &quot;SG_GEN_PARLNT&quot;
+## [1] &quot;SG_GEN_PARLN&quot;
+## [1] &quot;SL_DOM_TSPDDC&quot;
+## [1] &quot;SL_DOM_TSPDCW&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;VC_VAW_MARR&quot;
-## [1] &quot;SG_LGL_GENEQMAR&quot;
-## [1] &quot;SG_LGL_GENEQEMP&quot;
-## [1] &quot;SG_LGL_GENEQVAW&quot;
-## [1] &quot;SG_LGL_GENEQLFP&quot;
-## [1] &quot;SE_ADT_FUNS&quot;
-## [1] &quot;SE_TOT_GPI_FS&quot;
-## [1] &quot;SE_AGP_CPRA&quot;
-## [1] &quot;SE_TOT_GPI&quot;
-## [1] &quot;SE_GPI_ICTS&quot;
-## [1] &quot;SE_GPI_PART&quot;
-## [1] &quot;SE_GPI_TCAQ&quot;
-## [1] &quot;SE_GPI_PTNPRE&quot;
-## [1] &quot;SE_ADT_EDUCTRN&quot;
-## [1] &quot;SE_PRE_PARTN&quot;
-## [1] &quot;SE_DEV_ONTRK&quot;
-## [1] &quot;SE_TOT_PRFL&quot;
-## [1] &quot;SP_DYN_ADKL&quot;
-## [1] &quot;SH_FPL_MTMM&quot;
-## [1] &quot;SH_HIV_INCD&quot;
-## [1] &quot;SH_STA_BRTC&quot;
-## [1] &quot;SH_STA_MORT&quot;
-## [1] &quot;SI_AGR_SSFP&quot;
-## [1] &quot;SH_STA_ANEM_PREG&quot;
-## [1] &quot;SP_LGL_LNDSTR&quot;
-## [1] &quot;SP_LGL_LNDSEC&quot;
-## [1] &quot;SP_LGL_LNDDOC&quot;
-## [1] &quot;SI_COV_BENFTS&quot;
-## [1] &quot;SD_MDP_MUHC&quot;
-## [1] &quot;SI_POV_NAHC&quot;
-## [1] &quot;SI_POV_EMP1&quot;
-## [1] &quot;SI_POV_DAY1&quot;</code></pre>
+## [1] &quot;SE_TOT_SESPI_FS&quot;
+## [1] &quot;SE_AWP_CPRA&quot;
+## [1] &quot;SE_ALP_CPLR&quot;
+## [1] &quot;SE_TOT_RUPI&quot;
+## [1] &quot;SE_TOT_SESPI&quot;
+## [1] &quot;SE_LGP_ACHI&quot;
+## [1] &quot;SE_NAP_ACHI&quot;
+## [1] &quot;SE_IMP_FPOF&quot;
+## [1] &quot;SI_AGR_LSFP&quot;
+## [1] &quot;SH_STA_ANEM_NPRG&quot;
+## [1] &quot;SH_STA_ANEM&quot;
+## [1] &quot;SI_COV_PENSN&quot;
+## [1] &quot;SI_COV_DISAB&quot;
+## [1] &quot;SI_COV_WKINJRY&quot;
+## [1] &quot;SI_COV_VULN&quot;
+## [1] &quot;SI_COV_UEMP&quot;
+## [1] &quot;SI_COV_CHLD&quot;
+## [1] &quot;SI_COV_POOR&quot;
+## [1] &quot;SI_COV_MATNL&quot;
+## [1] &quot;SD_MDP_CSMP&quot;
+## [1] &quot;SD_MDP_ANDI&quot;</code></pre>
 <div id="modelled-estiamtes" class="section level1">
 <h1>Modelled estiamtes</h1>
 <p>Reclassify data in this section by giving credit for modelled
@@ -725,12 +781,28 @@ for (series in list_gender_df$code1) {
 }, error=function(e){cat(&quot;ERROR :&quot;,conditionMessage(e), &quot;\n&quot;)})
 
 }</code></pre>
-<pre><code>## [1] &quot;VC_VAW_SXVLN&quot;
-## [1] &quot;VC_HTF_DETV&quot;
-## [1] &quot;VC_VOV_SEXL&quot;
-## [1] &quot;VC_VOV_ROBB&quot;
-## [1] &quot;VC_VOV_PHYL&quot;
-## [1] &quot;VC_IHR_PSRC&quot;
+<pre><code>## [1] &quot;IU_DMK_RESP&quot;
+## [1] &quot;IU_DMK_INCL&quot;
+## [1] &quot;IU_DMK_ICRS&quot;
+## [1] &quot;VC_HTF_DETVR&quot;
+## [1] &quot;VC_HTF_DETVSXR&quot;
+## [1] &quot;VC_HTF_DETVOGR&quot;
+## [1] &quot;VC_HTF_DETVOPR&quot;
+## [1] &quot;VC_HTF_DETVFLR&quot;
+## [1] &quot;VC_HTF_DETVSX&quot;
+## [1] &quot;VC_HTF_DETVOG&quot;
+## [1] &quot;VC_HTF_DETVOP&quot;
+## [1] &quot;VC_HTF_DETVFL&quot;
+## [1] &quot;VC_DTH_TOTPT&quot;
+## [1] &quot;VC_DTH_TONCVN&quot;
+## [1] &quot;VC_DTH_TOUNN&quot;
+## [1] &quot;VC_DTH_TOTN&quot;
+## [1] &quot;VC_DTH_TOTR&quot;
+## [1] &quot;VC_DTH_TOCVN&quot;
+## [1] &quot;VC_VOV_SEX_ASLT&quot;
+## [1] &quot;VC_VOV_PHY_ASLT&quot;
+## [1] &quot;VC_VOV_PSYCHL&quot;
+## [1] &quot;VC_IHR_PSRCN&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
@@ -743,24 +815,24 @@ for (series in list_gender_df$code1) {
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
+## [1] &quot;EN_ACS_URB_OPENSP&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag_modelled, &quot;2010&quot;,
+##   &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `mutate()`:
+## ℹ In argument: `sex = [Sex]`.
+## Caused by error:
+## ! object &#39;[Sex]&#39; not found 
+## [1] &quot;EN_URB_OPENSP&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag_modelled, &quot;2010&quot;,
+##   &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `mutate()`:
+## ℹ In argument: `sex = [Sex]`.
+## Caused by error:
+## ! object &#39;[Sex]&#39; not found 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
@@ -785,13 +857,10 @@ for (series in list_gender_df$code1) {
 ## ℹ In argument: `sex = [Sex]`.
 ## Caused by error:
 ## ! object &#39;[Sex]&#39; not found 
-## [1] &quot;SL_EMP_INJUR&quot;
-## [1] &quot;SL_EMP_FTLINJUR&quot;
-## [1] &quot;SL_TLF_CHLDEA&quot;
-## [1] &quot;SL_TLF_UEM&quot;
-## [1] &quot;SL_EMP_EARN&quot;
-## [1] &quot;SL_ISV_IFEM&quot;
-## [1] &quot;IT_MOB_OWN&quot;
+## [1] &quot;SL_TLF_CHLDEC&quot;
+## [1] &quot;SL_TLF_UEMDIS_19ICLS&quot;
+## [1] &quot;SL_TLF_UEM_19ICLS&quot;
+## [1] &quot;SL_TLF_UEMDIS&quot;
 ## [1] &quot;SP_GNP_WNOWNS&quot;
 ## ERROR : ℹ In argument: `values = map(code1, un_pull_sex_disag_modelled, &quot;2010&quot;,
 ##   &quot;2020&quot;)`.
@@ -801,35 +870,25 @@ for (series in list_gender_df$code1) {
 ## ℹ In argument: `sex = [Sex]`.
 ## Caused by error:
 ## ! object &#39;[Sex]&#39; not found 
-## [1] &quot;SP_LGL_LNDAGSEC&quot;
-## [1] &quot;SL_DOM_TSPD&quot;
+## [1] &quot;SL_DOM_TSPDDC&quot;
+## [1] &quot;SL_DOM_TSPDCW&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;SE_ADT_FUNS&quot;
-## [1] &quot;SE_ADT_EDUCTRN&quot;
-## [1] &quot;SE_PRE_PARTN&quot;
-## [1] &quot;SE_DEV_ONTRK&quot;
-## [1] &quot;SE_TOT_PRFL&quot;
-## [1] &quot;SH_HIV_INCD&quot;
-## [1] &quot;SI_AGR_SSFP&quot;
-## [1] &quot;SP_LGL_LNDSTR&quot;
-## [1] &quot;SP_LGL_LNDSEC&quot;
-## [1] &quot;SP_LGL_LNDDOC&quot;
-## [1] &quot;SI_COV_BENFTS&quot;
-## [1] &quot;SD_MDP_MUHC&quot;
-## [1] &quot;SI_POV_NAHC&quot;
-## [1] &quot;SI_POV_EMP1&quot;
-## [1] &quot;SI_POV_DAY1&quot;</code></pre>
+## [1] &quot;SI_AGR_LSFP&quot;
+## [1] &quot;SI_COV_PENSN&quot;
+## [1] &quot;SI_COV_DISAB&quot;
+## [1] &quot;SI_COV_WKINJRY&quot;
+## [1] &quot;SI_COV_VULN&quot;
+## [1] &quot;SI_COV_UEMP&quot;
+## [1] &quot;SI_COV_CHLD&quot;
+## [1] &quot;SI_COV_POOR&quot;
+## [1] &quot;SI_COV_MATNL&quot;
+## [1] &quot;SD_MDP_CSMP&quot;
+## [1] &quot;SD_MDP_ANDI&quot;</code></pre>
 <p>Check if any info available</p>
 <pre class="r"><code>list_df&lt;- list_df[seq(dim(list_df)[1],1),]
 
@@ -866,79 +925,121 @@ for (series in list_df$code1) {
 }, error=function(e){cat(&quot;ERROR :&quot;,conditionMessage(e), &quot;\n&quot;)})
 
 }</code></pre>
-<pre><code>## [1] &quot;SI_POV_DAY1&quot;
-## [1] &quot;SI_POV_EMP1&quot;
-## [1] &quot;SI_POV_NAHC&quot;
-## [1] &quot;SD_MDP_MUHC&quot;
-## [1] &quot;SI_COV_BENFTS&quot;
-## [1] &quot;SP_LGL_LNDDOC&quot;
-## [1] &quot;SP_LGL_LNDSEC&quot;
-## [1] &quot;SP_LGL_LNDSTR&quot;
-## [1] &quot;SH_STA_ANEM_PREG&quot;
-## [1] &quot;SI_AGR_SSFP&quot;
-## [1] &quot;SH_STA_MORT&quot;
-## [1] &quot;SH_STA_BRTC&quot;
-## [1] &quot;SH_HIV_INCD&quot;
-## [1] &quot;SH_FPL_MTMM&quot;
-## [1] &quot;SP_DYN_ADKL&quot;
-## [1] &quot;SE_TOT_PRFL&quot;
-## [1] &quot;SE_DEV_ONTRK&quot;
-## [1] &quot;SE_PRE_PARTN&quot;
-## [1] &quot;SE_ADT_EDUCTRN&quot;
-## [1] &quot;SE_GPI_PTNPRE&quot;
-## [1] &quot;SE_GPI_TCAQ&quot;
-## [1] &quot;SE_GPI_PART&quot;
-## [1] &quot;SE_GPI_ICTS&quot;
-## [1] &quot;SE_TOT_GPI&quot;
-## [1] &quot;SE_AGP_CPRA&quot;
-## [1] &quot;SE_TOT_GPI_FS&quot;
-## [1] &quot;SE_ADT_FUNS&quot;
-## [1] &quot;SG_LGL_GENEQLFP&quot;
-## [1] &quot;SG_LGL_GENEQVAW&quot;
-## [1] &quot;SG_LGL_GENEQEMP&quot;
-## [1] &quot;SG_LGL_GENEQMAR&quot;
-## [1] &quot;VC_VAW_MARR&quot;
+<pre><code>## [1] &quot;SD_MDP_ANDI&quot;
+## [1] &quot;SD_MDP_CSMP&quot;
+## [1] &quot;SI_COV_MATNL&quot;
+## [1] &quot;SI_COV_POOR&quot;
+## [1] &quot;SI_COV_CHLD&quot;
+## [1] &quot;SI_COV_UEMP&quot;
+## [1] &quot;SI_COV_VULN&quot;
+## [1] &quot;SI_COV_WKINJRY&quot;
+## [1] &quot;SI_COV_DISAB&quot;
+## [1] &quot;SI_COV_PENSN&quot;
+## [1] &quot;SH_STA_ANEM&quot;
+## [1] &quot;SH_STA_ANEM_NPRG&quot;
+## [1] &quot;SI_AGR_LSFP&quot;
+## [1] &quot;SE_IMP_FPOF&quot;
+## [1] &quot;SE_NAP_ACHI&quot;
+## [1] &quot;SE_LGP_ACHI&quot;
+## [1] &quot;SE_TOT_SESPI&quot;
+## [1] &quot;SE_TOT_RUPI&quot;
+## [1] &quot;SE_ALP_CPLR&quot;
+## [1] &quot;SE_AWP_CPRA&quot;
+## [1] &quot;SE_TOT_SESPI_FS&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;SP_DYN_MRBF18&quot;
-## [1] &quot;SP_DYN_MRBF15&quot;
-## [1] &quot;SH_STA_FGMS&quot;
-## [1] &quot;SL_DOM_TSPD&quot;
-## [1] &quot;SG_GEN_PARL&quot;
-## [1] &quot;SG_GEN_LOCGELS&quot;
-## [1] &quot;IC_GEN_MGTN&quot;
-## [1] &quot;SH_FPL_INFM&quot;
-## [1] &quot;SH_LGR_ACSRHE&quot;
-## [1] &quot;SP_LGL_LNDAGSEC&quot;
-## [1] &quot;SP_GNP_WNOWNS&quot;
-## [1] &quot;SG_LGL_LNDFEMOD&quot;
-## [1] &quot;IT_MOB_OWN&quot;
-## [1] &quot;SG_GEN_EQPWN&quot;
-## [1] &quot;SL_ISV_IFEM&quot;
-## [1] &quot;SL_EMP_EARN&quot;
-## [1] &quot;SL_TLF_UEM&quot;
-## [1] &quot;SL_TLF_CHLDEA&quot;
-## [1] &quot;SL_EMP_FTLINJUR&quot;
-## [1] &quot;SL_EMP_INJUR&quot;
-## [1] &quot;SL_LBR_NTLCPL&quot;
-## [1] &quot;SI_POV_50MI&quot;
+## [1] &quot;SL_DOM_TSPDCW&quot;
+## [1] &quot;SL_DOM_TSPDDC&quot;
+## [1] &quot;SG_GEN_PARLN&quot;
+## [1] &quot;SG_GEN_PARLNT&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;IC_GEN_MGTL&quot;
+## [1] &quot;IC_GEN_MGTL_19ICLS&quot;
+## [1] &quot;IC_GEN_MGTN_19ICLS&quot;
+## [1] &quot;SH_LGR_ACSRHEC1&quot;
+## [1] &quot;SH_LGR_ACSRHEC10&quot;
+## [1] &quot;SH_LGR_ACSRHEC11&quot;
+## [1] &quot;SH_LGR_ACSRHEC12&quot;
+## [1] &quot;SH_LGR_ACSRHEC13&quot;
+## [1] &quot;SH_LGR_ACSRHEC2&quot;
+## [1] &quot;SH_LGR_ACSRHEC3&quot;
+## [1] &quot;SH_LGR_ACSRHEC4&quot;
+## [1] &quot;SH_LGR_ACSRHEC5&quot;
+## [1] &quot;SH_LGR_ACSRHEC6&quot;
+## [1] &quot;SH_LGR_ACSRHEC7&quot;
+## [1] &quot;SH_LGR_ACSRHEC8&quot;
+## [1] &quot;SH_LGR_ACSRHEC9&quot;
+## [1] &quot;SH_LGR_ACSRHES1&quot;
+## [1] &quot;SH_LGR_ACSRHES2&quot;
+## [1] &quot;SH_LGR_ACSRHES3&quot;
+## [1] &quot;SH_LGR_ACSRHES4&quot;
+## [1] &quot;SG_GEN_EQPWNN&quot;
+## [1] &quot;SL_TLF_UEMDIS&quot;
+## [1] &quot;SL_TLF_UEM_19ICLS&quot;
+## [1] &quot;SL_TLF_UEMDIS_19ICLS&quot;
+## [1] &quot;SL_TLF_CHLDEC&quot;
+## [1] NA
+## ERROR : Can&#39;t select columns with `iso3c`.
+## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
+## [1] &quot;EN_URB_OPENSP&quot;
+## [1] &quot;EN_ACS_URB_OPENSP&quot;
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
 ## [1] NA
 ## ERROR : Can&#39;t select columns with `iso3c`.
 ## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] NA
-## ERROR : Can&#39;t select columns with `iso3c`.
-## ✖ `iso3c` must be numeric or character, not a &lt;spec_tbl_df/tbl_df/tbl/data.frame&gt; object. 
-## [1] &quot;VC_IHR_PSRC&quot;
-## [1] &quot;VC_VOV_PHYL&quot;
-## [1] &quot;VC_VOV_ROBB&quot;
-## [1] &quot;VC_VOV_SEXL&quot;
-## [1] &quot;VC_HTF_DETV&quot;
-## [1] &quot;VC_VAW_SXVLN&quot;
+## [1] &quot;VC_IHR_PSRCN&quot;
+## [1] &quot;VC_VOV_PSYCHL&quot;
+## [1] &quot;VC_VOV_PHY_ASLT&quot;
+## [1] &quot;VC_VOV_SEX_ASLT&quot;
+## [1] &quot;VC_DTH_TOCVN&quot;
+## [1] &quot;VC_DTH_TOTR&quot;
+## [1] &quot;VC_DTH_TOTN&quot;
+## [1] &quot;VC_DTH_TOUNN&quot;
+## [1] &quot;VC_DTH_TONCVN&quot;
+## [1] &quot;VC_DTH_TOTPT&quot;
+## [1] &quot;VC_HTF_DETVFL&quot;
+## [1] &quot;VC_HTF_DETVOP&quot;
+## [1] &quot;VC_HTF_DETVOG&quot;
+## [1] &quot;VC_HTF_DETVSX&quot;
+## [1] &quot;VC_HTF_DETVFLR&quot;
+## [1] &quot;VC_HTF_DETVOPR&quot;
+## [1] &quot;VC_HTF_DETVOGR&quot;
+## [1] &quot;VC_HTF_DETVSXR&quot;
+## [1] &quot;VC_HTF_DETVR&quot;
+## [1] &quot;SG_DMK_PARLCC_JC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
 ## [1] &quot;SG_DMK_PARLMP_LC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLSP_LC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLCC_LC&quot;
 ## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
 ## Caused by error in `map()`:
 ## ℹ In index: 1.
@@ -953,7 +1054,79 @@ for (series in list_df$code1) {
 ## Caused by error in `right_join()`:
 ## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
 ## ℹ `x$date` is a &lt;character&gt;.
-## ℹ `y$date` is a &lt;double&gt;.</code></pre>
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLSP_UC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLCC_UC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYR_LC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYP_LC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYN_LC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYR_UC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYP_UC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PARLYN_UC&quot;
+## ERROR : ℹ In argument: `values = map(code1, un_pull_modelled, &quot;2010&quot;, &quot;2020&quot;)`.
+## Caused by error in `map()`:
+## ℹ In index: 1.
+## Caused by error in `right_join()`:
+## ! Can&#39;t join `x$date` with `y$date` due to incompatible types.
+## ℹ `x$date` is a &lt;character&gt;.
+## ℹ `y$date` is a &lt;double&gt;. 
+## [1] &quot;SG_DMK_PSRVC&quot;
+## [1] &quot;SG_DMK_JDC&quot;
+## [1] &quot;SG_DMK_JDC_HGR&quot;
+## [1] &quot;SG_DMK_JDC_LWR&quot;
+## [1] &quot;SG_DMK_JDC_CNS&quot;
+## [1] &quot;IU_DMK_ICRS&quot;
+## [1] &quot;IU_DMK_INCL&quot;
+## [1] &quot;IU_DMK_RESP&quot;</code></pre>
 </div>
 
 
