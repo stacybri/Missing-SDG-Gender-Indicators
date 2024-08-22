@@ -53,9 +53,9 @@ output_dir <- paste(dir, '03_output_data', sep="/")
 wgt <- 1
 
 #set data window
-window <- 4
+window <- 5
 upper_year <- 2020
-lower_year <- 2020-window
+lower_year <- 2020-window+1
 
 #population filter
 pop_filt <- 200000
@@ -697,7 +697,7 @@ write_excel_csv(un_aki, path=paste(output_dir, 'SPI_Gender_UNSD_data_8yr.csv', s
 #create this database for each year from 2004 to 2020 using a 5 year average
 for (i in c(2004:2020)) {
   
-  start=i-window
+  start=i-window+1
   end=i
   
   temp_df <- un_aki_fun(start,end)
@@ -1296,10 +1296,12 @@ table1 <- table1_df %>%
     theme_vanilla() %>%
     add_footer_lines(values = "Source: UN."                 ) %>%
   FitFlextableToPage() %>%
-    autofit()
+    set_table_properties(width = .5, layout = "autofit")
 
 table1
 ```
+
+
 
 ```{r}
 #compare values in table1_df with original
