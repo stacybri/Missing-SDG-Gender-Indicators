@@ -139,7 +139,7 @@ WDI_df <- WDI_df %>%
          indicator_code=`Indicator Code`,
          ) %>%
   pivot_longer(
-    cols=c('1960':'2022'),
+    cols=c('1960':'2023'),
     names_to = 'date',
     values_to = 'value'
   ) %>%
@@ -159,8 +159,8 @@ WDI_df <- WDI_df %>%
 
 
 #get a list of countries that are below the population limit defined at to of script
-pop_exlude_cntry <- WDI_df %>% filter(date==2021) %>% filter(SP.POP.TOTL <= pop_filt) %>% select(iso3c) %>% pluck(1)
-pop_exlude_cntry_names <- WDI_df %>% left_join(wb_countries) %>% filter(date==2021) %>% filter(SP.POP.TOTL <= pop_filt) %>% select(country) %>% pluck(1)
+pop_exlude_cntry <- WDI_df %>% filter(date==2023) %>% filter(SP.POP.TOTL <= pop_filt) %>% select(iso3c) %>% pluck(1)
+pop_exlude_cntry_names <- WDI_df %>% left_join(wb_countries) %>% filter(date==2023) %>% filter(SP.POP.TOTL <= pop_filt) %>% select(country) %>% pluck(1)
 
 ```
 
@@ -174,7 +174,7 @@ sdg_tab <- read_csv(file = paste0(raw_dir, '/misc/Gender_SDGs.csv'))
 sdg_tab_merge <- sdg_tab %>%
   #filter(!is.na(Code)) %>%
   transmute(ccode=ccode,
-            code1=Code,
+            series_code=Code,
             code=SDG,
             Gender_Breakdown=Gender_Breakdown)
 
@@ -190,7 +190,7 @@ indicators_list <- indicators_list$Code
 #bring in the list of indicators
 list_df <- jsonlite::fromJSON(indicators_url, flatten = TRUE) %>%
   as_tibble() %>%
-  unnest(keep_empty = TRUE)
+  unnest(cols=c(series), names_sep="_", keep_empty = TRUE)
 
 list_df <- sdg_tab_merge %>%
   left_join(list_df) %>%
@@ -200,13 +200,13 @@ list_df <- sdg_tab_merge %>%
 tier1_list <- list_df %>%
   filter(tier==1)
 
-tier1_list <- tier1_list$code1
+tier1_list <- tier1_list$series_code
 
 # get list of tier 2 indicaors
 tier2_list <- list_df %>%
   filter(tier==2)
 
-tier2_list <- tier2_list$code1
+tier2_list <- tier2_list$series_code
 
 #get goal
 sdg_tab$Goal <- as.character(map(strsplit(sdg_tab$SDG, split = "\\."), 1))
@@ -219,7 +219,7 @@ table1dat <- list_df %>%
     Indicator=code,
     Description=description,
     Tier=tier,
-    `Sub-Description`=description1,
+    `Sub-Description`=series_description,
     Gender_Breakdown=Gender_Breakdown
   ) %>%
   group_by(ccode, Goal, Indicator, Description, Tier, Gender_Breakdown) %>%
@@ -244,7 +244,7 @@ if (exists('un_sdg_df')) {
   rm(un_sdg_df)
 }
 
-for (series in list_df$code1) {
+for (series in list_df$series_code) {
     
   #read in files
   if (file.exists(paste(raw_dir,'/sdg_data/',series,'.csv',sep=""))) {
@@ -254,8 +254,8 @@ for (series in list_df$code1) {
         goal=as.character(goal), 
         target=as.character(target), 
         code==as.character(code), 
-        code1=as.character(code1), 
-        description1=as.character(description1)
+        series_code=as.character(series_code), 
+        series_description=as.character(series_description)
       )
     
     #   #now append it to the overall database
@@ -274,14 +274,14 @@ if (exists('un_sdg_meta')) {
   rm(un_sdg_meta)
 }
 
-for (series in list_df$code1) {
+for (series in list_df$series_code) {
     
   #read in files
   if (file.exists(paste(raw_dir,'/sdg_data/',series,'.csv',sep=""))) {
    
     tempmeta <- read_csv(paste(raw_dir,'/sdg_data/',series,'.csv',sep="")) %>%
     filter(!is.na(ind_value)) %>%
-    group_by(ind_metadata, code1) %>%
+    group_by(ind_metadata, series_code) %>%
     summarise(n = n()) %>%
     ungroup() %>%
     mutate(tot = sum(n),
@@ -301,13 +301,13 @@ for (series in list_df$code1) {
 
  un_sdg_meta_wide <- un_sdg_meta %>%
   filter(!is.na(ind_metadata)) %>%
-   group_by(code1, ind_metadata) %>%
+   group_by(series_code, ind_metadata) %>%
    summarise(source_share = mean(source_share)) %>%
    spread(ind_metadata, source_share) %>%
    mutate_all(as.character) %>%
   mutate(source_share = paste0("C: (", C, "), CA: (", CA, "), E: (", E, "), G: (", G, "), M: (", M, ")"),
          source_share = gsub("NA", "", source_share)) %>%
-   select(code1, source_share)
+   select(series_code, source_share)
   
 
 #read in OECD data for updates based on OECD database
@@ -338,7 +338,7 @@ if (exists('un_sdg_gender_df')) {
   rm(un_sdg_gender_df)
 }
 
-for (series in list_df$code1) {
+for (series in list_df$series_code) {
     
   #read in files
   if (file.exists(paste(raw_dir,'/sdg_data/',series,'_sex_disagg.csv',sep=""))) {
@@ -348,8 +348,8 @@ for (series in list_df$code1) {
         goal=as.character(goal), 
         target=as.character(target), 
         code==as.character(code), 
-        code1=as.character(code1), 
-        description1=as.character(description1)
+        series_code=as.character(series_code), 
+        series_description=as.character(series_description)
       )
     
     #   #now append it to the overall database
@@ -399,21 +399,21 @@ gender_df_empty <- bind_rows(replicate(length(span), iso3c, simplify = FALSE), .
   select(iso3c, date)
 
 #now append to get country by year by series
-gender_sdg_df_empty <- map_dfr(list_df$code1, ~(gender_df_empty %>% mutate(code1=.x)))
+gender_sdg_df_empty <- map_dfr(list_df$series_code, ~(gender_df_empty %>% mutate(series_code=.x)))
 
 #do the same for the gender disaggregated data
 gender_disagg_empty <- gender_df_empty %>% mutate(sex='FEMALE') %>%
   bind_rows(gender_df_empty %>% mutate(sex='MALE')) %>%
   bind_rows(gender_df_empty %>% mutate(sex='BOTHSEX')) 
 
-gender_disagg_sdg_df_empty <- map_dfr(list_df$code1, ~(gender_disagg_empty %>% mutate(code1=.x)))
+gender_disagg_sdg_df_empty <- map_dfr(list_df$series_code, ~(gender_disagg_empty %>% mutate(series_code=.x)))
 
 
 
 
 #create database of gender indicators whether they exist at all
   un_sdg_filled_df <-  gender_sdg_df_empty %>%
-    left_join(sdg_tab_merge %>% filter(!is.na(code1))) %>% #add ccode for specialized indicator grouping
+    left_join(sdg_tab_merge %>% filter(!is.na(series_code))) %>% #add ccode for specialized indicator grouping
     left_join(un_sdg_df) %>%
     filter(!is.na(Gender_Breakdown)) %>%
   mutate(ind_quality=if_else(is.na(ind_quality), 0,ind_quality))
@@ -423,7 +423,7 @@ gender_disagg_sdg_df_empty <- map_dfr(list_df$code1, ~(gender_disagg_empty %>% m
 #create database of gender indicators disaggregated by sex
 
   un_sdg_gender_filled_df <-  gender_disagg_sdg_df_empty %>%
-    left_join(sdg_tab_merge %>% filter(!is.na(code1)))  %>% #add ccode for specialized indicator grouping
+    left_join(sdg_tab_merge %>% filter(!is.na(series_code)))  %>% #add ccode for specialized indicator grouping
     left_join(un_sdg_gender_df) %>%
     filter(!is.na(Gender_Breakdown)) %>%
     mutate(ind_quality=if_else(is.na(ind_quality), 0,ind_quality))
@@ -508,7 +508,7 @@ un_aki_fun <- function(date_start, date_end) {
     tier1 <- un_sdg_combined_df %>%
       filter(between(date,date_start,date_end) ) %>%
       filter(!is.na(ind_quality)) %>%
-      filter(code1 %in% tier1_list) %>% #get just tier1 indicators  
+      filter(series_code %in% tier1_list) %>% #get just tier1 indicators  
       group_by(iso3c, ccode) %>%
       summarise(ind_quality=max(ind_quality, na.rm=T),
                 ind_value=mean(ind_value, na.rm=T),
@@ -528,7 +528,7 @@ un_aki_fun <- function(date_start, date_end) {
     tier2 <- un_sdg_combined_df %>%
       filter(between(date,date_start,date_end) ) %>%
       filter(!is.na(ind_quality)) %>%
-      filter(code1 %in% tier2_list) %>% #get just tier1 indicators  
+      filter(series_code %in% tier2_list) %>% #get just tier1 indicators  
       group_by(iso3c, ccode) %>%
       summarise(ind_quality=max(ind_quality, na.rm=T),
                 ind_value=mean(ind_value, na.rm=T),
@@ -551,7 +551,7 @@ un_aki_fun <- function(date_start, date_end) {
     top5_dhs_mics <- un_sdg_combined_df %>%
       filter(between(date,date_start,date_end) ) %>%
       filter(!is.na(ind_quality)) %>%
-      filter(!(code1 %in% top5_dhs_mics_list)) %>% #get just tier1 indicators  
+      filter(!(series_code %in% top5_dhs_mics_list)) %>% #get just tier1 indicators  
       group_by(iso3c, ccode) %>%
       summarise(ind_quality=max(ind_quality, na.rm=T),
                 ind_value=mean(ind_value, na.rm=T),
@@ -574,7 +574,7 @@ un_aki_fun <- function(date_start, date_end) {
     top7_dhs_mics <- un_sdg_combined_df %>%
       filter(between(date,date_start,date_end) ) %>%
       filter(!is.na(ind_quality)) %>%
-      filter(!(code1 %in% top7_dhs_mics_list)) %>% #get just tier1 indicators  
+      filter(!(series_code %in% top7_dhs_mics_list)) %>% #get just tier1 indicators  
       group_by(iso3c, ccode) %>%
       summarise(ind_quality=max(ind_quality, na.rm=T),
                 ind_value=mean(ind_value, na.rm=T),
@@ -1248,7 +1248,7 @@ sdg_gender_disagg_df <- sdg_gender_disagg_df %>%
 ```{r table1}
 
 metainfo <- list_df %>% 
-  left_join(sdg_tab_merge %>% filter(!is.na(code1))) %>%
+  left_join(sdg_tab_merge %>% filter(!is.na(series_code))) %>%
   select(ccode, code, description, goal, tier, Gender_Breakdown)
 
 disagg_tab_df <- sdg_gender_disagg_df %>%

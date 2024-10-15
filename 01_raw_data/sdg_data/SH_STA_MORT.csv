@@ -1,4 +1,4 @@
-﻿"iso3c","date","goal","target","code","code1","description1","ind_value","ind_metadata","ind_quality"
+﻿"iso3c","date","goal","target","code","series_code","series_description","ind_value","ind_metadata","ind_quality"
 "ABW",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ABW",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ABW",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -16,6 +16,9 @@
 "ABW",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ABW",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ABW",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ABW",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ABW",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ABW",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AFG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1114.88723,"E",1
 "AFG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1102.80976,"E",1
 "AFG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1044.40033,"E",1
@@ -33,6 +36,9 @@
 "AFG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",663.4275,"E",1
 "AFG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",644.27255,"E",1
 "AFG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",620.40751,"E",1
+"AFG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AFG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AFG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AGO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",594.19216,"E",1
 "AGO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",549.83896,"E",1
 "AGO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",507.72154,"E",1
@@ -50,6 +56,9 @@
 "AGO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",233.09626,"E",1
 "AGO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",227.68696,"E",1
 "AGO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",221.90649,"E",1
+"AGO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AGO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AGO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AIA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AIA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AIA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -67,6 +76,9 @@
 "AIA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AIA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AIA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"AIA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AIA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AIA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ALA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ALA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ALA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -84,6 +96,9 @@
 "ALA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ALA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ALA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ALA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ALA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ALA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ALB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.6316,"E",1
 "ALB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.8305,"E",1
 "ALB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.76677,"E",1
@@ -101,6 +116,9 @@
 "ALB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.42929,"E",1
 "ALB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.30502,"E",1
 "ALB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.27645,"E",1
+"ALB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ALB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ALB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AND",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AND",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AND",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -118,6 +136,9 @@
 "AND",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AND",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "AND",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"AND",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AND",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AND",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ARE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.14346,"E",1
 "ARE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.37994,"E",1
 "ARE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.94569,"E",1
@@ -135,6 +156,9 @@
 "ARE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.04669,"E",1
 "ARE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.43206,"E",1
 "ARE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.3407,"E",1
+"ARE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ARG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",73.30911,"E",1
 "ARG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",62.69842,"E",1
 "ARG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",61.4496,"E",1
@@ -152,6 +176,9 @@
 "ARG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",33.94483,"E",1
 "ARG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",32.60261,"E",1
 "ARG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.90008,"E",1
+"ARG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ARM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",41.58858,"E",1
 "ARM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",37.78068,"E",1
 "ARM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.92467,"E",1
@@ -169,6 +196,9 @@
 "ARM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",25.1014,"E",1
 "ARM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",24.938,"E",1
 "ARM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.18972,"E",1
+"ARM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ARM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ASM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ASM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ASM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -186,6 +216,9 @@
 "ASM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ASM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ASM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ASM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ASM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ASM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ATA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -203,6 +236,9 @@
 "ATA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ATA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ATF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -220,6 +256,9 @@
 "ATF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ATF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ATF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ATG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",43.3603,"E",1
 "ATG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",34.02187,"E",1
 "ATG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",34.88743,"E",1
@@ -237,6 +276,9 @@
 "ATG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.86736,"E",1
 "ATG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.9132,"E",1
 "ATG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.24795,"E",1
+"ATG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ATG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AUS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.11737,"E",1
 "AUS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.59569,"E",1
 "AUS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.56596,"E",1
@@ -254,6 +296,9 @@
 "AUS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.42425,"E",1
 "AUS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.08551,"E",1
 "AUS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.94151,"E",1
+"AUS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AUS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AUS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AUT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.48865,"E",1
 "AUT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.85059,"E",1
 "AUT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.54511,"E",1
@@ -271,6 +316,9 @@
 "AUT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.82625,"E",1
 "AUT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.4957,"E",1
 "AUT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.22839,"E",1
+"AUT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AUT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AUT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "AZE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.81153,"E",1
 "AZE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",43.89283,"E",1
 "AZE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",38.76129,"E",1
@@ -288,6 +336,9 @@
 "AZE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.59978,"E",1
 "AZE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.86957,"E",1
 "AZE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",40.76367,"E",1
+"AZE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AZE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"AZE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BDI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",739.56276,"E",1
 "BDI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",712.76769,"E",1
 "BDI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",695.55158,"E",1
@@ -305,6 +356,9 @@
 "BDI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",517.90526,"E",1
 "BDI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",479.29015,"E",1
 "BDI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",494.42978,"E",1
+"BDI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BDI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BDI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BEL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.93755,"E",1
 "BEL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.75314,"E",1
 "BEL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.41128,"E",1
@@ -322,6 +376,9 @@
 "BEL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.90796,"E",1
 "BEL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.60334,"E",1
 "BEL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.75586,"E",1
+"BEL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BEL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BEL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BEN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",519.95174,"E",1
 "BEN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",509.18937,"E",1
 "BEN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",502.90343,"E",1
@@ -339,6 +396,9 @@
 "BEN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",542.46051,"E",1
 "BEN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",521.86673,"E",1
 "BEN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",522.60474,"E",1
+"BEN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BEN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BEN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BES",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BES",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BES",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -356,6 +416,9 @@
 "BES",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BES",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BES",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"BES",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BES",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BES",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BFA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",438.34771,"E",1
 "BFA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",416.89036,"E",1
 "BFA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",405.90953,"E",1
@@ -373,6 +436,9 @@
 "BFA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",276.62409,"E",1
 "BFA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",283.25668,"E",1
 "BFA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",263.7554,"E",1
+"BFA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BFA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BFA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BGD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",371.69461,"E",1
 "BGD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",375.86404,"E",1
 "BGD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",352.53011,"E",1
@@ -390,6 +456,9 @@
 "BGD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",172.13547,"E",1
 "BGD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",157.16106,"E",1
 "BGD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",123.02825,"E",1
+"BGD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BGD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BGD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BGR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.12295,"E",1
 "BGR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.71778,"E",1
 "BGR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.82236,"E",1
@@ -407,6 +476,9 @@
 "BGR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.16773,"E",1
 "BGR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.72991,"E",1
 "BGR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.08603,"E",1
+"BGR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BGR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BGR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BHR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.7697,"E",1
 "BHR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.16522,"E",1
 "BHR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.95311,"E",1
@@ -424,6 +496,9 @@
 "BHR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.74495,"E",1
 "BHR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.50396,"E",1
 "BHR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.89788,"E",1
+"BHR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BHR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BHR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BHS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.48042,"E",1
 "BHS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",73.90935,"E",1
 "BHS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",79.1916,"E",1
@@ -441,6 +516,9 @@
 "BHS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.08031,"E",1
 "BHS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",82.02699,"E",1
 "BHS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.05063,"E",1
+"BHS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BHS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BHS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BIH",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.33485,"E",1
 "BIH",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.46767,"E",1
 "BIH",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.0616,"E",1
@@ -458,6 +536,9 @@
 "BIH",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.54747,"E",1
 "BIH",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.3941,"E",1
 "BIH",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.6684,"E",1
+"BIH",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BIH",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BIH",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BLM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BLM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BLM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -475,6 +556,9 @@
 "BLM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BLM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BLM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"BLM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BLR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.79673,"E",1
 "BLR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.76858,"E",1
 "BLR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.06859,"E",1
@@ -492,6 +576,9 @@
 "BLR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.11169,"E",1
 "BLR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.08201,"E",1
 "BLR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.10192,"E",1
+"BLR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BLZ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",79.54213,"E",1
 "BLZ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.88607,"E",1
 "BLZ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",64.39338,"E",1
@@ -509,6 +596,9 @@
 "BLZ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",78.44683,"E",1
 "BLZ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",86.01262,"E",1
 "BLZ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",129.78827,"E",1
+"BLZ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLZ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BLZ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BMU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BMU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BMU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -526,6 +616,9 @@
 "BMU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BMU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BMU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"BMU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BMU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BMU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BOL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",235.55935,"E",1
 "BOL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",230.08482,"E",1
 "BOL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",218.42091,"E",1
@@ -543,6 +636,9 @@
 "BOL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",171.43248,"E",1
 "BOL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",175.75274,"E",1
 "BOL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",160.9074,"E",1
+"BOL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BOL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BOL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BRA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",69.77313,"E",1
 "BRA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",69.96844,"E",1
 "BRA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.32388,"E",1
@@ -560,6 +656,9 @@
 "BRA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",59.1834,"E",1
 "BRA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",60.73517,"E",1
 "BRA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.14754,"E",1
+"BRA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BRB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.72807,"E",1
 "BRB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.6275,"E",1
 "BRB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.11512,"E",1
@@ -577,6 +676,9 @@
 "BRB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",47.09738,"E",1
 "BRB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.62337,"E",1
 "BRB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.10801,"E",1
+"BRB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BRN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.14496,"E",1
 "BRN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.98728,"E",1
 "BRN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.3565,"E",1
@@ -594,6 +696,9 @@
 "BRN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.92879,"E",1
 "BRN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.99773,"E",1
 "BRN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.23606,"E",1
+"BRN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BRN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BTN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",196.5206,"E",1
 "BTN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",185.80011,"E",1
 "BTN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",183.099,"E",1
@@ -611,6 +716,9 @@
 "BTN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",57.31804,"E",1
 "BTN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",61.60915,"E",1
 "BTN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",59.94776,"E",1
+"BTN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BTN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BTN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BVT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BVT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BVT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -628,6 +736,9 @@
 "BVT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BVT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "BVT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"BVT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BVT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BVT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "BWA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",196.19945,"E",1
 "BWA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",201.4597,"E",1
 "BWA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",213.01696,"E",1
@@ -645,6 +756,9 @@
 "BWA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",162.26725,"E",1
 "BWA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",117.87685,"E",1
 "BWA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",185.89684,"E",1
+"BWA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BWA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"BWA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CAF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1217.48678,"E",1
 "CAF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1158.00143,"E",1
 "CAF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1116.40169,"E",1
@@ -662,6 +776,9 @@
 "CAF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",867.63413,"E",1
 "CAF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",847.28541,"E",1
 "CAF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",835.26601,"E",1
+"CAF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CAF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CAF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CAN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.65891,"E",1
 "CAN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.33054,"E",1
 "CAN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.9705,"E",1
@@ -679,6 +796,9 @@
 "CAN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.00097,"E",1
 "CAN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.15627,"E",1
 "CAN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.01287,"E",1
+"CAN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CAN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CAN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CCK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CCK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CCK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -696,6 +816,9 @@
 "CCK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CCK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CCK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"CCK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CCK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CCK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CHE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.94237,"E",1
 "CHE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.38462,"E",1
 "CHE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.90644,"E",1
@@ -713,6 +836,9 @@
 "CHE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.43487,"E",1
 "CHE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.10454,"E",1
 "CHE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.37875,"E",1
+"CHE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CHL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.76468,"E",1
 "CHL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.26825,"E",1
 "CHL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.10072,"E",1
@@ -730,6 +856,9 @@
 "CHL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.13551,"E",1
 "CHL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.60006,"E",1
 "CHL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.03074,"E",1
+"CHL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CHN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",48.77667,"E",1
 "CHN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.59248,"E",1
 "CHN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.55417,"E",1
@@ -747,6 +876,9 @@
 "CHN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.35598,"E",1
 "CHN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.3975,"E",1
 "CHN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",23.04763,"E",1
+"CHN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CHN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CIV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",536.08183,"E",1
 "CIV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",540.25462,"E",1
 "CIV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",582.76113,"E",1
@@ -764,6 +896,9 @@
 "CIV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",522.26569,"E",1
 "CIV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",482.86071,"E",1
 "CIV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",479.90675,"E",1
+"CIV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CIV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CIV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CMR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",555.62467,"E",1
 "CMR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",572.94485,"E",1
 "CMR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",558.27314,"E",1
@@ -781,6 +916,9 @@
 "CMR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",423.89329,"E",1
 "CMR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",439.76751,"E",1
 "CMR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",437.75285,"E",1
+"CMR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CMR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CMR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "COD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",643.32966,"E",1
 "COD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",634.8282,"E",1
 "COD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",618.63949,"E",1
@@ -798,6 +936,9 @@
 "COD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",543.4782,"E",1
 "COD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",540.70228,"E",1
 "COD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",547.36028,"E",1
+"COD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "COG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",541.07265,"E",1
 "COG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",487.7581,"E",1
 "COG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",479.12256,"E",1
@@ -815,6 +956,9 @@
 "COG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",370.06052,"E",1
 "COG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",292.12093,"E",1
 "COG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",282.38575,"E",1
+"COG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "COK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "COK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "COK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -832,6 +976,9 @@
 "COK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "COK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "COK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"COK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "COL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",82.35472,"E",1
 "COL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",81.78541,"E",1
 "COL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",81.71697,"E",1
@@ -849,6 +996,9 @@
 "COL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",63.14635,"E",1
 "COL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.44107,"E",1
 "COL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",74.7629,"E",1
+"COL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "COM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",374.41507,"E",1
 "COM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",360.46148,"E",1
 "COM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",364.85255,"E",1
@@ -866,6 +1016,9 @@
 "COM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",243.56516,"E",1
 "COM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",236.59631,"E",1
 "COM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",216.95373,"E",1
+"COM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"COM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CPV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",73.65291,"E",1
 "CPV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",76.8877,"E",1
 "CPV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.59939,"E",1
@@ -883,6 +1036,9 @@
 "CPV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",48.02332,"E",1
 "CPV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.0967,"E",1
 "CPV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.24144,"E",1
+"CPV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CPV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CPV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CRI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",31.82975,"E",1
 "CRI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.53662,"E",1
 "CRI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.45057,"E",1
@@ -900,6 +1056,9 @@
 "CRI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.98992,"E",1
 "CRI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.69613,"E",1
 "CRI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",22.00381,"E",1
+"CRI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CRI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CRI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CUB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",41.21648,"E",1
 "CUB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",43.46832,"E",1
 "CUB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.90242,"E",1
@@ -917,6 +1076,9 @@
 "CUB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",38.6073,"E",1
 "CUB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",40.29785,"E",1
 "CUB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.25455,"E",1
+"CUB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CUB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CUB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CUW",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CUW",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CUW",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -934,6 +1096,9 @@
 "CUW",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CUW",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CUW",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"CUW",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CUW",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CUW",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CXR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CXR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CXR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -951,6 +1116,9 @@
 "CXR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CXR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CXR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"CXR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CXR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CXR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CYM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CYM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CYM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -968,6 +1136,9 @@
 "CYM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CYM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "CYM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"CYM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CYM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CYM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CYP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",32.02489,"E",1
 "CYP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.31871,"E",1
 "CYP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.62386,"E",1
@@ -985,6 +1156,9 @@
 "CYP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.51631,"E",1
 "CYP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",63.81406,"E",1
 "CYP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",68.40659,"E",1
+"CYP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CYP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CYP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "CZE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.7283,"E",1
 "CZE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.27713,"E",1
 "CZE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.70081,"E",1
@@ -1002,6 +1176,9 @@
 "CZE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.18415,"E",1
 "CZE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.33524,"E",1
 "CZE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.37402,"E",1
+"CZE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CZE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"CZE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DEU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.87104,"E",1
 "DEU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.92619,"E",1
 "DEU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.39537,"E",1
@@ -1019,6 +1196,9 @@
 "DEU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.70637,"E",1
 "DEU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.44996,"E",1
 "DEU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.42844,"E",1
+"DEU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DEU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DEU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DJI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",393.78531,"E",1
 "DJI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",368.20952,"E",1
 "DJI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",322.19274,"E",1
@@ -1036,6 +1216,9 @@
 "DJI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",256.895,"E",1
 "DJI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",244.09667,"E",1
 "DJI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",234.49007,"E",1
+"DJI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DJI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DJI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DMA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "DMA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "DMA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1053,6 +1236,9 @@
 "DMA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "DMA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "DMA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"DMA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DMA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DMA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DNK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.4246,"E",1
 "DNK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.90089,"E",1
 "DNK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.62904,"E",1
@@ -1070,6 +1256,9 @@
 "DNK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.01327,"E",1
 "DNK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.51945,"E",1
 "DNK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.65772,"E",1
+"DNK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DNK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DNK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DOM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",81.48957,"E",1
 "DOM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",86.68351,"E",1
 "DOM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",84.98428,"E",1
@@ -1087,6 +1276,9 @@
 "DOM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",109.27617,"E",1
 "DOM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",102.90618,"E",1
 "DOM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",107.34754,"E",1
+"DOM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DOM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DOM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "DZA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",136.83983,"E",1
 "DZA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",143.5237,"E",1
 "DZA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",134.48117,"E",1
@@ -1104,6 +1296,9 @@
 "DZA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",79.49121,"E",1
 "DZA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",76.714340000000007,"E",1
 "DZA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.69479,"E",1
+"DZA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DZA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"DZA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ECU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.20378,"E",1
 "ECU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",92.22148,"E",1
 "ECU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",90.19382,"E",1
@@ -1121,6 +1316,9 @@
 "ECU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.33758,"E",1
 "ECU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",73.79165,"E",1
 "ECU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.74967,"E",1
+"ECU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ECU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ECU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "EGY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",62.58319,"E",1
 "EGY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",57.65885,"E",1
 "EGY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",52.86251,"E",1
@@ -1138,6 +1336,9 @@
 "EGY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.05367,"E",1
 "EGY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.76567,"E",1
 "EGY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.81971,"E",1
+"EGY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"EGY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"EGY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ERI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",575.06357,"E",1
 "ERI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",545.97527,"E",1
 "ERI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",522.11393,"E",1
@@ -1155,6 +1356,9 @@
 "ERI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",337.75058,"E",1
 "ERI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",331.53104,"E",1
 "ERI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",321.55071,"E",1
+"ERI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ERI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ERI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ESH",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ESH",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ESH",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1172,6 +1376,9 @@
 "ESH",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ESH",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "ESH",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"ESH",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ESH",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ESH",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ESP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.55348,"E",1
 "ESP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.48906,"E",1
 "ESP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.3039,"E",1
@@ -1189,6 +1396,9 @@
 "ESP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.05448,"E",1
 "ESP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.16769,"E",1
 "ESP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.44125,"E",1
+"ESP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ESP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ESP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "EST",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.06184,"E",1
 "EST",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.02089,"E",1
 "EST",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.90623,"E",1
@@ -1206,6 +1416,9 @@
 "EST",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.36849,"E",1
 "EST",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.06545,"E",1
 "EST",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.17964,"E",1
+"EST",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"EST",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"EST",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ETH",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",900.37818,"E",1
 "ETH",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",879.85576,"E",1
 "ETH",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",814.15689,"E",1
@@ -1223,6 +1436,9 @@
 "ETH",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",311.85239,"E",1
 "ETH",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",294.02185,"E",1
 "ETH",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",266.68956,"E",1
+"ETH",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ETH",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ETH",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FIN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.26304,"E",1
 "FIN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.73781,"E",1
 "FIN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.68799,"E",1
@@ -1240,6 +1456,9 @@
 "FIN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.67408,"E",1
 "FIN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.53353,"E",1
 "FIN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.3389,"E",1
+"FIN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FIN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FIN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FJI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.39742,"E",1
 "FJI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.27983,"E",1
 "FJI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.20479,"E",1
@@ -1257,6 +1476,9 @@
 "FJI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",36.5823,"E",1
 "FJI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",38.16064,"E",1
 "FJI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",38.04679,"E",1
+"FJI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FJI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FJI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FLK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FLK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FLK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1274,6 +1496,9 @@
 "FLK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FLK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FLK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"FLK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FLK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FLK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FRA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.87818,"E",1
 "FRA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.78957,"E",1
 "FRA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.84275,"E",1
@@ -1291,6 +1516,9 @@
 "FRA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.8024,"E",1
 "FRA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.73159,"E",1
 "FRA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.90908,"E",1
+"FRA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FRA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FRA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FRO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FRO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FRO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1308,6 +1536,9 @@
 "FRO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FRO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "FRO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"FRO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FRO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FRO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "FSM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",62.48632,"E",1
 "FSM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",56.89563,"E",1
 "FSM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.32359,"E",1
@@ -1325,6 +1556,9 @@
 "FSM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",68.88322,"E",1
 "FSM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.16934,"E",1
 "FSM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",74.31193,"E",1
+"FSM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FSM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"FSM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GAB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",226.96554,"E",1
 "GAB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",239.4148,"E",1
 "GAB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",238.57549,"E",1
@@ -1342,6 +1576,9 @@
 "GAB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",228.56613,"E",1
 "GAB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",225.47479,"E",1
 "GAB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",226.55044,"E",1
+"GAB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GAB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GAB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GBR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.06449,"E",1
 "GBR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.0457,"E",1
 "GBR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.95546,"E",1
@@ -1359,6 +1596,9 @@
 "GBR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.20921,"E",1
 "GBR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.2236,"E",1
 "GBR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.84248,"E",1
+"GBR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GBR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GBR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GEO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.12504,"E",1
 "GEO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.43146,"E",1
 "GEO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.15136,"E",1
@@ -1376,6 +1616,9 @@
 "GEO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.21116,"E",1
 "GEO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.46745,"E",1
 "GEO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.60825,"E",1
+"GEO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GEO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GEO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GGY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GGY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GGY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1393,6 +1636,9 @@
 "GGY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GGY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GGY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GGY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GGY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GGY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GHA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",420.372,"E",1
 "GHA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",389.7518,"E",1
 "GHA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",364.6681,"E",1
@@ -1410,6 +1656,9 @@
 "GHA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",272.81522,"E",1
 "GHA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",243.84126,"E",1
 "GHA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",263.10859,"E",1
+"GHA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GHA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GHA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GIB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GIB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GIB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1427,6 +1676,9 @@
 "GIB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GIB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GIB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GIB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GIB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GIB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GIN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",887.22041,"E",1
 "GIN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",845.61365,"E",1
 "GIN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",817.41962,"E",1
@@ -1444,6 +1696,9 @@
 "GIN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",567.71805,"E",1
 "GIN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",555.54398,"E",1
 "GIN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",553.40159,"E",1
+"GIN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GIN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GIN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GLP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GLP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GLP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1461,6 +1716,9 @@
 "GLP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GLP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GLP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GLP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GLP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GLP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GMB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",744.8982,"E",1
 "GMB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",718.42123,"E",1
 "GMB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",689.26615,"E",1
@@ -1478,6 +1736,9 @@
 "GMB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",511.59036,"E",1
 "GMB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",474.35437,"E",1
 "GMB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",458.24029,"E",1
+"GMB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GMB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GMB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GNB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1007.82697,"E",1
 "GNB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",976.94744,"E",1
 "GNB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",874.76097,"E",1
@@ -1495,6 +1756,9 @@
 "GNB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",648.23576,"E",1
 "GNB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",709.50776,"E",1
 "GNB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",725.09243,"E",1
+"GNB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GNB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GNB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GNQ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",285.58294,"E",1
 "GNQ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",258.22607,"E",1
 "GNQ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",240.77476,"E",1
@@ -1512,6 +1776,9 @@
 "GNQ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",219.04197,"E",1
 "GNQ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",216.35485,"E",1
 "GNQ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",212.3303,"E",1
+"GNQ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GNQ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GNQ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GRC",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.37581,"E",1
 "GRC",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.21056,"E",1
 "GRC",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.1836700000000002,"E",1
@@ -1529,6 +1796,9 @@
 "GRC",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.69884,"E",1
 "GRC",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.96184,"E",1
 "GRC",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.65435,"E",1
+"GRC",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRC",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRC",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GRD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",40.93485,"E",1
 "GRD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",31.87681,"E",1
 "GRD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.13988,"E",1
@@ -1546,6 +1816,9 @@
 "GRD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.08288,"E",1
 "GRD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.48457,"E",1
 "GRD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.13829,"E",1
+"GRD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GRL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GRL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GRL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1563,6 +1836,9 @@
 "GRL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GRL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GRL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GRL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GRL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GTM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",140.07655,"E",1
 "GTM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",149.23767,"E",1
 "GTM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",135.00038,"E",1
@@ -1580,6 +1856,9 @@
 "GTM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",98.41375,"E",1
 "GTM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",100.29055,"E",1
 "GTM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",95.50208,"E",1
+"GTM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GTM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GTM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GUF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1597,6 +1876,9 @@
 "GUF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GUF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GUM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1614,6 +1896,9 @@
 "GUM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "GUM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"GUM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "GUY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",171.66481,"E",1
 "GUY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",171.67382,"E",1
 "GUY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",177.30574,"E",1
@@ -1631,6 +1916,9 @@
 "GUY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",117.70569,"E",1
 "GUY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",109.76432,"E",1
 "GUY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",111.94294,"E",1
+"GUY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"GUY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HKG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HKG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HKG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1648,6 +1936,9 @@
 "HKG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HKG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HKG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"HKG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HKG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HKG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HMD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HMD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HMD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1665,6 +1956,9 @@
 "HMD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HMD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "HMD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"HMD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HMD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HMD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HND",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.97826,"E",1
 "HND",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",75.10756,"E",1
 "HND",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.09738,"E",1
@@ -1682,6 +1976,9 @@
 "HND",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.09502,"E",1
 "HND",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",66.63822,"E",1
 "HND",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.81928,"E",1
+"HND",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HND",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HND",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HRV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.72103,"E",1
 "HRV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.22811,"E",1
 "HRV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.75829,"E",1
@@ -1699,6 +1996,9 @@
 "HRV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.89074,"E",1
 "HRV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.53287,"E",1
 "HRV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.81682,"E",1
+"HRV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HRV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HRV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HTI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",429.12925,"E",1
 "HTI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",362.92487,"E",1
 "HTI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",342.76057,"E",1
@@ -1716,6 +2016,9 @@
 "HTI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",358.7682,"E",1
 "HTI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",348.66592,"E",1
 "HTI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",350.40023,"E",1
+"HTI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HTI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HTI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "HUN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.02964,"E",1
 "HUN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.31743,"E",1
 "HUN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.76716,"E",1
@@ -1733,6 +2036,9 @@
 "HUN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.58146,"E",1
 "HUN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.10705,"E",1
 "HUN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.04889,"E",1
+"HUN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HUN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"HUN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IDN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",284.09328,"E",1
 "IDN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",276.13935,"E",1
 "IDN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",254.02721,"E",1
@@ -1750,6 +2056,9 @@
 "IDN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",181.13231,"E",1
 "IDN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",158.17068,"E",1
 "IDN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",172.92251,"E",1
+"IDN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IDN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IDN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IMN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IMN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IMN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1767,6 +2076,9 @@
 "IMN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IMN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IMN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"IMN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IMN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IMN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IND",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",301.25328,"E",1
 "IND",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",285.73058,"E",1
 "IND",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",248.16779,"E",1
@@ -1784,6 +2096,9 @@
 "IND",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",115.7112,"E",1
 "IND",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",116.38938,"E",1
 "IND",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",102.65391,"E",1
+"IND",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IND",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IND",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IOT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IOT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IOT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1801,6 +2116,9 @@
 "IOT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IOT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "IOT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"IOT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IOT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IOT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IRL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.98283,"E",1
 "IRL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.60985,"E",1
 "IRL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.90994,"E",1
@@ -1818,6 +2136,9 @@
 "IRL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.43022,"E",1
 "IRL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.5232,"E",1
 "IRL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.98396,"E",1
+"IRL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IRN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",37.96192,"E",1
 "IRN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.22402,"E",1
 "IRN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.51206,"E",1
@@ -1835,6 +2156,9 @@
 "IRN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.43931,"E",1
 "IRN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.87619,"E",1
 "IRN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",22.01889,"E",1
+"IRN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "IRQ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",118.45936,"E",1
 "IRQ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",115.62751,"E",1
 "IRQ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",122.30174,"E",1
@@ -1852,6 +2176,9 @@
 "IRQ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.92842,"E",1
 "IRQ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.77916,"E",1
 "IRQ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",76.11046,"E",1
+"IRQ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRQ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"IRQ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ISL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.27065,"E",1
 "ISL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.04386,"E",1
 "ISL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.03048,"E",1
@@ -1869,6 +2196,9 @@
 "ISL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.80324,"E",1
 "ISL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.12294,"E",1
 "ISL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.65442,"E",1
+"ISL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ISL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ISL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ISR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.23622,"E",1
 "ISR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.07998,"E",1
 "ISR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.82406,"E",1
@@ -1886,6 +2216,9 @@
 "ISR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.66681,"E",1
 "ISR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.62696,"E",1
 "ISR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.83786,"E",1
+"ISR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ISR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ISR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ITA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.89939,"E",1
 "ITA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.74645,"E",1
 "ITA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.23907,"E",1
@@ -1903,6 +2236,9 @@
 "ITA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.88753,"E",1
 "ITA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.72368,"E",1
 "ITA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.59094,"E",1
+"ITA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ITA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ITA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "JAM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",81.77084,"E",1
 "JAM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",86.15855,"E",1
 "JAM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.1998,"E",1
@@ -1920,6 +2256,9 @@
 "JAM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",90.51271,"E",1
 "JAM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",93.04639,"E",1
 "JAM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",98.87891,"E",1
+"JAM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JAM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JAM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "JEY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "JEY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "JEY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -1937,6 +2276,9 @@
 "JEY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "JEY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "JEY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"JEY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JEY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JEY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "JOR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.78852,"E",1
 "JOR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",57.73762,"E",1
 "JOR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",55.7045,"E",1
@@ -1954,6 +2296,9 @@
 "JOR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",41.6902,"E",1
 "JOR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",41.29181,"E",1
 "JOR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",41.31479,"E",1
+"JOR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JOR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JOR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "JPN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.32104,"E",1
 "JPN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.18475,"E",1
 "JPN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.5707700000000004,"E",1
@@ -1971,6 +2316,9 @@
 "JPN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.19423,"E",1
 "JPN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.24892,"E",1
 "JPN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.31491,"E",1
+"JPN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JPN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"JPN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KAZ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",35.98777,"E",1
 "KAZ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",35.53063,"E",1
 "KAZ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.56539,"E",1
@@ -1988,6 +2336,9 @@
 "KAZ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.80216,"E",1
 "KAZ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.01699,"E",1
 "KAZ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.38363,"E",1
+"KAZ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KAZ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KAZ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KEN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",504.09484,"E",1
 "KEN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",503.43676,"E",1
 "KEN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",493.36146,"E",1
@@ -2005,6 +2356,9 @@
 "KEN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",511.51001,"E",1
 "KEN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",502.91655,"E",1
 "KEN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",529.96226,"E",1
+"KEN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KEN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KEN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KGZ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",84.50026,"E",1
 "KGZ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",83.38379,"E",1
 "KGZ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.9241,"E",1
@@ -2022,6 +2376,9 @@
 "KGZ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.67607,"E",1
 "KGZ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",47.4402,"E",1
 "KGZ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.38244,"E",1
+"KGZ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KGZ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KGZ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KHM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",446.72474,"E",1
 "KHM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",381.77871,"E",1
 "KHM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",349.59471,"E",1
@@ -2039,6 +2396,9 @@
 "KHM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",209.22378,"E",1
 "KHM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",214.18641,"E",1
 "KHM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",217.98315,"E",1
+"KHM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KHM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KHM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KIR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",116.13476,"E",1
 "KIR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",117.73514,"E",1
 "KIR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",116.44705,"E",1
@@ -2056,6 +2416,9 @@
 "KIR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",110.35632,"E",1
 "KIR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",108.22569,"E",1
 "KIR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",76.33471,"E",1
+"KIR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KIR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KIR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KNA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "KNA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "KNA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2073,6 +2436,9 @@
 "KNA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "KNA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "KNA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"KNA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KNA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KNA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KOR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.77184,"E",1
 "KOR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.40634,"E",1
 "KOR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.1831,"E",1
@@ -2090,6 +2456,9 @@
 "KOR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.41181,"E",1
 "KOR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.36005,"E",1
 "KOR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.11562,"E",1
+"KOR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KOR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KOR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "KWT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.79571,"E",1
 "KWT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.70778,"E",1
 "KWT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.84593,"E",1
@@ -2107,6 +2476,9 @@
 "KWT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.7824,"E",1
 "KWT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.34006,"E",1
 "KWT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.1709,"E",1
+"KWT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KWT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"KWT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LAO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",470.93568,"E",1
 "LAO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",442.20101,"E",1
 "LAO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",416.53023,"E",1
@@ -2124,6 +2496,9 @@
 "LAO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",165.27107,"E",1
 "LAO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",153.34427,"E",1
 "LAO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",126.06175,"E",1
+"LAO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LAO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LAO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LBN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",24.59849,"E",1
 "LBN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",24.61545,"E",1
 "LBN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.07721,"E",1
@@ -2141,6 +2516,9 @@
 "LBN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.85494,"E",1
 "LBN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.59276,"E",1
 "LBN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.62462,"E",1
+"LBN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LBR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",699.78903,"E",1
 "LBR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",676.47392,"E",1
 "LBR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",664.49954,"E",1
@@ -2158,6 +2536,9 @@
 "LBR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",683.75754,"E",1
 "LBR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",667.96208,"E",1
 "LBR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",652.33873,"E",1
+"LBR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LBY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",49.47804,"E",1
 "LBY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.10017,"E",1
 "LBY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",51.65778,"E",1
@@ -2175,6 +2556,9 @@
 "LBY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",69.01574,"E",1
 "LBY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.49054,"E",1
 "LBY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.1271,"E",1
+"LBY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LBY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LCA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",83.44048,"E",1
 "LCA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",81.83926,"E",1
 "LCA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",79.31456,"E",1
@@ -2192,6 +2576,9 @@
 "LCA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",61.20825,"E",1
 "LCA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",72.0371,"E",1
 "LCA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",73.26798,"E",1
+"LCA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LCA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LCA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LIE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "LIE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "LIE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2209,6 +2596,9 @@
 "LIE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "LIE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "LIE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"LIE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LIE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LIE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LKA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",48.09901,"E",1
 "LKA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.01376,"E",1
 "LKA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",40.74859,"E",1
@@ -2226,6 +2616,9 @@
 "LKA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.29092,"E",1
 "LKA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.82097,"E",1
 "LKA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.84231,"E",1
+"LKA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LKA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LKA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LSO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",554.82605,"E",1
 "LSO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",562.89174,"E",1
 "LSO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",632.05547,"E",1
@@ -2243,6 +2636,9 @@
 "LSO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",598.63927,"E",1
 "LSO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",628.86487,"E",1
 "LSO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",566.20625,"E",1
+"LSO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LSO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LSO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LTU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.03094,"E",1
 "LTU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.37465,"E",1
 "LTU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.44831,"E",1
@@ -2260,6 +2656,9 @@
 "LTU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.84595,"E",1
 "LTU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.35745,"E",1
 "LTU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.66048,"E",1
+"LTU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LTU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LTU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LUX",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.47353,"E",1
 "LUX",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.6829,"E",1
 "LUX",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.38945,"E",1
@@ -2277,6 +2676,9 @@
 "LUX",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.62667,"E",1
 "LUX",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.41366,"E",1
 "LUX",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.4855,"E",1
+"LUX",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LUX",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LUX",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "LVA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",31.14076,"E",1
 "LVA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.01326,"E",1
 "LVA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.02717,"E",1
@@ -2294,6 +2696,9 @@
 "LVA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",23.36722,"E",1
 "LVA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.80957,"E",1
 "LVA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.32162,"E",1
+"LVA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LVA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"LVA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MAC",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAC",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAC",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2311,6 +2716,9 @@
 "MAC",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAC",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAC",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MAC",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAC",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAC",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MAF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2328,6 +2736,9 @@
 "MAF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MAF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MAF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MAR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",209.06679,"E",1
 "MAR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",194.21168,"E",1
 "MAR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",179.46183,"E",1
@@ -2345,6 +2756,9 @@
 "MAR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",78.01026,"E",1
 "MAR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",76.35814,"E",1
 "MAR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.85185,"E",1
+"MAR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MAR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MCO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MCO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MCO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2362,6 +2776,9 @@
 "MCO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MCO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MCO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MCO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MCO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MCO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MDA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.23497,"E",1
 "MDA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.09974,"E",1
 "MDA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.57547,"E",1
@@ -2379,6 +2796,9 @@
 "MDA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.48033,"E",1
 "MDA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.09517,"E",1
 "MDA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.26477,"E",1
+"MDA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MDG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",597.78488,"E",1
 "MDG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",567.53187,"E",1
 "MDG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",537.31195,"E",1
@@ -2396,6 +2816,9 @@
 "MDG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",423.27181,"E",1
 "MDG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",397.63772,"E",1
 "MDG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",391.51692,"E",1
+"MDG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MDV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",78.96767,"E",1
 "MDV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",78.75982,"E",1
 "MDV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.43945,"E",1
@@ -2413,6 +2836,9 @@
 "MDV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",48.53197,"E",1
 "MDV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.32476,"E",1
 "MDV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",56.6938,"E",1
+"MDV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MDV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MEX",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",52.6147,"E",1
 "MEX",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.3331,"E",1
 "MEX",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",54.39738,"E",1
@@ -2430,6 +2856,9 @@
 "MEX",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",55.52821,"E",1
 "MEX",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",57.9698,"E",1
 "MEX",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",59.12507,"E",1
+"MEX",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MEX",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MEX",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MHL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MHL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MHL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2447,6 +2876,9 @@
 "MHL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MHL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MHL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MHL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MHL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MHL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MKD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.0776,"E",1
 "MKD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.87876,"E",1
 "MKD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.08626,"E",1
@@ -2464,6 +2896,9 @@
 "MKD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.87943,"E",1
 "MKD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.086,"E",1
 "MKD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.03597,"E",1
+"MKD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MKD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MKD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MLI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",562.67112,"E",1
 "MLI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",560.32413,"E",1
 "MLI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",548.83807,"E",1
@@ -2481,6 +2916,9 @@
 "MLI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",439.53977,"E",1
 "MLI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",428.26315,"E",1
 "MLI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",440.2248,"E",1
+"MLI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MLI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MLI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MLT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.40827,"E",1
 "MLT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.63634,"E",1
 "MLT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.22085,"E",1
@@ -2498,6 +2936,9 @@
 "MLT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.05398,"E",1
 "MLT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.0504,"E",1
 "MLT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",2.89278,"E",1
+"MLT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MLT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MLT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MMR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",325.75431,"E",1
 "MMR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",321.16552,"E",1
 "MMR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",331.80115,"E",1
@@ -2515,6 +2956,9 @@
 "MMR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",214.53393,"E",1
 "MMR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",212.97036,"E",1
 "MMR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",178.67438,"E",1
+"MMR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MMR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MMR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MNE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.38755,"E",1
 "MNE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.61711,"E",1
 "MNE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.42944,"E",1
@@ -2532,6 +2976,9 @@
 "MNE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.3854,"E",1
 "MNE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.81691,"E",1
 "MNE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.17443,"E",1
+"MNE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MNG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",100.95142,"E",1
 "MNG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",93.9948,"E",1
 "MNG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.47634,"E",1
@@ -2549,6 +2996,9 @@
 "MNG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.20453,"E",1
 "MNG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.70739,"E",1
 "MNG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.49361,"E",1
+"MNG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MNP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MNP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MNP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2566,6 +3016,9 @@
 "MNP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MNP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MNP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MNP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MNP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MOZ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",419.90708,"E",1
 "MOZ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",403.92913,"E",1
 "MOZ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",389.58057,"E",1
@@ -2583,6 +3036,9 @@
 "MOZ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",160.25721,"E",1
 "MOZ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",149.91914,"E",1
 "MOZ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",127.11053,"E",1
+"MOZ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MOZ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MOZ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MRT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",657.05256,"E",1
 "MRT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",652.12084,"E",1
 "MRT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",654.28852,"E",1
@@ -2600,6 +3056,9 @@
 "MRT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",461.18158,"E",1
 "MRT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",431.10108,"E",1
 "MRT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",463.8321,"E",1
+"MRT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MRT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MRT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MSR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MSR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MSR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2617,6 +3076,9 @@
 "MSR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MSR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MSR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MSR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MSR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MSR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MTQ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MTQ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MTQ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2634,6 +3096,9 @@
 "MTQ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MTQ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MTQ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MTQ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MTQ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MTQ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MUS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.7382,"E",1
 "MUS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",47.66035,"E",1
 "MUS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.95919,"E",1
@@ -2651,6 +3116,9 @@
 "MUS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.34481,"E",1
 "MUS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",49.05517,"E",1
 "MUS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",84.35798,"E",1
+"MUS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MUS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MUS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MWI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",386.0412,"E",1
 "MWI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",346.92465,"E",1
 "MWI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",326.36733,"E",1
@@ -2668,6 +3136,9 @@
 "MWI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",391.79283,"E",1
 "MWI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",370.24389,"E",1
 "MWI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",380.66989,"E",1
+"MWI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MWI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MWI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MYS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",32.54548,"E",1
 "MYS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",32.14818,"E",1
 "MYS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",32.00086,"E",1
@@ -2685,6 +3156,9 @@
 "MYS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.51642,"E",1
 "MYS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.58032,"E",1
 "MYS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.13193,"E",1
+"MYS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MYS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MYS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "MYT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MYT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MYT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2702,6 +3176,9 @@
 "MYT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MYT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "MYT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"MYT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MYT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"MYT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NAM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",401.82994,"E",1
 "NAM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",418.947,"E",1
 "NAM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",420.31009,"E",1
@@ -2719,6 +3196,9 @@
 "NAM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",217.95181,"E",1
 "NAM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",222.95571,"E",1
 "NAM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",214.63506,"E",1
+"NAM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NAM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NAM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NCL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NCL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NCL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2736,6 +3216,9 @@
 "NCL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NCL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NCL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"NCL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NCL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NCL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NER",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",801.33791,"E",1
 "NER",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",767.86526,"E",1
 "NER",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",734.85236,"E",1
@@ -2753,6 +3236,9 @@
 "NER",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",431.96275,"E",1
 "NER",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",409.6483,"E",1
 "NER",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",441.07255,"E",1
+"NER",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NER",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NER",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NFK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NFK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NFK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2770,6 +3256,9 @@
 "NFK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NFK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NFK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"NFK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NFK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NFK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NGA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1088.14763,"E",1
 "NGA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1073.13413,"E",1
 "NGA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1070.86581,"E",1
@@ -2787,6 +3276,9 @@
 "NGA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1135.41354,"E",1
 "NGA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1122.11316,"E",1
 "NGA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1047.23535,"E",1
+"NGA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NGA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NGA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NIC",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",165.50451,"E",1
 "NIC",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",157.51722,"E",1
 "NIC",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",134.93902,"E",1
@@ -2804,6 +3296,9 @@
 "NIC",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",74.43286,"E",1
 "NIC",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",75.08457,"E",1
 "NIC",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",77.87857,"E",1
+"NIC",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NIC",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NIC",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NIU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NIU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NIU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2821,6 +3316,9 @@
 "NIU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NIU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NIU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"NIU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NIU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NIU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NLD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.0667,"E",1
 "NLD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.47869,"E",1
 "NLD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.21644,"E",1
@@ -2838,6 +3336,9 @@
 "NLD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.99093,"E",1
 "NLD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.94088,"E",1
 "NLD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.31174,"E",1
+"NLD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NLD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NLD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NOR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.53192,"E",1
 "NOR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.51651,"E",1
 "NOR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.15048,"E",1
@@ -2855,6 +3356,9 @@
 "NOR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.9932,"E",1
 "NOR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.94227,"E",1
 "NOR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.66374,"E",1
+"NOR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NOR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NOR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NPL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",391.70654,"E",1
 "NPL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",380.38983,"E",1
 "NPL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",357.87592,"E",1
@@ -2872,6 +3376,9 @@
 "NPL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",201.15369,"E",1
 "NPL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",182.31969,"E",1
 "NPL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",174.41018,"E",1
+"NPL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NPL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NPL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NRU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NRU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NRU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2889,6 +3396,9 @@
 "NRU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NRU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "NRU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"NRU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NRU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NRU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "NZL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.50959,"E",1
 "NZL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.00711,"E",1
 "NZL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.78807,"E",1
@@ -2906,6 +3416,9 @@
 "NZL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.88525,"E",1
 "NZL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.21962,"E",1
 "NZL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.03044,"E",1
+"NZL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NZL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"NZL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "OMN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.42604,"E",1
 "OMN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.72671,"E",1
 "OMN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.93607,"E",1
@@ -2923,6 +3436,9 @@
 "OMN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.86888,"E",1
 "OMN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.58876,"E",1
 "OMN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.006710000000002,"E",1
+"OMN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"OMN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"OMN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PAK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",333.67298,"E",1
 "PAK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",300.7507,"E",1
 "PAK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",269.81163,"E",1
@@ -2940,6 +3456,9 @@
 "PAK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",177.72768,"E",1
 "PAK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",179.2679,"E",1
 "PAK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",154.16394,"E",1
+"PAK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PAK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PAK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PAN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.95152,"E",1
 "PAN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.35951,"E",1
 "PAN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.76256,"E",1
@@ -2957,6 +3476,9 @@
 "PAN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",47.07842,"E",1
 "PAN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.99978,"E",1
 "PAN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",49.51727,"E",1
+"PAN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PAN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PAN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PCN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PCN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PCN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -2974,6 +3496,9 @@
 "PCN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PCN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PCN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"PCN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PCN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PCN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PER",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",101.33705,"E",1
 "PER",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",97.42443,"E",1
 "PER",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",90.47107,"E",1
@@ -2991,6 +3516,9 @@
 "PER",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",62.55472,"E",1
 "PER",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.99521,"E",1
 "PER",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",68.53598,"E",1
+"PER",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PER",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PER",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PHL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",125.22564,"E",1
 "PHL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",122.1936,"E",1
 "PHL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",120.88433,"E",1
@@ -3008,6 +3536,9 @@
 "PHL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",82.29473,"E",1
 "PHL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",80.72678,"E",1
 "PHL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",78.23626,"E",1
+"PHL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PHL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PHL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PLW",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PLW",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PLW",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3025,6 +3556,9 @@
 "PLW",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PLW",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PLW",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"PLW",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PLW",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PLW",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PNG",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",309.73703,"E",1
 "PNG",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",313.76992,"E",1
 "PNG",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",322.94915,"E",1
@@ -3042,6 +3576,9 @@
 "PNG",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",199.06436,"E",1
 "PNG",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",189.81688,"E",1
 "PNG",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",191.83874,"E",1
+"PNG",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PNG",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PNG",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "POL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.33928,"E",1
 "POL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.81798,"E",1
 "POL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.30405,"E",1
@@ -3059,6 +3596,9 @@
 "POL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.86507,"E",1
 "POL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.88953,"E",1
 "POL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1.95947,"E",1
+"POL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"POL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"POL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PRI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.62358,"E",1
 "PRI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.66363,"E",1
 "PRI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.02869,"E",1
@@ -3076,6 +3616,9 @@
 "PRI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.92834,"E",1
 "PRI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.94646,"E",1
 "PRI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",34.33675,"E",1
+"PRI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PRK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",130.5773,"E",1
 "PRK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",121.89171,"E",1
 "PRK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",130.63713,"E",1
@@ -3093,6 +3636,9 @@
 "PRK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",107.16103,"E",1
 "PRK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",106.15474,"E",1
 "PRK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",106.70048,"E",1
+"PRK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PRT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.78923,"E",1
 "PRT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.96024,"E",1
 "PRT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.69011,"E",1
@@ -3110,6 +3656,9 @@
 "PRT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.98013,"E",1
 "PRT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.33437,"E",1
 "PRT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.79945,"E",1
+"PRT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PRY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",127.16996,"E",1
 "PRY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",127.21106,"E",1
 "PRY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",113.52437,"E",1
@@ -3127,6 +3676,9 @@
 "PRY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",69.76347,"E",1
 "PRY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",69.88435,"E",1
 "PRY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",71.12281,"E",1
+"PRY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PRY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PSE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",60.10783,"E",1
 "PSE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",54.31418,"E",1
 "PSE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",54.41655,"E",1
@@ -3144,6 +3696,9 @@
 "PSE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.95697,"E",1
 "PSE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.2202,"E",1
 "PSE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.43431,"E",1
+"PSE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PSE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PSE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "PYF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PYF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PYF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3161,6 +3716,9 @@
 "PYF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PYF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "PYF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"PYF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PYF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"PYF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "QAT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",22.93397,"E",1
 "QAT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.09699,"E",1
 "QAT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.45261,"E",1
@@ -3178,6 +3736,9 @@
 "QAT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.29586,"E",1
 "QAT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.51743,"E",1
 "QAT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.60543,"E",1
+"QAT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"QAT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"QAT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "REU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "REU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "REU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3195,6 +3756,9 @@
 "REU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "REU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "REU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"REU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"REU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"REU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ROU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.6559,"E",1
 "ROU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",36.82855,"E",1
 "ROU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.8004,"E",1
@@ -3212,6 +3776,9 @@
 "ROU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.40143,"E",1
 "ROU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.35986,"E",1
 "ROU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.0708,"E",1
+"ROU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ROU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ROU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "RUS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",34.86526,"E",1
 "RUS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",31.35258,"E",1
 "RUS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.50181,"E",1
@@ -3229,6 +3796,9 @@
 "RUS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",8.77949,"E",1
 "RUS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.45311,"E",1
 "RUS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.72279,"E",1
+"RUS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"RUS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"RUS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "RWA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",598.72859,"E",1
 "RWA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",532.60731,"E",1
 "RWA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",482.72639,"E",1
@@ -3246,6 +3816,9 @@
 "RWA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",281.36148,"E",1
 "RWA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",281.31084,"E",1
 "RWA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",258.92463,"E",1
+"RWA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"RWA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"RWA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SAU",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.12479,"E",1
 "SAU",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.01211,"E",1
 "SAU",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.1016,"E",1
@@ -3263,6 +3836,9 @@
 "SAU",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.77863,"E",1
 "SAU",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.68222,"E",1
 "SAU",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.20376,"E",1
+"SAU",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SAU",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SAU",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SDN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",563.76396,"E",1
 "SDN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",525.3036,"E",1
 "SDN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",498.88227,"E",1
@@ -3280,6 +3856,9 @@
 "SDN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",292.99187,"E",1
 "SDN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",297.98604,"E",1
 "SDN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",270.35535,"E",1
+"SDN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SDN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SDN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SEN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",549.70309,"E",1
 "SEN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",518.59348,"E",1
 "SEN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",489.79211,"E",1
@@ -3297,6 +3876,9 @@
 "SEN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",277.48837,"E",1
 "SEN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",257.61149,"E",1
 "SEN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",260.88063,"E",1
+"SEN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SEN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SEN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SGP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.82679,"E",1
 "SGP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",12.72452,"E",1
 "SGP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.72558,"E",1
@@ -3314,6 +3896,9 @@
 "SGP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.67091,"E",1
 "SGP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.24731,"E",1
 "SGP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.45276,"E",1
+"SGP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SGP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SGP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SGS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SGS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SGS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3331,6 +3916,9 @@
 "SGS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SGS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SGS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SGS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SGS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SGS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SHN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SHN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SHN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3348,6 +3936,9 @@
 "SHN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SHN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SHN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SHN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SHN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SHN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SJM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SJM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SJM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3365,6 +3956,9 @@
 "SJM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SJM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SJM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SJM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SJM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SJM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SLB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",158.85737,"E",1
 "SLB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",152.97502,"E",1
 "SLB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",146.65325,"E",1
@@ -3382,6 +3976,9 @@
 "SLB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",127.14326,"E",1
 "SLB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",127.18191,"E",1
 "SLB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",122.24951,"E",1
+"SLB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SLE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1366.89593,"E",1
 "SLE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1327.37051,"E",1
 "SLE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1224.78032,"E",1
@@ -3399,6 +3996,9 @@
 "SLE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",459.50471,"E",1
 "SLE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",435.23585,"E",1
 "SLE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",442.83043,"E",1
+"SLE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SLV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",34.70395,"E",1
 "SLV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",35.35084,"E",1
 "SLV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",35.75458,"E",1
@@ -3416,6 +4016,9 @@
 "SLV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.65384,"E",1
 "SLV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",38.85559,"E",1
 "SLV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.79046,"E",1
+"SLV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SLV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SMR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SMR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SMR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3433,6 +4036,9 @@
 "SMR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SMR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SMR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SMR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SMR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SMR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SOM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1101.54061,"E",1
 "SOM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1079.96484,"E",1
 "SOM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1068.38936,"E",1
@@ -3450,6 +4056,9 @@
 "SOM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",650.67751,"E",1
 "SOM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",606.238,"E",1
 "SOM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",620.68232,"E",1
+"SOM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SOM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SOM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SPM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SPM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SPM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3467,6 +4076,9 @@
 "SPM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SPM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SPM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SPM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SPM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SPM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SRB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.4618,"E",1
 "SRB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.12241,"E",1
 "SRB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",15.92018,"E",1
@@ -3484,6 +4096,9 @@
 "SRB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.46952,"E",1
 "SRB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.47125,"E",1
 "SRB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",10.18134,"E",1
+"SRB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SRB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SRB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SSD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1372.2877,"E",1
 "SSD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1331.87412,"E",1
 "SSD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1301.28861,"E",1
@@ -3501,6 +4116,9 @@
 "SSD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1274.81697,"E",1
 "SSD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1245.17058,"E",1
 "SSD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1222.53091,"E",1
+"SSD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SSD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SSD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "STP",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",158.57465,"E",1
 "STP",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",159.66927,"E",1
 "STP",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",161.61597,"E",1
@@ -3518,6 +4136,9 @@
 "STP",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",149.1564,"E",1
 "STP",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",142.41253,"E",1
 "STP",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",146.24005,"E",1
+"STP",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"STP",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"STP",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SUR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",228.9734,"E",1
 "SUR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",190.24295,"E",1
 "SUR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",192.28746,"E",1
@@ -3535,6 +4156,9 @@
 "SUR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",97.62668,"E",1
 "SUR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",100.03646,"E",1
 "SUR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",96.45954,"E",1
+"SUR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SUR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SUR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SVK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.63127,"E",1
 "SVK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.436,"E",1
 "SVK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",6.61311,"E",1
@@ -3552,6 +4176,9 @@
 "SVK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.65018,"E",1
 "SVK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.8564,"E",1
 "SVK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.82467,"E",1
+"SVK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SVK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SVK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SVN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.56221,"E",1
 "SVN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.24344,"E",1
 "SVN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",7.69201,"E",1
@@ -3569,6 +4196,9 @@
 "SVN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.36618,"E",1
 "SVN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.46777,"E",1
 "SVN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.53314,"E",1
+"SVN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SVN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SVN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SWE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.27906,"E",1
 "SWE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.08004,"E",1
 "SWE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.1541,"E",1
@@ -3586,6 +4216,9 @@
 "SWE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.53476,"E",1
 "SWE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.52916,"E",1
 "SWE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.50784,"E",1
+"SWE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SWE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SWE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SWZ",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",662.75769,"E",1
 "SWZ",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",677.99587,"E",1
 "SWZ",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",643.55495,"E",1
@@ -3603,6 +4236,9 @@
 "SWZ",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",218.30115,"E",1
 "SWZ",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",227.99456,"E",1
 "SWZ",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",239.63239,"E",1
+"SWZ",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SWZ",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SWZ",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SXM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SXM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SXM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3620,6 +4256,9 @@
 "SXM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SXM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "SXM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"SXM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SXM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SXM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SYC",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.65589,"E",1
 "SYC",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.96467,"E",1
 "SYC",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.80728,"E",1
@@ -3637,6 +4276,9 @@
 "SYC",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.54032,"E",1
 "SYC",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.07312,"E",1
 "SYC",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",3.33321,"E",1
+"SYC",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SYC",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SYC",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "SYR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",24.7712,"E",1
 "SYR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",23.49588,"E",1
 "SYR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.46329,"E",1
@@ -3654,6 +4296,9 @@
 "SYR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",31.33128,"E",1
 "SYR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",33.04469,"E",1
 "SYR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.91733,"E",1
+"SYR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SYR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"SYR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TCA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TCA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TCA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3671,6 +4316,9 @@
 "TCA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TCA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TCA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"TCA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TCA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TCA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TCD",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1228.71149,"E",1
 "TCD",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1241.20629,"E",1
 "TCD",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1254.61553,"E",1
@@ -3688,6 +4336,9 @@
 "TCD",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1076.16398,"E",1
 "TCD",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1047.29688,"E",1
 "TCD",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",1063.49329,"E",1
+"TCD",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TCD",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TCD",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TGO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",489.64277,"E",1
 "TGO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",494.45184,"E",1
 "TGO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",517.40529,"E",1
@@ -3705,6 +4356,9 @@
 "TGO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",434.54162,"E",1
 "TGO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",418.26275,"E",1
 "TGO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",399.03985,"E",1
+"TGO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TGO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TGO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "THA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.29951,"E",1
 "THA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.52228,"E",1
 "THA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",37.86686,"E",1
@@ -3722,6 +4376,9 @@
 "THA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.80441,"E",1
 "THA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.83997,"E",1
 "THA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",28.60043,"E",1
+"THA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"THA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"THA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TJK",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",46.59799,"E",1
 "TJK",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",44.28473,"E",1
 "TJK",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",40.99126,"E",1
@@ -3739,6 +4396,9 @@
 "TJK",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.35197,"E",1
 "TJK",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.36735,"E",1
 "TJK",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.6317,"E",1
+"TJK",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TJK",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TJK",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TKL",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TKL",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TKL",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3756,6 +4416,9 @@
 "TKL",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TKL",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TKL",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"TKL",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TKL",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TKL",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TKM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.80145,"E",1
 "TKM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.76499,"E",1
 "TKM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",14.62435,"E",1
@@ -3773,6 +4436,9 @@
 "TKM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.00082,"E",1
 "TKM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",4.9158,"E",1
 "TKM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",5.14808,"E",1
+"TKM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TKM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TKM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TLS",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",624.08831,"E",1
 "TLS",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",583.87141,"E",1
 "TLS",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",547.39339,"E",1
@@ -3790,6 +4456,9 @@
 "TLS",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",249.4876,"E",1
 "TLS",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",223.53696,"E",1
 "TLS",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",203.92423,"E",1
+"TLS",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TLS",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TLS",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TON",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.97705,"E",1
 "TON",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.91312,"E",1
 "TON",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",98.89569,"E",1
@@ -3807,6 +4476,9 @@
 "TON",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",83.91316,"E",1
 "TON",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",125.40065,"E",1
 "TON",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",125.63763,"E",1
+"TON",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TON",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TON",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TTO",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",56.74608,"E",1
 "TTO",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",55.75127,"E",1
 "TTO",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",56.14031,"E",1
@@ -3824,6 +4496,9 @@
 "TTO",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",27.61219,"E",1
 "TTO",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.34571,"E",1
 "TTO",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.583,"E",1
+"TTO",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TTO",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TTO",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TUN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.00795,"E",1
 "TUN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",56.26467,"E",1
 "TUN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",54.62103,"E",1
@@ -3841,6 +4516,9 @@
 "TUN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.02239,"E",1
 "TUN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",39.81871,"E",1
 "TUN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",36.62558,"E",1
+"TUN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TUR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",26.84048,"E",1
 "TUR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",25.40583,"E",1
 "TUR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",24.13056,"E",1
@@ -3858,6 +4536,9 @@
 "TUR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.87219,"E",1
 "TUR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.00893,"E",1
 "TUR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",17.33207,"E",1
+"TUR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TUV",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TUV",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TUV",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3875,6 +4556,9 @@
 "TUV",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TUV",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "TUV",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"TUV",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUV",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TUV",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "TZA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",588.05284,"E",1
 "TZA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",559.39302,"E",1
 "TZA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",546.73422,"E",1
@@ -3892,6 +4576,9 @@
 "TZA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",266.82197,"E",1
 "TZA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",261.8509,"E",1
 "TZA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",238.29879,"E",1
+"TZA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TZA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"TZA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "UGA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",442.41531,"E",1
 "UGA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",435.35471,"E",1
 "UGA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",416.233,"E",1
@@ -3909,6 +4596,9 @@
 "UGA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",283.32194,"E",1
 "UGA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",291.64169,"E",1
 "UGA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",284.14078,"E",1
+"UGA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UGA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UGA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "UKR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.69585,"E",1
 "UKR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.54598,"E",1
 "UKR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",22.69625,"E",1
@@ -3926,6 +4616,9 @@
 "UKR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",11.27424,"E",1
 "UKR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",9.26132,"E",1
 "UKR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",16.54037,"E",1
+"UKR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UKR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UKR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "UMI",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "UMI",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "UMI",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -3943,6 +4636,9 @@
 "UMI",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "UMI",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "UMI",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"UMI",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UMI",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UMI",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "URY",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.37408,"E",1
 "URY",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.37539,"E",1
 "URY",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.87028,"E",1
@@ -3960,6 +4656,9 @@
 "URY",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.06394,"E",1
 "URY",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",20.07068,"E",1
 "URY",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",18.63836,"E",1
+"URY",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"URY",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"URY",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "USA",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.09522,"E",1
 "USA",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.2803,"E",1
 "USA",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",13.19619,"E",1
@@ -3977,6 +4676,9 @@
 "USA",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.45208,"E",1
 "USA",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",19.85235,"E",1
 "USA",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",21.08491,"E",1
+"USA",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"USA",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"USA",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "UZB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",42.49742,"E",1
 "UZB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.11973,"E",1
 "UZB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",43.91255,"E",1
@@ -3994,6 +4696,9 @@
 "UZB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.71034,"E",1
 "UZB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",29.839,"E",1
 "UZB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",30.17849,"E",1
+"UZB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UZB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"UZB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VAT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VAT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VAT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -4011,6 +4716,9 @@
 "VAT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VAT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VAT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"VAT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VAT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VAT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VCT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.07821,"E",1
 "VCT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",53.63504,"E",1
 "VCT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",49.85677,"E",1
@@ -4028,6 +4736,9 @@
 "VCT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",59.86605,"E",1
 "VCT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.47133,"E",1
 "VCT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",61.79403,"E",1
+"VCT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VCT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VCT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VEN",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",106.73997,"E",1
 "VEN",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",95.36842,"E",1
 "VEN",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",95.82313,"E",1
@@ -4045,6 +4756,9 @@
 "VEN",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",179.33174,"E",1
 "VEN",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",176.52684,"E",1
 "VEN",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",259.18645,"E",1
+"VEN",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VEN",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VEN",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VGB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VGB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VGB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -4062,6 +4776,9 @@
 "VGB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VGB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VGB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"VGB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VGB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VGB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VIR",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VIR",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VIR",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -4079,6 +4796,9 @@
 "VIR",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VIR",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "VIR",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"VIR",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VIR",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VIR",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VNM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",66.90947,"E",1
 "VNM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.99721,"E",1
 "VNM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",65.8094,"E",1
@@ -4096,6 +4816,9 @@
 "VNM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",51.06105,"E",1
 "VNM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",50.43643,"E",1
 "VNM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",45.530029999999996,"E",1
+"VNM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VNM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VNM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "VUT",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",96.61606,"E",1
 "VUT",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",97.53679,"E",1
 "VUT",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",97.49602,"E",1
@@ -4113,6 +4836,9 @@
 "VUT",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",96.58235,"E",1
 "VUT",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",92.77727,"E",1
 "VUT",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",94.44281,"E",1
+"VUT",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VUT",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"VUT",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "WLF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "WLF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "WLF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -4130,6 +4856,9 @@
 "WLF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "WLF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 "WLF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+"WLF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"WLF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"WLF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "WSM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",61.68023,"E",1
 "WSM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",62.07638,"E",1
 "WSM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.18673,"E",1
@@ -4147,6 +4876,9 @@
 "WSM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",58.08097,"E",1
 "WSM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",66.35197,"E",1
 "WSM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",59.07907,"E",1
+"WSM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"WSM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"WSM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "YEM",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",209.69946,"E",1
 "YEM",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",196.47778,"E",1
 "YEM",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",183.07261,"E",1
@@ -4164,6 +4896,9 @@
 "YEM",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",175.63083,"E",1
 "YEM",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",181.33215,"E",1
 "YEM",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",183.39972,"E",1
+"YEM",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"YEM",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"YEM",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ZAF",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",231.91828,"E",1
 "ZAF",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",220.64934,"E",1
 "ZAF",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",208.2999,"E",1
@@ -4181,6 +4916,9 @@
 "ZAF",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",125.39751,"E",1
 "ZAF",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",118.2704,"E",1
 "ZAF",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",126.83269,"E",1
+"ZAF",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZAF",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZAF",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ZMB",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",311.69516,"E",1
 "ZMB",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",309.25042,"E",1
 "ZMB",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",306.09229,"E",1
@@ -4198,6 +4936,9 @@
 "ZMB",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",144.87115,"E",1
 "ZMB",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",128.84006,"E",1
 "ZMB",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",134.66542,"E",1
+"ZMB",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZMB",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZMB",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 "ZWE",2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",488.08747,"E",1
 "ZWE",2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",533.07277,"E",1
 "ZWE",2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",558.164,"E",1
@@ -4215,6 +4956,9 @@
 "ZWE",2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",358.5035,"E",1
 "ZWE",2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",393.17629,"E",1
 "ZWE",2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",356.75892,"E",1
+"ZWE",2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZWE",2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+"ZWE",2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
 NA,2004,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 NA,2005,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 NA,2006,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
@@ -4232,3 +4976,6 @@ NA,2017,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 NA,2018,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 NA,2019,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
 NA,2020,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,0
+NA,2021,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+NA,2022,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
+NA,2023,"3","3.1","3.1.1","SH_STA_MORT","Maternal mortality ratio",NA,NA,NA
