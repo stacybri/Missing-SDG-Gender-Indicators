@@ -223,7 +223,7 @@ table1dat <- list_df %>%
     Gender_Breakdown=Gender_Breakdown
   ) %>%
   #replace Description with Sub-Description if ccode==1110 and 1111
-  mutate(Description=if_else(ccode %in% c(1110,1111), `Sub-Description`, Description)) %>%
+  #mutate(Description=if_else(ccode %in% c(1110,1111), `Sub-Description`, Description)) %>%
   group_by(ccode, Goal, Indicator, Description, Tier, Gender_Breakdown) %>%
   summarise(`Sub-Indicators`=paste(`Sub-Description`,collapse="; /n ")) %>%
   distinct() %>%
@@ -1011,7 +1011,7 @@ avail_plt_df %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(aes(size = SP.POP.TOTL), alpha = 0.25, width = 0.2) +
+  geom_jitter(aes(size = SP.POP.TOTL), alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "text", size = 5, color='black') +
   geom_text(data=reg_avg, aes(y=avg, x=region, label=round(avg,1)), color="black", position=position_dodge()) +
@@ -1106,7 +1106,7 @@ avail_plt_df %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(aes(size = SP.POP.TOTL), alpha = 0.25, width = 0.2) +
+  geom_jitter(aes(size = SP.POP.TOTL), alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
     geom_text(data=inc_avg, aes(y=avg, x=income_level, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
@@ -1197,6 +1197,20 @@ gend_gdp_plt2 <- avail_wbstats_df %>%
 
 
 
+```
+```{r}
+#check sdg 1.2.1
+
+sdg_121 <- un_sdg_df %>%
+  filter(series_code=="SI_POV_NAHC") %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+  filter(date>=2016) %>%
+  group_by(iso3c) %>%
+  summarise(
+    `Number of Data Points`=mean(ind_quality)*8
+  ) %>%
+  filter(`Number of Data Points`>0) %>%
+  left_join(country_metadata)
 ```
 
 
@@ -1290,7 +1304,8 @@ table1_df <- disagg_tab_df %>%
          `Any Data Available`=if_else(is.na(`Any Data Available`),0,`Any Data Available`)
          ) %>% # if no data is available for overall availability, then set to zero as it means no data is available in SDG database.
   select(Goal, Indicator, Tier, Description, everything()) %>%
-  select(-ccode, - Gender_Breakdown) %>%
+  mutate(Description=if_else(ccode %in% c(1110,1111), `Sub-Indicators`, Description)) %>%
+  select(-ccode, - Gender_Breakdown, -`Sub-Indicators`) %>%
   arrange(as.numeric(Goal), Indicator) 
 
 table1 <- table1_df %>%
@@ -1682,7 +1697,7 @@ avail_plt_df %>%
     text = element_text(size=14) 
   ) +
   annotate( #annotations
-    "text", x = 5.5, y = 100, family = "Poppins", size = 4, color = "gray20", lineheight = .9,
+    "text", x = 5.5, y = 75, family = "Poppins", size = 4, color = "gray20", lineheight = .9,
     label = glue::glue("Average across all countries:\n{round(world_avg, 1)}%")
   ) +
   annotate(
@@ -1742,7 +1757,7 @@ avail_plt_df %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(size = 2, alpha = 0.25, width = 0.2) +
+  geom_jitter(size = 2, alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
   geom_text(data=inc_avg, aes(y=avg, x=income_level, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
@@ -1840,7 +1855,7 @@ avail_plt_df %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(size = 2, alpha = 0.25, width = 0.2) +
+  geom_jitter(size = 2, alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
   geom_text(data=reg_avg, aes(y=avg, x=region, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
@@ -1922,7 +1937,7 @@ avail_plt_df %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(size = 2, alpha = 0.25, width = 0.2) +
+  geom_jitter(size = 2, alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
   geom_text(data=inc_avg, aes(y=avg, x=income_level, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
@@ -2020,7 +2035,7 @@ avail_plt_df5 %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(size = 2, alpha = 0.25, width = 0.2) +
+  geom_jitter(size = 2, alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
   geom_text(data=reg_avg, aes(y=avg, x=region, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
@@ -2102,7 +2117,7 @@ avail_plt_df5 %>%
     size = 0.8
   ) +
   #geom_boxplot(aes(color=region), outlier.alpha = 0) +
-  geom_jitter(size = 2, alpha = 0.25, width = 0.2) +
+  geom_jitter(size = 2, alpha = 0.25, width = 0.2, height=0) +
   #geom_point(size = 3, alpha = 0.15) +
   #stat_summary(fun = mean, geom = "point", size = 5, color='black') +
   geom_text(data=inc_avg, aes(y=avg, x=income_level, label=scales::comma(round(avg,1))), color="black", position=position_dodge()) +
