@@ -861,10 +861,17 @@ sigi_df <- read_csv(paste0(raw_dir, "/misc/OECD.DEV.NPG,DSD_SIGI@DF_SIGI_2023,1.
   filter(Measure=="SIGI score") %>%
   transmute(iso3c=REF_AREA,
             sigi=OBS_VALUE)
+
+#read in ODIN data
+odin_df <- read_excel(path=paste0(raw_dir, "/misc/ODIN_Gender_2022.xlsx")) %>%
+  rename(iso3c=country_code) %>%
+  select(-country)
+
 #combine data
 avail_wbstats_df <- avail_SPI_df %>%
   left_join(gii_df) %>%
   left_join(sigi_df) %>%
+  left_join(odin_df) %>%
   left_join(SPI_df) %>%
   mutate(outcome=IQ.SPI.OVRL,
          value=availability)
@@ -872,7 +879,7 @@ avail_wbstats_df <- avail_SPI_df %>%
 combined_df <- avail_wbstats_df 
 
 combined_df_sv <- combined_df %>%
-  select(iso3c, country, region, income_level, IQ.SPI.OVRL, availability, IQ.SPI.PIL3, NY.GDP.PCAP.PP.CD, SP.POP.TOTL,HD.HCI.OVRL,GE.EST,SG.LAW.INDX,gii,sigi,NY.GDP.PCAP.KD) %>%
+  select(iso3c, country, region, income_level, IQ.SPI.OVRL, availability, IQ.SPI.PIL3, NY.GDP.PCAP.PP.CD, SP.POP.TOTL,HD.HCI.OVRL,GE.EST,SG.LAW.INDX,gii,sigi,NY.GDP.PCAP.KD, OGDI, ODIN) %>%
   rename_with(~gsub(".","_",.x, fixed=TRUE)) 
 
 var.labels = c(IQ_SPI_OVRL="SPI Overall Score", 
@@ -969,8 +976,17 @@ avail_plt_df %>%
 #calculate global average
 world_avg <-
   avail_plt_df %>%
-  summarise(avg = mean(availability, na.rm = T)) %>%
+  summarise(avg = mean(availability, na.rm = T),
+            ) %>%
   pull(avg)
+
+#calculate share of global population (SP.POP.TOTL) with less than 50% availability
+pop_share <- avail_plt_df %>%
+  ungroup() %>%
+  mutate(pop_total=sum(SP.POP.TOTL, na.rm=TRUE)) %>%
+  filter(availability<50) %>%
+  summarise(pop_share=sum(SP.POP.TOTL, na.rm=TRUE)/pop_total) 
+
 
 world_p25 <- scales::comma(quantile(avail_plt_df$availability, p=0.25, na.rm=TRUE))
 world_p50 <- scales::comma(quantile(avail_plt_df$availability, p=0.5, na.rm=TRUE))
@@ -1144,6 +1160,36 @@ avail_plt_df %>%
   )
 
 ```
+
+```{r}
+#add mics/dhs comparison
+
+avail_plt_micsdhs_df <- read_csv(paste0(output_dir, '/SPI_Gender_UNSD_data_5yr.csv')) %>%
+  filter(!(iso3c %in% pop_exlude_cntry)) %>%
+  mutate(availability=100*ind_quality) %>% #convert ind_quality measure which is 0-1 to percentage available by multiplying by 100
+  filter(date==2023 & goal=="Top 5 DHS/MICS Dropped") %>% #keep just most recent year
+  left_join(WDI_df) %>%
+  mutate(income_alt_groups=case_when(
+    income_level=="High income" & SP.POP.TOTL<=500000 ~ "Hgh Income & Pop <= 500K",
+    income_level=="High income" & SP.POP.TOTL>500000 ~ "Hgh Income & Pop >= 500K",
+    TRUE ~ income_level
+  ),
+  pop_groups=case_when(
+    SP.POP.TOTL<=500000 ~ "Pop <= 500K",
+    SP.POP.TOTL>500000 ~ "Pop > 500K",
+  ) )
+
+inc_avg_dhs <-
+  avail_plt_micsdhs_df %>%
+  #mutate(income_level = ifelse(iso3c == "VEN", "Upper middle income", income_level)) %>%
+  filter(!is.na(income_level) & income_level != "Not classified") %>%
+  group_by(income_level) %>%
+  summarise(avg = mean(availability, na.rm = T)) %>%
+  arrange(-avg) %>%
+  ungroup()         
+
+```
+
 
 ## Figure 5. GDP per capita and SDG gender indicators (n=181 economies) 
 
@@ -1401,11 +1447,103 @@ gend_spi_plt
 
 ```
 
+```{r}
+data <- 'combined_df'
+indicators <- c("availability")
+reference_year <- 2022
+
+      df_overall <- get(data) %>%
+      filter(date==as.numeric(reference_year)) %>% 
+      rename(SPI.INDEX=IQ.SPI.OVRL) %>%
+      #muttiply availability by 50 to get number rather than share
+      mutate(availability=availability*50/100) %>%
+      select(country, iso3c, date, income_level, region, all_of(indicators), SPI.INDEX) 
+    
+    
+    spi_groups_quantiles <- quantile(df_overall$SPI.INDEX, probs=c(1,2,3,4)/5,na.rm=T)
+    
+    df_overall <- df_overall %>%
+      mutate(spi_groups=case_when(
+        between(SPI.INDEX, spi_groups_quantiles[4],100) ~ "Top Quintile",
+        between(SPI.INDEX, spi_groups_quantiles[3],spi_groups_quantiles[4]) ~ "4th Quintile",
+        between(SPI.INDEX, spi_groups_quantiles[2],spi_groups_quantiles[3]) ~ "3rd Quintile",
+        between(SPI.INDEX, spi_groups_quantiles[1],spi_groups_quantiles[2]) ~ "2nd Quintile",
+        between(SPI.INDEX, 0,spi_groups_quantiles[1]) ~ "Bottom 20%"
+      )) %>%
+      mutate(spi_groups=factor(spi_groups, 
+                               levels=c("Top Quintile","4th Quintile","3rd Quintile","2nd Quintile","Bottom 20%" )))  
+    
+    #produce by income
+    sumstats<- df_overall %>%
+      group_by(spi_groups) %>%
+      filter(!is.na(spi_groups)) %>%
+      select(spi_groups, all_of(indicators)) %>%
+      summarise_all(~round(mean(., na.rm=T),0)) 
+    
+    #produce global number
+    sumstats_gl<- df_overall %>%
+      mutate(spi_groups='Global') %>%
+      group_by(spi_groups) %>%
+      select(spi_groups, all_of(indicators)) %>%
+      summarise_all(~round(mean(., na.rm=T),0)) 
+    
+    
+    #transpose data
+    sumstats_df_long <-sumstats 
+    
+    sumstats_df <- as.data.frame(t(sumstats_df_long %>% select(-spi_groups)))
+    colnames(sumstats_df) = sumstats_df_long$spi_groups 
+    
+    
+    sumstats_df <- sumstats_df %>%
+      rownames_to_column() %>%
+      rename(series=rowname)
+    
+    
+
+    
+    #add variable label
+    sumstats_df <- sumstats_df %>%
+      rename(SDGs=series) %>%
+      select(SDGs, c("Bottom 20%","2nd Quintile","3rd Quintile","4th Quintile","Top Quintile" ))
+
+
+#flextable(sumstats_df) %>%
+  #add_header_lines('Average Number of SDGs by SPI Quintile')
+
+```
+
 ## Figure 7. SDG gender indicators and all SDG indicators (n=161 economies)
 
 ```{r spiplt3}
 
+#get regional aggregates for SPI pillar 3
+reg_spi_df <- combined_df %>%
+  group_by(region) %>%
+  summarise(
+    IQ.SPI.PIL3=mean(IQ.SPI.PIL3, na.rm=T),
+    availability=mean(availability, na.rm=T)
+  ) %>%
+  ungroup() %>%
+  mutate(region=factor(region, levels=unique(combined_df$region)))
 
+#get income aggregates as well
+inc_spi_df <- combined_df %>%
+  group_by(income_level) %>%
+  summarise(
+    IQ.SPI.PIL3=mean(IQ.SPI.PIL3, na.rm=T),
+    availability=mean(availability, na.rm=T)
+  ) %>%
+  ungroup() %>%
+  mutate(income_level=factor(income_level, levels=unique(combined_df$income_level)))
+
+#global
+global_spi_df <- combined_df %>%
+  summarise(
+    IQ.SPI.PIL3=mean(IQ.SPI.PIL3, na.rm=T),
+    availability=mean(availability, na.rm=T)
+  ) %>%
+  mutate(region="Global")
 
 #plot SPI scores against availability
 gend_spi_plt <-combined_df %>%
@@ -1659,8 +1797,8 @@ arrows <-
   tibble(
     x1 = c(5.2, 6.62),
     x2 = c(4.6, 7),
-    y1 = c(world_avg + 20, 40),
-    y2 = c(world_avg + 2, 58)
+    y1 = c(world_avg + 20, 58),
+    y2 = c(world_avg + 2, 43)
   )
 
 avail_plt_df %>%
@@ -1701,7 +1839,7 @@ avail_plt_df %>%
     label = glue::glue("Average across all countries:\n{round(world_avg, 1)}%")
   ) +
   annotate(
-    "text", x = 6.5, y = 45, family = "Poppins", size = 4, color = "gray20",
+    "text", x = 6.5, y = 65, family = "Poppins", size = 4, color = "gray20",
     label = "Regional averages"
   ) +
   geom_curve( #add curves for annotatino
