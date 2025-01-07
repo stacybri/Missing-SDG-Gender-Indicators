@@ -479,13 +479,14 @@ un_aki_fun <- function(date_start, date_end) {
               ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
       mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
       group_by(iso3c) %>%
-      summarise(ind_quality=round(sum(ind_quality)/50,3),
+      summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                ind_quality=round(ind_total/50,3),
                 goal_count=50,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
               ) %>%
     left_join(country_metadata) %>%
     filter(!is.na(region)) %>%
-    select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+    select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
     mutate(date=date_end,
            goal="Combined")
 
@@ -498,13 +499,14 @@ un_aki_fun <- function(date_start, date_end) {
               ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
       mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
       group_by(iso3c) %>%
-      summarise(ind_quality=round(sum(ind_quality)/50,3),
+      summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                ind_quality=round(ind_total/50,3),
                 goal_count=50,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
               ) %>%
     left_join(country_metadata) %>%
     filter(!is.na(region)) %>%
-    select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+    select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
     mutate(date=date_end,
            goal="Any Data Available")
     
@@ -518,13 +520,14 @@ un_aki_fun <- function(date_start, date_end) {
                 ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
         mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
         group_by(iso3c) %>%
-        summarise(ind_quality=round(sum(ind_quality)/30,3),
+        summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                ind_quality=round(ind_total/30,3),
                 goal_count=30,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
                 ) %>%
       left_join(country_metadata) %>%
       filter(!is.na(region)) %>%
-      select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+      select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
       mutate(date=date_end,
              goal="Tier 1")
     
@@ -538,13 +541,14 @@ un_aki_fun <- function(date_start, date_end) {
                 ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
         mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
         group_by(iso3c) %>%
-        summarise(ind_quality=round(sum(ind_quality)/20,3),
+        summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                  ind_quality=round(ind_total/20,3),
                 goal_count=20,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
                 ) %>%
       left_join(country_metadata) %>%
       filter(!is.na(region)) %>%
-      select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+      select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
       mutate(date=date_end,
              goal="Tier 2")
     
@@ -561,13 +565,14 @@ un_aki_fun <- function(date_start, date_end) {
                 ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
         mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
         group_by(iso3c) %>%
-        summarise(ind_quality=round(sum(ind_quality)/45,3),
+        summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                  ind_quality=round(ind_total/45,3),
                 goal_count=45,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
                 ) %>%
       left_join(country_metadata) %>%
       filter(!is.na(region)) %>%
-      select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+      select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
       mutate(date=date_end,
              goal="Top 5 DHS/MICS Dropped")
     
@@ -584,13 +589,14 @@ un_aki_fun <- function(date_start, date_end) {
                 ind_metadata=first(ind_metadata)) %>% #check if any values (even sub-indicators) for indicator
         mutate(ind_quality=if_else(is.na(ind_quality),0,ind_quality)) %>% # if the indicator is missing for a year in the database, set availability to 0.
         group_by(iso3c) %>%
-        summarise(ind_quality=round(sum(ind_quality)/43,3),
+        summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+                  ind_quality=round(ind_total/43,3),
                 goal_count=43,
                 ind_number=n() #get whether indicator exists at all in 5 years of this across countries
                 ) %>%
       left_join(country_metadata) %>%
       filter(!is.na(region)) %>%
-      select(iso3c, country,region, income_level, ind_quality,ind_number,goal_count) %>%
+      select(iso3c, country,region, income_level, ind_total, ind_quality,ind_number,goal_count) %>%
       mutate(date=date_end,
              goal="Top 7 DHS/MICS Dropped")
     
@@ -607,13 +613,14 @@ un_aki_fun <- function(date_start, date_end) {
     left_join(sdg_count) %>%
     ungroup() %>%
     group_by(iso3c,goal) %>%
-    summarise(ind_quality=round(sum(ind_quality)/mean(goal_count),3),
+    summarise(ind_total=sum(ceiling(ind_quality), na.rm=TRUE),
+              ind_quality=round(ind_total/mean(goal_count),3),
               goal_count=mean(goal_count),
               ind_number=n() #get whether indicator exists at all in 5 years of this across countries
               ) %>%
     left_join(country_metadata) %>%
     filter(!is.na(region)) %>%
-    select(iso3c, country,region, income_level,goal, ind_quality,ind_number, goal_count) %>%
+    select(iso3c, country,region, income_level,goal, ind_total, ind_quality,ind_number, goal_count) %>%
     mutate(date=date_end
     ) 
 
@@ -625,7 +632,7 @@ un_aki_fun <- function(date_start, date_end) {
     bind_rows(goal) %>%
     bind_rows(top5_dhs_mics) %>%
     bind_rows(top7_dhs_mics) %>%
-    select(iso3c,date, country,region, income_level,goal, ind_quality, ind_number,goal_count)
+    select(iso3c,date, country,region, income_level,goal, ind_total, ind_quality, ind_number,goal_count)
   
 }
 

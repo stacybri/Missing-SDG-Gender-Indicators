@@ -1,0 +1,182 @@
+﻿iso3c,date,country,region,income_level,Indicators Available,Total Indicators,availability,NY.GDP.PCAP.KD,NY.GDP.PCAP.PP.CD,SP.POP.TOTL,IQ.SPI.OVRL,IQ.SPI.PIL1,IQ.SPI.PIL2,IQ.SPI.PIL3,IQ.SPI.PIL4,IQ.SPI.PIL5,SG.LAW.INDX,income_alt_groups,pop_groups
+AFG,2023,Afghanistan,South Asia,Low income,20,50,40,NA,NA,42239854,NA,NA,NA,NA,NA,NA,31.875,Low income,Pop > 500K
+AGO,2023,Angola,Sub-Saharan Africa,Lower middle income,15,50,30,2333.718775061359,8040.543600620777,36684202,NA,NA,NA,NA,NA,NA,79.375,Lower middle income,Pop > 500K
+ALB,2023,Albania,Europe & Central Asia,Upper middle income,21,50,42,5394.182410007088,21395.325037263316,2745972,NA,NA,NA,NA,NA,NA,91.25,Upper middle income,Pop > 500K
+ARE,2023,United Arab Emirates,Middle East & North Africa,High income,17,50,34,46877.42868767396,83902.67112595249,9516871,NA,NA,NA,NA,NA,NA,82.5,Hgh Income & Pop >= 500K,Pop > 500K
+ARG,2023,Argentina,Latin America & Caribbean,Upper middle income,27,50,54,12625.469550909564,29362.692418732186,46654581,NA,NA,NA,NA,NA,NA,79.375,Upper middle income,Pop > 500K
+ARM,2023,Armenia,Europe & Central Asia,Upper middle income,24,50,48,5566.318492913517,23054.600523069097,2777970,NA,NA,NA,NA,NA,NA,90.625,Upper middle income,Pop > 500K
+AUS,2023,Australia,East Asia & Pacific,High income,21,50,42,61340.71048480177,69114.73789450664,26638544,NA,NA,NA,NA,NA,NA,96.875,Hgh Income & Pop >= 500K,Pop > 500K
+AUT,2023,Austria,Europe & Central Asia,High income,23,50,46,45851.72488,73751.35270637998,9132383,NA,NA,NA,NA,NA,NA,96.875,Hgh Income & Pop >= 500K,Pop > 500K
+AZE,2023,Azerbaijan,Europe & Central Asia,Upper middle income,18,50,36,5674.483477137321,23685.538639855273,10112555,NA,NA,NA,NA,NA,NA,85,Upper middle income,Pop > 500K
+BDI,2023,Burundi,Sub-Saharan Africa,Low income,16,50,32,262.1657056468602,950.8798139332287,13238559,NA,NA,NA,NA,NA,NA,76.25,Low income,Pop > 500K
+BEL,2023,Belgium,Europe & Central Asia,High income,22,50,44,44283.20771434625,70455.95842579562,11822592,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+BEN,2023,Benin,Sub-Saharan Africa,Lower middle income,21,50,42,1300.3200015634366,4248.310817396216,13712828,NA,NA,NA,NA,NA,NA,83.75,Lower middle income,Pop > 500K
+BFA,2023,Burkina Faso,Sub-Saharan Africa,Low income,23,50,46,738.9565342228924,2726.9423099800215,23251485,NA,NA,NA,NA,NA,NA,82.5,Low income,Pop > 500K
+BGD,2023,Bangladesh,South Asia,Lower middle income,22,50,44,1869.1639329653894,9065.698934284508,172954319,NA,NA,NA,NA,NA,NA,49.375,Lower middle income,Pop > 500K
+BGR,2023,Bulgaria,Europe & Central Asia,Upper middle income,21,50,42,9779.822063793641,38689.548074916594,6430370,NA,NA,NA,NA,NA,NA,90.625,Upper middle income,Pop > 500K
+BHR,2023,Bahrain,Middle East & North Africa,High income,15,50,30,24734.342069295177,63847.82972826648,1485509,NA,NA,NA,NA,NA,NA,68.125,Hgh Income & Pop >= 500K,Pop > 500K
+BHS,2023,"Bahamas, The",Latin America & Caribbean,High income,9,50,18,30061.654651319983,35554.79948063974,412623,NA,NA,NA,NA,NA,NA,81.25,Hgh Income & Pop <= 500K,Pop <= 500K
+BIH,2023,Bosnia and Herzegovina,Europe & Central Asia,Upper middle income,20,50,40,6421.0071440214715,22845.518548678097,3210847,NA,NA,NA,NA,NA,NA,85,Upper middle income,Pop > 500K
+BLR,2023,Belarus,Europe & Central Asia,Upper middle income,24,50,48,6482.820332738967,30751.49541885511,9178298,NA,NA,NA,NA,NA,NA,75.625,Upper middle income,Pop > 500K
+BLZ,2023,Belize,Latin America & Caribbean,Upper middle income,19,50,38,6385.373584319134,14195.31362077654,410825,NA,NA,NA,NA,NA,NA,82.5,Upper middle income,Pop <= 500K
+BOL,2023,Bolivia,Latin America & Caribbean,Lower middle income,22,50,44,3168.7319012557427,10726.998807830332,12388571,NA,NA,NA,NA,NA,NA,88.75,Lower middle income,Pop > 500K
+BRA,2023,Brazil,Latin America & Caribbean,Upper middle income,24,50,48,9032.113614063375,20584.419166157877,216422446,NA,NA,NA,NA,NA,NA,85,Upper middle income,Pop > 500K
+BRB,2023,Barbados,Latin America & Caribbean,High income,13,50,26,17690.196482172007,19357.16944286764,281995,NA,NA,NA,NA,NA,NA,80,Hgh Income & Pop <= 500K,Pop <= 500K
+BRN,2023,Brunei Darussalam,East Asia & Pacific,High income,16,50,32,29132.946854377515,86445.66052686024,452524,NA,NA,NA,NA,NA,NA,53.125,Hgh Income & Pop <= 500K,Pop <= 500K
+BTN,2023,Bhutan,South Asia,Lower middle income,18,50,36,NA,NA,787424,NA,NA,NA,NA,NA,NA,75,Lower middle income,Pop > 500K
+BWA,2023,Botswana,Sub-Saharan Africa,Upper middle income,16,50,32,6708.039461241436,19383.172595819982,2675352,NA,NA,NA,NA,NA,NA,63.75,Upper middle income,Pop > 500K
+CAF,2023,Central African Republic,Sub-Saharan Africa,Low income,17,50,34,357.4114109,1129.9804539993384,5742315,NA,NA,NA,NA,NA,NA,77.5,Low income,Pop > 500K
+CAN,2023,Canada,North America,High income,20,50,40,44388.40299897506,61582.34997132649,40097761,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+CHE,2023,Switzerland,Europe & Central Asia,High income,24,50,48,89942.53755,92980.40188,8849852,NA,NA,NA,NA,NA,NA,88.125,Hgh Income & Pop >= 500K,Pop > 500K
+CHL,2023,Chile,Latin America & Caribbean,High income,24,50,48,14247.713348023513,33284.494733864914,19629590,NA,NA,NA,NA,NA,NA,80,Hgh Income & Pop >= 500K,Pop > 500K
+CHN,2023,China,East Asia & Pacific,Upper middle income,10,50,20,12174.004107564064,24557.63895344887,1410710000,NA,NA,NA,NA,NA,NA,78.125,Upper middle income,Pop > 500K
+CIV,2023,Côte d’Ivoire,Sub-Saharan Africa,Lower middle income,29,50,57.99999999999999,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lower middle income,NA
+CMR,2023,Cameroon,Sub-Saharan Africa,Lower middle income,16,50,32,1461.0196043387364,5380.158889995784,28647293,NA,NA,NA,NA,NA,NA,60,Lower middle income,Pop > 500K
+COD,2023,"Congo, Dem. Rep.",Sub-Saharan Africa,Low income,14,50,28.000000000000004,555.7990986993906,1670.8472185262794,102262808,NA,NA,NA,NA,NA,NA,78.75,Low income,Pop > 500K
+COG,2023,"Congo, Rep.",Sub-Saharan Africa,Lower middle income,10,50,20,1697.9612192231207,6932.938209352385,6106869,NA,NA,NA,NA,NA,NA,58.125,Lower middle income,Pop > 500K
+COL,2023,Colombia,Latin America & Caribbean,Upper middle income,28,50,56.00000000000001,6850.196345506719,21548.013368591743,52085168,NA,NA,NA,NA,NA,NA,84.375,Upper middle income,Pop > 500K
+COM,2023,Comoros,Sub-Saharan Africa,Lower middle income,16,50,32,1374.4550562056654,3854.7887846888425,852075,NA,NA,NA,NA,NA,NA,65,Lower middle income,Pop > 500K
+CPV,2023,Cabo Verde,Sub-Saharan Africa,Lower middle income,15,50,30,3699.596306704858,9086.233539933055,598682,NA,NA,NA,NA,NA,NA,86.25,Lower middle income,Pop > 500K
+CRI,2023,Costa Rica,Latin America & Caribbean,Upper middle income,24,50,48,14025.856453592867,27952.47662351868,5212173,NA,NA,NA,NA,NA,NA,91.875,Upper middle income,Pop > 500K
+CUB,2023,Cuba,Latin America & Caribbean,Upper middle income,15,50,30,NA,NA,11194449,NA,NA,NA,NA,NA,NA,NA,Upper middle income,Pop > 500K
+CYP,2023,Cyprus,Europe & Central Asia,High income,20,50,40,30768.91992,57100.46484,1260138,NA,NA,NA,NA,NA,NA,96.875,Hgh Income & Pop >= 500K,Pop > 500K
+CZE,2023,Czech Republic,Europe & Central Asia,High income,22,50,44,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,High income,NA
+DEU,2023,Germany,Europe & Central Asia,High income,25,50,50,42878.81183857641,69338.29322644667,84482267,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+DJI,2023,Djibouti,Middle East & North Africa,Lower middle income,9,50,18,3122.949310376347,7204.048435597214,1136455,NA,NA,NA,NA,NA,NA,71.25,Lower middle income,Pop > 500K
+DNK,2023,Denmark,Europe & Central Asia,High income,21,50,42,61031.813713951124,76687.90284373064,5946952,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+DOM,2023,Dominican Republic,Latin America & Caribbean,Upper middle income,29,50,57.99999999999999,8856.068663236065,25610.511865840093,11332972,NA,NA,NA,NA,NA,NA,86.25,Upper middle income,Pop > 500K
+DZA,2023,Algeria,Middle East & North Africa,Lower middle income,14,50,28.000000000000004,4717.399328784285,17026.961674786697,45606480,NA,NA,NA,NA,NA,NA,57.5,Lower middle income,Pop > 500K
+ECU,2023,Ecuador,Latin America & Caribbean,Upper middle income,26,50,52,6166.004759035875,15870.26170203355,18190484,NA,NA,NA,NA,NA,NA,89.375,Upper middle income,Pop > 500K
+EGY,2023,"Egypt, Arab Rep.",Middle East & North Africa,Lower middle income,24,50,48,4177.614459819184,18816.505592213485,112716598,NA,NA,NA,NA,NA,NA,50.625,Lower middle income,Pop > 500K
+ERI,2023,Eritrea,Sub-Saharan Africa,Low income,6,50,12,NA,NA,3748901,NA,NA,NA,NA,NA,NA,69.375,Low income,Pop > 500K
+ESP,2023,Spain,Europe & Central Asia,High income,21,50,42,28046.95064442208,52779.234057370304,48373336,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+EST,2023,Estonia,Europe & Central Asia,High income,23,50,46,20245.20339732708,48992.140951181515,1366188,NA,NA,NA,NA,NA,NA,97.5,Hgh Income & Pop >= 500K,Pop > 500K
+ETH,2023,Ethiopia,Sub-Saharan Africa,Low income,22,50,44,890.3496171873139,3109.2765123205045,126527060,NA,NA,NA,NA,NA,NA,80,Low income,Pop > 500K
+FIN,2023,Finland,Europe & Central Asia,High income,25,50,50,45939.291645013545,65060.67416183202,5584264,NA,NA,NA,NA,NA,NA,97.5,Hgh Income & Pop >= 500K,Pop > 500K
+FJI,2023,Fiji,East Asia & Pacific,Upper middle income,17,50,34,5698.964204834685,15046.46683,936375,NA,NA,NA,NA,NA,NA,82.5,Upper middle income,Pop > 500K
+FRA,2023,France,Europe & Central Asia,High income,24,50,48,38975.57661572359,61156.77281925664,68170228,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+GAB,2023,Gabon,Sub-Saharan Africa,Upper middle income,15,50,30,6654.756571,21946.990852955973,2436566,NA,NA,NA,NA,NA,NA,95,Upper middle income,Pop > 500K
+GBR,2023,United Kingdom,Europe & Central Asia,High income,19,50,38,47005.119009957525,58906.23885754179,68350000,NA,NA,NA,NA,NA,NA,97.5,Hgh Income & Pop >= 500K,Pop > 500K
+GEO,2023,Georgia,Europe & Central Asia,Upper middle income,26,50,52,6086.592688164993,24681.25059514155,3760365,NA,NA,NA,NA,NA,NA,88.125,Upper middle income,Pop > 500K
+GHA,2023,Ghana,Sub-Saharan Africa,Lower middle income,22,50,44,2066.375223716239,7466.366889,34121985,NA,NA,NA,NA,NA,NA,75,Lower middle income,Pop > 500K
+GIN,2023,Guinea,Sub-Saharan Africa,Low income,16,50,32,1039.8098284384164,4429.343565551518,14190612,NA,NA,NA,NA,NA,NA,73.75,Low income,Pop > 500K
+GMB,2023,"Gambia, The",Sub-Saharan Africa,Low income,23,50,46,707.5587400973534,3162.506797595175,2773168,NA,NA,NA,NA,NA,NA,69.375,Low income,Pop > 500K
+GNB,2023,Guinea-Bissau,Sub-Saharan Africa,Low income,16,50,32,752.0674595943364,2630.2925401946195,2150842,NA,NA,NA,NA,NA,NA,51.875,Low income,Pop > 500K
+GNQ,2023,Equatorial Guinea,Sub-Saharan Africa,Upper middle income,7,50,14.000000000000002,5506.005040825489,18723.647083821237,1714671,NA,NA,NA,NA,NA,NA,58.125,Upper middle income,Pop > 500K
+GRC,2023,Greece,Europe & Central Asia,High income,22,50,44,20826.895578720778,41186.81220278937,10361295,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+GTM,2023,Guatemala,Latin America & Caribbean,Upper middle income,24,50,48,4596.320079828739,14066.51179027081,17602431,NA,NA,NA,NA,NA,NA,73.75,Upper middle income,Pop > 500K
+GUY,2023,Guyana,Latin America & Caribbean,Upper middle income,22,50,44,23325.12241611415,55262.52483436298,813834,NA,NA,NA,NA,NA,NA,86.875,Upper middle income,Pop > 500K
+HKG,2023,"Hong Kong SAR, China",East Asia & Pacific,High income,9,50,18,43548.25383,71481.56813062474,7536100,NA,NA,NA,NA,NA,NA,91.875,Hgh Income & Pop >= 500K,Pop > 500K
+HND,2023,Honduras,Latin America & Caribbean,Lower middle income,24,50,48,2539.6185928193813,7210.689277512642,10593798,NA,NA,NA,NA,NA,NA,75,Lower middle income,Pop > 500K
+HRV,2023,Croatia,Europe & Central Asia,High income,20,50,40,17234.481086831565,45909.634484175825,3853200,NA,NA,NA,NA,NA,NA,93.75,Hgh Income & Pop >= 500K,Pop > 500K
+HTI,2023,Haiti,Latin America & Caribbean,Lower middle income,11,50,22,1210.034669,3255.537745615116,11724763,NA,NA,NA,NA,NA,NA,61.25,Lower middle income,Pop > 500K
+HUN,2023,Hungary,Europe & Central Asia,High income,21,50,42,16286.759334728227,45942.16949,9589872,NA,NA,NA,NA,NA,NA,93.75,Hgh Income & Pop >= 500K,Pop > 500K
+IDN,2023,Indonesia,East Asia & Pacific,Lower middle income,20,50,40,4247.8531552007335,15612.799123651957,277534122,NA,NA,NA,NA,NA,NA,70.625,Lower middle income,Pop > 500K
+IND,2023,India,South Asia,Lower middle income,24,50,48,2239.2503629525404,10175.767974032016,1428627663,NA,NA,NA,NA,NA,NA,74.375,Lower middle income,Pop > 500K
+IRL,2023,Ireland,Europe & Central Asia,High income,20,50,40,91783.43701325983,127623.39443208571,5262382,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+IRN,2023,"Iran, Islamic Rep.",Middle East & North Africa,Lower middle income,18,50,36,5739.943951213204,17921.664268460758,89172767,NA,NA,NA,NA,NA,NA,31.25,Lower middle income,Pop > 500K
+IRQ,2023,Iraq,Middle East & North Africa,Upper middle income,17,50,34,4136.197530385037,13968.574165120872,45504560,NA,NA,NA,NA,NA,NA,48.125,Upper middle income,Pop > 500K
+ISL,2023,Iceland,Europe & Central Asia,High income,18,50,36,58393.178878225925,77567.19181257462,393600,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop <= 500K,Pop <= 500K
+ISR,2023,Israel,Middle East & North Africa,High income,17,50,34,42674.300234371694,53433.99639160653,9756700,NA,NA,NA,NA,NA,NA,80.625,Hgh Income & Pop >= 500K,Pop > 500K
+ITA,2023,Italy,Europe & Central Asia,High income,21,50,42,33774.02018552384,58754.90787787213,58761146,NA,NA,NA,NA,NA,NA,97.5,Hgh Income & Pop >= 500K,Pop > 500K
+JAM,2023,Jamaica,Latin America & Caribbean,Upper middle income,18,50,36,5355.474824839501,11475.005735271801,2825544,NA,NA,NA,NA,NA,NA,74.375,Upper middle income,Pop > 500K
+JOR,2023,Jordan,Middle East & North Africa,Upper middle income,22,50,44,3974.9593936712417,10451.91258847463,11337052,NA,NA,NA,NA,NA,NA,59.375,Upper middle income,Pop > 500K
+JPN,2023,Japan,East Asia & Pacific,High income,17,50,34,37079.10922,50206.60915800085,124516650,NA,NA,NA,NA,NA,NA,78.75,Hgh Income & Pop >= 500K,Pop > 500K
+KAZ,2023,Kazakhstan,Europe & Central Asia,Upper middle income,16,50,32,11700.836482196642,39332.470020415385,19900177,NA,NA,NA,NA,NA,NA,75.625,Upper middle income,Pop > 500K
+KEN,2023,Kenya,Sub-Saharan Africa,Lower middle income,30,50,60,1813.7609726600733,6323.533601,55100586,NA,NA,NA,NA,NA,NA,83.75,Lower middle income,Pop > 500K
+KGZ,2023,Kyrgyz Republic,Europe & Central Asia,Lower middle income,19,50,38,1263.9874605594405,7102.767219456976,7100800,NA,NA,NA,NA,NA,NA,76.875,Lower middle income,Pop > 500K
+KHM,2023,Cambodia,East Asia & Pacific,Lower middle income,24,50,48,1552.8205684853733,5624.137515330764,16944826,NA,NA,NA,NA,NA,NA,81.25,Lower middle income,Pop > 500K
+KOR,2023,"Korea, Rep.",East Asia & Pacific,High income,20,50,40,34121.021175676644,54033.15997725188,51712619,NA,NA,NA,NA,NA,NA,88.125,Hgh Income & Pop >= 500K,Pop > 500K
+KWT,2023,Kuwait,Middle East & North Africa,High income,11,50,22,27068.486914230885,56386.29432528669,4310108,NA,NA,NA,NA,NA,NA,38.125,Hgh Income & Pop >= 500K,Pop > 500K
+LAO,2023,Lao PDR,East Asia & Pacific,Lower middle income,15,50,30,2659.718384864828,9326.272193747192,7633779,NA,NA,NA,NA,NA,NA,85.625,Lower middle income,Pop > 500K
+LBN,2023,Lebanon,Middle East & North Africa,Lower middle income,18,50,36,NA,NA,5353930,NA,NA,NA,NA,NA,NA,58.75,Lower middle income,Pop > 500K
+LBR,2023,Liberia,Sub-Saharan Africa,Low income,21,50,42,662.5032367583642,1819.0476698084728,5418377,NA,NA,NA,NA,NA,NA,81.25,Low income,Pop > 500K
+LBY,2023,Libya,Middle East & North Africa,Upper middle income,7,50,14.000000000000002,9861.045144194664,19641.14394562088,6888388,NA,NA,NA,NA,NA,NA,50,Upper middle income,Pop > 500K
+LKA,2023,Sri Lanka,South Asia,Lower middle income,16,50,32,3968.676364794243,14455.301616803885,22037000,NA,NA,NA,NA,NA,NA,65.625,Lower middle income,Pop > 500K
+LSO,2023,Lesotho,Sub-Saharan Africa,Lower middle income,15,50,30,950.7068689805271,2793.862311667626,2330318,NA,NA,NA,NA,NA,NA,80.625,Lower middle income,Pop > 500K
+LTU,2023,Lithuania,Europe & Central Asia,High income,24,50,48,18213.83425299059,51877.00651927686,2871897,NA,NA,NA,NA,NA,NA,93.75,Hgh Income & Pop >= 500K,Pop > 500K
+LUX,2023,Luxembourg,Europe & Central Asia,High income,20,50,40,105996.66149666296,143341.47312464545,668606,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+LVA,2023,Latvia,Europe & Central Asia,High income,23,50,46,16945.20432640182,42501.027882049464,1881750,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+MAC,2023,"Macao SAR, China",East Asia & Pacific,High income,8,50,16,57931.69637560441,113183.16304569272,704149,NA,NA,NA,NA,NA,NA,NA,Hgh Income & Pop >= 500K,Pop > 500K
+MAR,2023,Morocco,Middle East & North Africa,Lower middle income,16,50,32,3370.836426,9743.308594,37840044,NA,NA,NA,NA,NA,NA,75.625,Lower middle income,Pop > 500K
+MDA,2023,Moldova,Europe & Central Asia,Upper middle income,26,50,52,3685.2567050118078,17384.376889622665,2486891,NA,NA,NA,NA,NA,NA,90.625,Upper middle income,Pop > 500K
+MDG,2023,Madagascar,Sub-Saharan Africa,Low income,20,50,40,460.8341287979616,1875.113671703952,30325732,NA,NA,NA,NA,NA,NA,69.375,Low income,Pop > 500K
+MDV,2023,Maldives,South Asia,Upper middle income,18,50,36,11534.916904380472,24808.707768606717,521021,NA,NA,NA,NA,NA,NA,73.75,Upper middle income,Pop > 500K
+MEX,2023,Mexico,Latin America & Caribbean,Upper middle income,30,50,60,10326.953853298795,25601.625547109714,128455567,NA,NA,NA,NA,NA,NA,88.75,Upper middle income,Pop > 500K
+MKD,2023,North Macedonia,Europe & Central Asia,Upper middle income,26,50,52,6350.243407160681,24872.74092998798,1811980,NA,NA,NA,NA,NA,NA,85,Upper middle income,Pop > 500K
+MLI,2023,Mali,Sub-Saharan Africa,Low income,19,50,38,762.6460414306385,2725.9558591229743,23293698,NA,NA,NA,NA,NA,NA,63.75,Low income,Pop > 500K
+MLT,2023,Malta,Middle East & North Africa,High income,20,50,40,31189.63321093984,62445.68149041981,553214,NA,NA,NA,NA,NA,NA,91.25,Hgh Income & Pop >= 500K,Pop > 500K
+MMR,2023,Myanmar,East Asia & Pacific,Lower middle income,19,50,38,1168.6876091070085,5905.243119688393,54577997,NA,NA,NA,NA,NA,NA,58.75,Lower middle income,Pop > 500K
+MNE,2023,Montenegro,Europe & Central Asia,Upper middle income,20,50,40,8375.222111,31216.379786197314,616177,NA,NA,NA,NA,NA,NA,85,Upper middle income,Pop > 500K
+MNG,2023,Mongolia,East Asia & Pacific,Lower middle income,24,50,48,4483.755201662131,18108.003549666522,3447157,NA,NA,NA,NA,NA,NA,90.625,Lower middle income,Pop > 500K
+MOZ,2023,Mozambique,Sub-Saharan Africa,Low income,13,50,26,602.9199793626959,1657.1097167513146,33897354,NA,NA,NA,NA,NA,NA,82.5,Low income,Pop > 500K
+MRT,2023,Mauritania,Sub-Saharan Africa,Lower middle income,20,50,40,1628.0875231038874,6934.277927524445,4862989,NA,NA,NA,NA,NA,NA,48.125,Lower middle income,Pop > 500K
+MUS,2023,Mauritius,Sub-Saharan Africa,Upper middle income,19,50,38,11318.600313996843,29498.470523874563,1261041,NA,NA,NA,NA,NA,NA,89.375,Upper middle income,Pop > 500K
+MWI,2023,Malawi,Sub-Saharan Africa,Low income,21,50,42,548.5785463064313,1867.6738437270462,20931751,NA,NA,NA,NA,NA,NA,80,Low income,Pop > 500K
+MYS,2023,Malaysia,East Asia & Pacific,Upper middle income,20,50,40,11691.36127,37247.701100611586,34308525,NA,NA,NA,NA,NA,NA,60.625,Upper middle income,Pop > 500K
+NAM,2023,Namibia,Sub-Saharan Africa,Upper middle income,13,50,26,4511.889396583451,12756.541632628834,2604172,NA,NA,NA,NA,NA,NA,80,Upper middle income,Pop > 500K
+NCL,2023,New Caledonia,East Asia & Pacific,High income,7,50,14.000000000000002,NA,NA,267940,NA,NA,NA,NA,NA,NA,NA,Hgh Income & Pop <= 500K,Pop <= 500K
+NER,2023,Niger,Sub-Saharan Africa,Low income,20,50,40,540.5848243100982,1817.3379529629972,27202843,NA,NA,NA,NA,NA,NA,53.75,Low income,Pop > 500K
+NGA,2023,Nigeria,Sub-Saharan Africa,Lower middle income,21,50,42,2460.3944955705724,6318.1592328043635,223804632,NA,NA,NA,NA,NA,NA,66.25,Lower middle income,Pop > 500K
+NIC,2023,Nicaragua,Latin America & Caribbean,Lower middle income,13,50,26,2185.448134604086,8043.737115,7046310,NA,NA,NA,NA,NA,NA,86.25,Lower middle income,Pop > 500K
+NLD,2023,Netherlands,Europe & Central Asia,High income,21,50,42,50100.191367887346,78215.06630386006,17879488,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+NOR,2023,Norway,Europe & Central Asia,High income,22,50,44,78939.40476723705,104459.81192279447,5519594,NA,NA,NA,NA,NA,NA,96.875,Hgh Income & Pop >= 500K,Pop > 500K
+NPL,2023,Nepal,South Asia,Lower middle income,21,50,42,1091.8956914109297,5181.841674296479,30896590,NA,NA,NA,NA,NA,NA,80.625,Lower middle income,Pop > 500K
+NZL,2023,New Zealand,East Asia & Pacific,High income,16,50,32,41724.968527083045,54109.80099726839,5223100,NA,NA,NA,NA,NA,NA,97.5,Hgh Income & Pop >= 500K,Pop > 500K
+OMN,2023,Oman,Middle East & North Africa,High income,16,50,32,18821.98183,44421.19796003112,4644384,NA,NA,NA,NA,NA,NA,46.25,Hgh Income & Pop >= 500K,Pop > 500K
+PAK,2023,Pakistan,South Asia,Lower middle income,22,50,44,1663.9873805729433,6212.037594745226,240485658,NA,NA,NA,NA,NA,NA,58.75,Lower middle income,Pop > 500K
+PAN,2023,Panama,Latin America & Caribbean,High income,23,50,46,16294.032602515892,39695.08195846969,4468087,NA,NA,NA,NA,NA,NA,79.375,Hgh Income & Pop >= 500K,Pop > 500K
+PER,2023,Peru,Latin America & Caribbean,Upper middle income,29,50,57.99999999999999,6455.827681667278,16717.38310369405,34352719,NA,NA,NA,NA,NA,NA,95,Upper middle income,Pop > 500K
+PHL,2023,Philippines,East Asia & Pacific,Lower middle income,24,50,48,3667.565537149024,10755.49885153996,117337368,NA,NA,NA,NA,NA,NA,78.75,Lower middle income,Pop > 500K
+PNG,2023,Papua New Guinea,East Asia & Pacific,Lower middle income,11,50,22,2482.7198821556944,4607.381497,10329931,NA,NA,NA,NA,NA,NA,60,Lower middle income,Pop > 500K
+POL,2023,Poland,Europe & Central Asia,High income,22,50,44,17269.994172993906,49463.99116942488,36685849,NA,NA,NA,NA,NA,NA,93.75,Hgh Income & Pop >= 500K,Pop > 500K
+PRI,2023,Puerto Rico,Latin America & Caribbean,High income,4,50,8,30122.84122531972,47699.561539833434,3205691,NA,NA,NA,NA,NA,NA,83.75,Hgh Income & Pop >= 500K,Pop > 500K
+PRK,2023,"Korea, Dem. People's Rep.",East Asia & Pacific,Low income,5,50,10,NA,NA,26160821,NA,NA,NA,NA,NA,NA,NA,Low income,Pop > 500K
+PRT,2023,Portugal,Europe & Central Asia,High income,24,50,48,22377.666123787174,48758.85702216357,10525347,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+PRY,2023,Paraguay,Latin America & Caribbean,Upper middle income,20,50,40,6415.429284665615,17465.86097103946,6861524,NA,NA,NA,NA,NA,NA,94.375,Upper middle income,Pop > 500K
+PSE,2023,West Bank and Gaza,Middle East & North Africa,Lower middle income,27,50,54,2859.919373182146,5888.3943110335495,5165775,NA,NA,NA,NA,NA,NA,26.25,Lower middle income,Pop > 500K
+PYF,2023,French Polynesia,East Asia & Pacific,High income,1,50,2,NA,NA,308872,NA,NA,NA,NA,NA,NA,NA,Hgh Income & Pop <= 500K,Pop <= 500K
+QAT,2023,Qatar,Middle East & North Africa,High income,18,50,36,NA,NA,2716391,NA,NA,NA,NA,NA,NA,35.625,Hgh Income & Pop >= 500K,Pop > 500K
+ROU,2023,Romania,Europe & Central Asia,High income,23,50,46,12386.461442117674,47903.34114864899,19056116,NA,NA,NA,NA,NA,NA,90.625,Hgh Income & Pop >= 500K,Pop > 500K
+RUS,2023,Russian Federation,Europe & Central Asia,Upper middle income,20,50,40,10420.57129,44103.54688,143826130,NA,NA,NA,NA,NA,NA,73.125,Upper middle income,Pop > 500K
+RWA,2023,Rwanda,Sub-Saharan Africa,Low income,26,50,52,994.2257551,3361.1058056554507,14094683,NA,NA,NA,NA,NA,NA,91.875,Low income,Pop > 500K
+SAU,2023,Saudi Arabia,Middle East & North Africa,High income,18,50,36,21006.15117266286,54991.72318002386,36947025,NA,NA,NA,NA,NA,NA,71.25,Hgh Income & Pop >= 500K,Pop > 500K
+SDN,2023,Sudan,Sub-Saharan Africa,Low income,12,50,24,878.6567383,3137.161865,48109006,NA,NA,NA,NA,NA,NA,32.5,Low income,Pop > 500K
+SEN,2023,Senegal,Sub-Saharan Africa,Lower middle income,26,50,52,1476.4451720207048,4833.032542809927,17763163,NA,NA,NA,NA,NA,NA,72.5,Lower middle income,Pop > 500K
+SGP,2023,Singapore,East Asia & Pacific,High income,15,50,30,65422.460316666766,141500.22027735764,5917648,NA,NA,NA,NA,NA,NA,82.5,Hgh Income & Pop >= 500K,Pop > 500K
+SLB,2023,Solomon Islands,East Asia & Pacific,Lower middle income,8,50,16,2099.029548399642,3034.8547515948626,740424,NA,NA,NA,NA,NA,NA,56.875,Lower middle income,Pop > 500K
+SLE,2023,Sierra Leone,Sub-Saharan Africa,Low income,17,50,34,634.7371895574639,1846.6838573637963,8791092,NA,NA,NA,NA,NA,NA,92.5,Low income,Pop > 500K
+SLV,2023,El Salvador,Latin America & Caribbean,Lower middle income,24,50,48,4442.249659627783,12542.309014057293,6364943,NA,NA,NA,NA,NA,NA,88.75,Lower middle income,Pop > 500K
+SOM,2023,Somalia,Sub-Saharan Africa,Low income,14,50,28.000000000000004,509.0799895524479,1611.2841690174992,18143378,NA,NA,NA,NA,NA,NA,46.875,Low income,Pop > 500K
+SRB,2023,Serbia,Europe & Central Asia,Upper middle income,31,50,62,7736.463852111745,27401.789074534106,6618026,NA,NA,NA,NA,NA,NA,93.75,Upper middle income,Pop > 500K
+SSD,2023,South Sudan,Sub-Saharan Africa,Low income,10,50,20,NA,NA,11088796,NA,NA,NA,NA,NA,NA,67.5,Low income,Pop > 500K
+STP,2023,São Tomé and Príncipe,Sub-Saharan Africa,Lower middle income,13,50,26,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lower middle income,NA
+SUR,2023,Suriname,Latin America & Caribbean,Upper middle income,14,50,28.000000000000004,7229.409646859943,21047.182556835793,623236,NA,NA,NA,NA,NA,NA,76.875,Upper middle income,Pop > 500K
+SVK,2023,Slovak Republic,Europe & Central Asia,High income,24,50,48,19217.473984898515,44650.20283,5426740,NA,NA,NA,NA,NA,NA,87.5,Hgh Income & Pop >= 500K,Pop > 500K
+SVN,2023,Slovenia,Europe & Central Asia,High income,21,50,42,25643.352291198964,54947.47013724002,2120937,NA,NA,NA,NA,NA,NA,96.875,Hgh Income & Pop >= 500K,Pop > 500K
+SWE,2023,Sweden,Europe & Central Asia,High income,22,50,44,55521.43275277486,70206.61163651149,10536632,NA,NA,NA,NA,NA,NA,100,Hgh Income & Pop >= 500K,Pop > 500K
+SWZ,2023,Eswatini,Sub-Saharan Africa,Lower middle income,19,50,38,4175.459321193588,11740.815277329413,1210822,NA,NA,NA,NA,NA,NA,46.25,Lower middle income,Pop > 500K
+SYR,2023,Syrian Arab Republic,Middle East & North Africa,Low income,8,50,16,NA,NA,23227014,NA,NA,NA,NA,NA,NA,40,Low income,Pop > 500K
+TCD,2023,Chad,Sub-Saharan Africa,Low income,17,50,34,599.4683862031419,1969.3031351807276,18278568,NA,NA,NA,NA,NA,NA,66.25,Low income,Pop > 500K
+TGO,2023,Togo,Sub-Saharan Africa,Low income,18,50,36,921.6931294848274,3155.320000384839,9053799,NA,NA,NA,NA,NA,NA,97.5,Low income,Pop > 500K
+THA,2023,Thailand,East Asia & Pacific,Upper middle income,25,50,50,6384.807180796991,23422.924193257142,71801279,NA,NA,NA,NA,NA,NA,78.125,Upper middle income,Pop > 500K
+TJK,2023,Tajikistan,Europe & Central Asia,Lower middle income,10,50,20,1441.2680608360777,5082.171802937293,10143543,NA,NA,NA,NA,NA,NA,78.75,Lower middle income,Pop > 500K
+TKM,2023,Turkmenistan,Europe & Central Asia,Upper middle income,13,50,26,8906.395648,NA,6516100,NA,NA,NA,NA,NA,NA,NA,Upper middle income,Pop > 500K
+TLS,2023,Timor-Leste,East Asia & Pacific,Lower middle income,13,50,26,1360.5117383685515,5108.705038057018,1360596,NA,NA,NA,NA,NA,NA,86.25,Lower middle income,Pop > 500K
+TTO,2023,Trinidad and Tobago,Latin America & Caribbean,High income,16,50,32,14416.235993420301,31572.101021875114,1534937,NA,NA,NA,NA,NA,NA,75,Hgh Income & Pop >= 500K,Pop > 500K
+TUN,2023,Tunisia,Middle East & North Africa,Lower middle income,20,50,40,3901.984634950668,13681.611089496457,12458223,NA,NA,NA,NA,NA,NA,64.375,Lower middle income,Pop > 500K
+TUR,2023,Türkiye,Europe & Central Asia,Upper middle income,24,50,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Upper middle income,NA
+TZA,2023,Tanzania,Sub-Saharan Africa,Lower middle income,28,50,56.00000000000001,1080.785522,3972.607666,67438106,NA,NA,NA,NA,NA,NA,81.25,Lower middle income,Pop > 500K
+UGA,2023,Uganda,Sub-Saharan Africa,Low income,22,50,44,956.2517868825386,3098.1110163348785,48582334,NA,NA,NA,NA,NA,NA,83.75,Low income,Pop > 500K
+UKR,2023,Ukraine,Europe & Central Asia,Lower middle income,19,50,38,2207.009277,18007.48633,37000000,NA,NA,NA,NA,NA,NA,85,Lower middle income,Pop > 500K
+URY,2023,Uruguay,Latin America & Caribbean,High income,21,50,42,18108.693558116032,34061.51294967456,3423108,NA,NA,NA,NA,NA,NA,88.75,Hgh Income & Pop >= 500K,Pop > 500K
+USA,2023,United States,North America,High income,19,50,38,65020.35292857369,81695.18707133016,334914895,NA,NA,NA,NA,NA,NA,91.25,Hgh Income & Pop >= 500K,Pop > 500K
+UZB,2023,Uzbekistan,Europe & Central Asia,Lower middle income,25,50,50,3604.112829205716,9724.734008080246,36412350,NA,NA,NA,NA,NA,NA,82.5,Lower middle income,Pop > 500K
+VEN,2023,"Venezuela, RB",Latin America & Caribbean,NA,8,50,16,NA,NA,28838499,NA,NA,NA,NA,NA,NA,85,NA,Pop > 500K
+VNM,2023,Vietnam,East Asia & Pacific,Lower middle income,24,50,48,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Lower middle income,NA
+VUT,2023,Vanuatu,East Asia & Pacific,Lower middle income,13,50,26,2517.2251848033593,3315.073447120776,334506,NA,NA,NA,NA,NA,NA,55.625,Lower middle income,Pop <= 500K
+WSM,2023,Samoa,East Asia & Pacific,Lower middle income,15,50,30,3822.1602635562426,6680.611385593242,225681,NA,NA,NA,NA,NA,NA,75,Lower middle income,Pop <= 500K
+YEM,2023,"Yemen, Rep.",Middle East & North Africa,Low income,13,50,26,975.7059632932182,NA,34449825,NA,NA,NA,NA,NA,NA,26.875,Low income,Pop > 500K
+ZAF,2023,South Africa,Sub-Saharan Africa,Upper middle income,19,50,38,6006.452857,15847.427560452474,60414495,NA,NA,NA,NA,NA,NA,88.125,Upper middle income,Pop > 500K
+ZMB,2023,Zambia,Sub-Saharan Africa,Low income,17,50,34,1347.2413383869682,4125.625555550827,20569737,NA,NA,NA,NA,NA,NA,81.25,Low income,Pop > 500K
+ZWE,2023,Zimbabwe,Sub-Saharan Africa,Lower middle income,26,50,52,1383.2331296118007,3899.899233492485,16665409,NA,NA,NA,NA,NA,NA,86.875,Lower middle income,Pop > 500K

@@ -318,9 +318,9 @@ un_pull <- function(series, start, end) {
     ) %>% # check if indicator is available at all for that year for any country.  If not, then do not penalize countries for not reporting.
     group_by(iso3c, date) %>%
     summarise(
-      ind_value = mean(as.numeric(Value), na.rm = T),
+      ind_value = max(as.numeric(Value), na.rm = T),
       ind_metadata = first(Nature),
-      ind_quality = mean(quality, na.rm = T)
+      ind_quality = max(quality, na.rm = T)
     )
 }
 ```
