@@ -840,6 +840,22 @@ global_nongender_availability <- mean(all_nongender_sdg_df$availability)
   
 ```
 
+```{r}
+# produce a dataset with indicator counts by goal
+avail_counts_df <- read_csv(paste0(output_dir, '/SPI_Gender_UNSD_data_5yr.csv')) %>%   filter(!(iso3c %in% pop_exlude_cntry)) %>%
+  filter(date==2023) %>%
+  select(iso3c,date,country, region, income_level, goal, ind_total) %>%
+  #reshap wide based on goal. This will give us a count of indicators by goal
+  pivot_wider(names_from=goal, values_from=ind_total, names_prefix='Sex Disaggregated Data Available: ') %>%
+  rename(
+    `Sex Disaggregated Data Available: 50 Gender SDG Indicators`=`Sex Disaggregated Data Available: Combined`,
+    `Any Data Available: 50 Gender SDG Indicators`=`Sex Disaggregated Data Available: Any Data Available`,
+  )
+
+write_excel_csv(avail_counts_df, paste0(output_dir, '/SPI_Gender_SDG_indicator_counts.csv'))
+```
+
+
 
 
 ```{r corrdf, include=FALSE}
@@ -974,6 +990,8 @@ avail_plt_df <- read_csv(paste0(output_dir, '/SPI_Gender_UNSD_data_5yr.csv')) %>
 
 avail_plt_df %>%
   write_excel_csv(paste0(output_dir, '/SPI_Gender_availability_inc_reg_pop.csv'))
+
+#provi
 
 ```
 
